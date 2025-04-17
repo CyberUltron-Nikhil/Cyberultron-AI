@@ -1,7 +1,7 @@
 ## Nikhil's Progress 
 - Researched on how to build a tool to capture realtime network packets to send to the Deep learning model 
 - learnt how to use Scapy for network packet sniffing and capture from docs 
-- used scapy to build a custom network packet capture tool that convert raw packet data into the expected input format for the model [image](progress/till_17_04_2025/image.png)
+- used scapy to build a custom network packet capture tool that convert raw packet data into the expected input format for the model [image](image.png)
 
 - researched hugging face for models to use for the attack detection , and found DistillBERTSequence classifier 
 - currently working on using the Distill BERT model 
