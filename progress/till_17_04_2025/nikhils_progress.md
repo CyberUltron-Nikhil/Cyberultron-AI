@@ -38,6 +38,7 @@
 
 - will require time to train the model in batches because only have limited computing resources 
 - upon research, have decided to train the model on Google Colab in batches as a base configuration has 12GB of RAM and 107GB storage , and will then upload the model to huggingface . After which the trained model can be used on the local machine 
+- UPDATE : resolved issues with model compatibilty with dataset and begun training in google colab ![image](progress\till_17_04_2025\Screenshot 2025-04-18 124215.png)
 
 
 Requirements as of now :
