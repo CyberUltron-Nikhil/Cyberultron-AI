@@ -5,7 +5,7 @@
 - Yogesh raised the concern overincreasing latency , so calculated latency of the model on raw traffic packets
 - achieved an overall latency of **770 ms** using Google Colab T4 GPU
 ![image](picture_latency.png) 
--achieved an overaly latency of **882 ms** using Google Colab CPU ![image](latency_2.png)
+- achieved an overaly latency of **882 ms** using Google Colab CPU ![image](latency_2.png)
 
 - currently working on developing the Agent Graph . 
 - Looking into Autonomous rule generation , report generation and some other applications for application into DDOS and BOT protection .
