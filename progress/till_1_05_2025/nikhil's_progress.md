@@ -6,5 +6,14 @@
 
 - More complications have presented themselves , The Deep learning model and the packet capture tool have been trained on the low level packet data and not HTTP log data . Therefore I will need to manually extract the following contents from each packet so that the Agent can Create a rule automatically for the network : IP , Country , HTTP Method , ASN , User Agent , Cookie , etc . Will have to write code to manually extract these features from the HTTP payload . 
 
-- The Agent is 80% finished and based on initial runs , it can successfully generate Rules Autonomously when a DDOS attack is detected 
+- The Agent is 80% finished and based on initial runs , it can successfully generate Rules Autonomously when a DDOS attack is detected . 
+
+## Demo 
+
+### Output Generated Rule ![image](image.png)
+
+
+## Issues 
+- Finding it difficult to think about how to extract required input for the model to function autonomously 
+- looking into how I can simulate a DDOS attack to test out the model and the agent
 
