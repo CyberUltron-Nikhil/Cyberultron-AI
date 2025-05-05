@@ -8,6 +8,10 @@
 
 - in parallel created a plan on how to deploy the DDOS and Bot agents using flask and ngrok to test the agent and create the demo
 
+- created and finished setting up the flask server to serve the requests to the Agents API
+
+- Learning Elastic search with the help of a short course to make use of the network logs provided by yogesh in real time . 
+
 - Coordinating with yogesh with the Log input , changing the deep learning model's input 
 
 - The Agent is 80% finished and based on initial runs , it can successfully generate Rules Autonomously when a DDOS attack is detected . 
