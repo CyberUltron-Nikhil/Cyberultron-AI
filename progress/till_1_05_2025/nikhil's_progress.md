@@ -18,6 +18,6 @@
 
 
 ## Issues 
-- Finding it difficult to think about how to extract required input for the model to function autonomously 
-- looking into how I can simulate a DDOS attack to test out the model and the agent
+- Require DDOS and Bot network logs from Yogesh , delays in delivery of logs
+- looking into how I can simulate a DDOS attack to test out the model and the agent ( thinkking about building a simulation script using the network logs provided by yogesh to test the workking of the agent)
 
