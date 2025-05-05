@@ -22,6 +22,7 @@ Anomaly Detection - Isolation Forest Model
 
 In parallel, I trained an anomaly detection model using the CIC-IDS 2017 dataset, which contains a wide range of benign and malicious network traffic patterns.
 The goal was to build a machine learning model capable of detecting abnormal behavior in web traffic that might indicate attacks like DoS, DDoS, infiltration, or data exfiltration.
+
 Model Training:
 Dataset Used: CIC-IDS 2017 (with 225,745 records and 85 features)
 
