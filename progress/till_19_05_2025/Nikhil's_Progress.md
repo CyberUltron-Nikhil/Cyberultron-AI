@@ -1,7 +1,7 @@
 # Nikhil's Progress :
 
 - API Development complete for building an MVP 
-- started testing on Sample mock data since Real dataset isnt avaibale and Created a **Demo** . 
+- started testing on Sample mock data since Real dataset isnt avaibale and **Created a Demo** . 
 
 ## Demo 
 
