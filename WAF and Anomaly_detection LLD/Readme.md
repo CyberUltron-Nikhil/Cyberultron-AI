@@ -3,9 +3,9 @@ Gen AI Powered Web Security Engine
 This repository provides a FastAPI-based API for web security, focusing on Web Application Firewall (WAF) and anomaly detection capabilities:
 
 ShieldNet: Detects suspicious HTTP requests using a BERT-based classifier and generates WAF rules.
+
 PulseSense: Detects anomalous behavior using Isolation Forest and generates alert rules.
 
-The system processes HTTP request logs using a fine-tuned bert-base-uncased model for classification and leverages GPT-3.5-turbo to summarize the generated security rules.
 
 📦 Modules
 
