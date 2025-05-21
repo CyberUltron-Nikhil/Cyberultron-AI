@@ -12,7 +12,8 @@ The system processes HTTP request logs using a fine-tuned bert-base-uncased mode
 1. 🛡️ ShieldNet (WAF)
 
 The ShieldNet module processes incoming HTTP request data to detect suspicious patterns such as XSS, SQL injection, path traversal, and errors using a fine-tuned bert-base-uncased model. If a suspicious pattern is detected, it generates a WAF rule to block the request.
-![WAF](https://github.com/user-attachments/assets/2d0e275b-c8e9-4eb0-b867-30008c45abe4)
+![WAF(Bert)](https://github.com/user-attachments/assets/f208a72b-2d3b-46f6-aaf1-d4525ba93580)
+
 
 A diagram showing the flow from Client → FastAPI Server → Text Preprocessing → BERT Classifier (ShieldNet) → Rule Generation → GPT-4.0-turbo → Response]
 
@@ -32,7 +33,7 @@ A fine-tuned bert-base-uncased model analyzes the tokenized request and classifi
 The model outputs a probability score for the "Suspicious" class (e.g., 0.9 for "ERROR 404: PAGE NOT FOUND").
 
 Suspicious Pattern Detected?
-If the probability of "Suspicious" exceeds a threshold (e.g., 0.5), proceed to rule generation.
+If the probability of "Suspicious", proceed to rule generation.
 If not, set shieldnet: 0 and skip to the response step.
 
 WAF Rule Generator
