@@ -1,4 +1,4 @@
-# 🛡️ AI-Powered Traffic Defense Suite
+# 🛡️ Gen AI powered API Security Engine
 
 This repository provides two independent Flask-based APIs for network security:
 
