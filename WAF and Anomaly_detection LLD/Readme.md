@@ -54,10 +54,10 @@ A JSON response is returned to the client, containing shieldnet, pulsesense, the
 
 The PulseSense module detects anomalous behavior in HTTP requests using a fine-tuned bert-base-uncased model. It generates alert rules for monitoring.
 
-![Anomaly_Detection](https://github.com/user-attachments/assets/78b17b6b-c447-42ea-9b99-95b0e8e0e7d7)
+![Anomaly_Detection(Isolation)](https://github.com/user-attachments/assets/74c7e006-ed83-4c07-aae3-3cc0a131c553)
 
 
-A diagram showing the flow from Client → FastAPI Server → Text Preprocessing → BERT Classifier (PulseSense) → Rule Generation → GPT-4.0-turbo → Response]
+A diagram showing the flow from Client → FastAPI Server → Text Preprocessing → Isolation Forest (PulseSense) → Rule Generation → GPT-4.0-turbo → Response]
 
 ⚙️ Flow Explanation
 
@@ -68,14 +68,14 @@ FastAPI Server receives the request
 The API extracts the http_request field from the request body.
 
 Preprocessing and Tokenization module
-The HTTP request string is tokenized using the BERT tokenizer (bert-base-uncased), shared with ShieldNet.
+The HTTP request string is tokenized using the Isolation Forest, shared with ShieldNet.
 
-Anomaly Classifier (BERT Sequence Classifier)
-A fine-tuned bert-base-uncased model (separate from ShieldNet’s model) classifies the request as "Anomalous" or "Normal".
+Anomaly Classifier 
+A fine-tuned bert-base-uncased model (separate from ShieldNet’s model) and Isolation Forest classifies the request as "Anomalous" or "Normal".
 The model outputs a probability score for the "Anomalous" class (e.g., 0.7 for "ERROR 404: PAGE NOT FOUND").
 
 Anomaly Detected?
-If the probability of "Anomalous" exceeds a threshold (e.g., 0.5), or if ShieldNet detected a suspicious pattern (shieldnet: 1), set pulsesense: -1 and proceed to rule generation.
+If the probability is "Anomalous"  or if ShieldNet detected a suspicious pattern (shieldnet: 1), set pulsesense: -1 and proceed to rule generation.
 If not, set pulsesense: 1.
 
 Anomaly Rule Generator
