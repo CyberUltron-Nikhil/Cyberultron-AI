@@ -14,7 +14,7 @@ The system processes HTTP request logs using a fine-tuned bert-base-uncased mode
 The ShieldNet module processes incoming HTTP request data to detect suspicious patterns such as XSS, SQL injection, path traversal, and errors using a fine-tuned bert-base-uncased model. If a suspicious pattern is detected, it generates a WAF rule to block the request.
 ![WAF](https://github.com/user-attachments/assets/2d0e275b-c8e9-4eb0-b867-30008c45abe4)
 
-A diagram showing the flow from Client → FastAPI Server → Text Preprocessing → BERT Classifier (ShieldNet) → Rule Generation → GPT-3.5-turbo → Response]
+A diagram showing the flow from Client → FastAPI Server → Text Preprocessing → BERT Classifier (ShieldNet) → Rule Generation → GPT-4.0-turbo → Response]
 
 ⚙️ Flow Explanation
 
@@ -42,7 +42,7 @@ The rule name is determined by analyzing the request context (e.g., presence of 
 Proceed to Anomaly Detection
 The request is also passed to PulseSense for anomaly detection (see below).
 
-Rule Summary Generator (GPT-3.5-turbo)
+Rule Summary Generator (GPT-4.0-turbo)
 GPT-4.0-turbo generates a summary of the rules (e.g., "The rules include a WAF Rule to block an error page not found issue...").
 
 Return JSON Response
@@ -54,7 +54,7 @@ A JSON response is returned to the client, containing shieldnet, pulsesense, the
 The PulseSense module detects anomalous behavior in HTTP requests using a fine-tuned bert-base-uncased model. It generates alert rules for monitoring.
 ![Anomaly_Detection](https://github.com/user-attachments/assets/78b17b6b-c447-42ea-9b99-95b0e8e0e7d7)
 
-A diagram showing the flow from Client → FastAPI Server → Text Preprocessing → BERT Classifier (PulseSense) → Rule Generation → GPT-3.5-turbo → Response]
+A diagram showing the flow from Client → FastAPI Server → Text Preprocessing → BERT Classifier (PulseSense) → Rule Generation → GPT-4.0-turbo → Response]
 
 ⚙️ Flow Explanation
 
@@ -78,7 +78,7 @@ If not, set pulsesense: 1.
 Anomaly Rule Generator
 If an anomaly is detected, PulseSense generates an anomaly rule (e.g., {"type": "Anomaly Detection Rule", "rule_name": "Unusual Behavior", "action": "Alert"}).
 
-Rule Summary Generator (GPT-3.5-turbo)
+Rule Summary Generator (GPT-4.0-turbo)
 GPT-4.0-turbo generates a summary of all rules (shared with ShieldNet).
 
 Return JSON Response
