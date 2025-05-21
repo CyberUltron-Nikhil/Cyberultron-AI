@@ -5,7 +5,7 @@ This repository provides two independent Flask-based APIs for network security:
 - **DDoS Sentry**: Detects DDoS attacks and generates mitigation rules.
 - **Bot Sentry**: Detects bad bot traffic and generates mitigation rules.
 
-Each module processes network logs, uses a lightweight transformer (DistilBERT) for classification, and utilizes GPT-4o to generate appropriate security rules.
+Each module processes network logs, uses a lightweight finetuned deep learning model for classification, and utilizes LLMs to generate appropriate security rules.
 
 ---
 
@@ -13,7 +13,7 @@ Each module processes network logs, uses a lightweight transformer (DistilBERT) 
 
 ### 1. 🚨 DDoS Sentry
 
-The **DDoS Sentry** module processes incoming network log data and determines whether a **DDoS attack** is occurring. If an attack is detected, it uses a GPT-4o-based rule generator to produce mitigation strategies.
+The **DDoS Sentry** module processes incoming network log data and determines whether a **DDoS attack** is occurring. If an attack is detected, it uses an LLM rule generator to produce mitigation strategies.
 
 #### 🖼️ Flowchart
 
@@ -31,15 +31,15 @@ The **DDoS Sentry** module processes incoming network log data and determines wh
    - The network logs are cleaned and tokenized into a structured format.
    - Global traffic characteristics may also be derived.
 
-4. **Traffic Classifier (DistilBERT Sequence Classifier)**  
-   - A fine-tuned DistilBERT model analyzes the logs and classifies the traffic.
+4. **Traffic Classifier**  
+   - A fine-tuned Deep leaning model analyzes the logs and classifies the traffic with low latency (880ms).
 
 5. **DDoS Attack Detected?**  
    - If the classifier detects a DDoS attack, proceed to the next step.
    - Otherwise, respond with `"Allow"`.
 
-6. **DDoS Mitigation Rule Generator (GPT-4o)**  
-   - If an attack is detected, GPT-4o is used to generate mitigation rules.
+6. **DDoS Mitigation Rule Generator**  
+   - If an attack is detected, an LLM is used to generate mitigation rules.
 
 7. **Return JSON Response**  
    - A JSON response is returned to the client, containing the generated rule(s).
@@ -66,28 +66,17 @@ The **Bot Sentry** module is responsible for detecting and mitigating bad bot ac
    - The logs are cleaned and tokenized.
    - Global traffic characteristics may also be considered.
 
-4. **Traffic Classifier (DistilBERT Sequence Classifier)**  
-   - A DistilBERT model classifies whether the logs indicate bot traffic.
+4. **Traffic Classifier**  
+   - A finetuned Deep learning model classifies whether the logs indicate bot traffic.
 
 5. **Bad Bot Attack Detected?**  
    - If no bot activity is detected, return a response: `"Allow"`.
    - If bot activity is detected, proceed to rule generation.
 
-6. **Bad Bot Mitigation Rule Generator (GPT-4o)**  
-   - GPT-4o generates one or more mitigation rules based on the classified log data.
+6. **Bad Bot Mitigation Rule Generator**  
+   - An LLM generates one or more mitigation rules based on the classified log data.
 
 7. **Return JSON Response**  
    - The generated rules are returned to the client in a structured JSON format.
-
----
-
-## 🧰 Technologies Used
-
-| Component               | Description                        |
-|------------------------|------------------------------------|
-| **Flask**              | REST API Server                    |
-| **DistilBERT**         | Lightweight transformer classifier |
-| **GPT-4o**             | Rule generation based on logs      |
-| **JSON**               | Input/output data format           |
 
 ---
