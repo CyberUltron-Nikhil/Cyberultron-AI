@@ -52,7 +52,9 @@ A JSON response is returned to the client, containing shieldnet, pulsesense, the
 2. 🚨 PulseSense (Anomaly Detection)
 
 The PulseSense module detects anomalous behavior in HTTP requests using a fine-tuned bert-base-uncased model. It generates alert rules for monitoring.
+
 ![Anomaly_Detection](https://github.com/user-attachments/assets/78b17b6b-c447-42ea-9b99-95b0e8e0e7d7)
+
 
 A diagram showing the flow from Client → FastAPI Server → Text Preprocessing → BERT Classifier (PulseSense) → Rule Generation → GPT-4.0-turbo → Response]
 
