@@ -12,7 +12,8 @@ The system processes HTTP request logs using a fine-tuned bert-base-uncased mode
 1. 🛡️ ShieldNet (WAF)
 
 The ShieldNet module processes incoming HTTP request data to detect suspicious patterns such as XSS, SQL injection, path traversal, and errors using a fine-tuned bert-base-uncased model. If a suspicious pattern is detected, it generates a WAF rule to block the request.
-![WAF(Bert)](https://github.com/user-attachments/assets/f208a72b-2d3b-46f6-aaf1-d4525ba93580)
+![WAF-BERT](https://github.com/user-attachments/assets/c4723a92-23a0-4500-b030-f72ae711833b)
+
 
 
 A diagram showing the flow from Client → FastAPI Server → Text Preprocessing → BERT Classifier (ShieldNet) → Rule Generation → GPT-4.0-turbo → Response]
@@ -54,7 +55,8 @@ A JSON response is returned to the client, containing shieldnet, pulsesense, the
 
 The PulseSense module detects anomalous behavior in HTTP requests using a fine-tuned bert-base-uncased model. It generates alert rules for monitoring.
 
-![Anomaly_Detection(Isolation)](https://github.com/user-attachments/assets/74c7e006-ed83-4c07-aae3-3cc0a131c553)
+![Anomaly](https://github.com/user-attachments/assets/036411c6-f3ef-433a-9769-9089e508f1fd)
+
 
 
 A diagram showing the flow from Client → FastAPI Server → Text Preprocessing → Isolation Forest (PulseSense) → Rule Generation → GPT-4.0-turbo → Response]
