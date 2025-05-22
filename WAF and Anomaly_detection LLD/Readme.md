@@ -28,7 +28,8 @@ A diagram showing the flow from Client → FastAPI Server → Text Preprocessing
 
 The PulseSense module detects anomalous behavior in HTTP requests using a fine-tuned bert-base-uncased model and Isolation Forest . It generates alert rules for monitoring.
 
-![Uploading Anomoly.jpg…]()
+![Anomoly](https://github.com/user-attachments/assets/f662b48f-3c53-4e2c-b281-82a4ca11cc73)
+
 
 
 
