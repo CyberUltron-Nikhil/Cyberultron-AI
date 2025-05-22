@@ -11,8 +11,9 @@ PulseSense: Detects anomalous behavior using Isolation Forest and generates aler
 
 1. 🛡️ ShieldNet (WAF)
 
-The ShieldNet module processes incoming HTTP request data to detect suspicious patterns such as XSS, SQL injection, path traversal, and errors using a fine-tuned bert-base-uncased model. If a suspicious pattern is detected, it generates a WAF rule to block the request.
-![WAF_Bert](https://github.com/user-attachments/assets/019baeef-af17-4399-80de-d93981ec8f3d)
+The ShieldNet module processes incoming HTTP request data to detect suspicious patterns such as XSS, SQL injection, path traversal, and errors using a WAF model. If a suspicious pattern is detected, it generates a WAF rule to block the request.
+![BERT-WAF](https://github.com/user-attachments/assets/722eaf33-7ed3-41dc-b145-be1228225936)
+
 
 
 
@@ -26,9 +27,10 @@ A diagram showing the flow from Client → FastAPI Server → Text Preprocessing
 
 2. 🚨 PulseSense (Anomaly Detection)
 
-The PulseSense module detects anomalous behavior in HTTP requests using a fine-tuned bert-base-uncased model and Isolation Forest . It generates alert rules for monitoring.
+The PulseSense module detects anomalous behavior in HTTP requests using a fine-tuned WAF model and Isolation Forest . It generates alert rules for monitoring.
 
-![Anomoly](https://github.com/user-attachments/assets/f662b48f-3c53-4e2c-b281-82a4ca11cc73)
+![ISOLATION-ANOMALY](https://github.com/user-attachments/assets/29d4de01-7585-4d55-af7b-3870100d2aea)
+
 
 
 
