@@ -1,5 +1,6 @@
 # Nikhil's Progress 
 - Working on and on track to submit requested 4(Nikhil) + 4(Megha) DFDs as requested 
+- Working on creating the standard of input before all the datasets become available for training.
 
 ## Bot Agent DFDs
 <img src="../../DDoS%20and%20Bot%20LLD/Bot%20Agent%20usecases.jpg" width="600" />
