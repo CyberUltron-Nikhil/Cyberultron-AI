@@ -68,6 +68,8 @@ You can also set custom thresholds, giving your team flexibility in tuning detec
 
 <img src="real_scene.png" width="800" />
 
+<img src="perf.png" width="800" />
+
 ### 🚦 Layered Mitigation Tactics
 
 ZAPISEC doesn’t just detect — it acts. Once a Slowloris-like anomaly is flagged, the platform initiates automated responses such as:
