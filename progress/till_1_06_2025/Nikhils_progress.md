@@ -54,7 +54,7 @@ This allows ZAPISEC to detect and mitigate application-layer threats before they
 
 Traditional firewalls often fail to detect sophisticated, low-footprint attacks like Slowloris due to their signature-less nature. ZAPISEC’s Anomaly Detection Service solves this by using Generative AI and statistical models to analyze and classify traffic in real time.
 
-<img src="comparison.png" width="600" />
+<img src="comparison.png" width="600" />   
 
 **How it works:**
 
