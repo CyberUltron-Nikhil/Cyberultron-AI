@@ -53,12 +53,12 @@ Using **Isolation Forest + LSTM Autoencoders**, ZAPISEC models:
 
 ---
 
-## 📊 Generated Visualizations (No Copyright)
+## 📊 Generated Visualizations
 
 ### 📈 Anomaly Score Timeline
 Shows sudden spikes in anomaly scores when bot-like behavior appears.
 
-![Anomaly Score Timeline] ![image](https://github.com/user-attachments/assets/1ade7f07-66b7-4e30-a384-ec066c5ec9ba)
+[Anomaly Score Timeline] ![image](https://github.com/user-attachments/assets/1ade7f07-66b7-4e30-a384-ec066c5ec9ba)
 
 
 ---
@@ -66,7 +66,7 @@ Shows sudden spikes in anomaly scores when bot-like behavior appears.
 ### 🔥 Connection Age Heatmap
 Visualizes long-lived connections (a Slowloris signature) across IPs.
 
-![Connection Age Heatmap]![image](https://github.com/user-attachments/assets/426436ee-cb3e-4a5c-b4ff-7b63f45dacc7)
+[Connection Age Heatmap]![image](https://github.com/user-attachments/assets/426436ee-cb3e-4a5c-b4ff-7b63f45dacc7)
 
 
 ---
@@ -74,7 +74,7 @@ Visualizes long-lived connections (a Slowloris signature) across IPs.
 ### ⏱️ Header Completion Delta Plot
 Bots often trickle header bytes. This plot shows delay in full HTTP header delivery.
 
-![Header Completion Delta Plot] ![image](https://github.com/user-attachments/assets/38c30014-5411-4f45-aefc-1cd1c97b5d50)
+[Header Completion Delta Plot] ![image](https://github.com/user-attachments/assets/38c30014-5411-4f45-aefc-1cd1c97b5d50)
 
 
 ---
@@ -82,7 +82,7 @@ Bots often trickle header bytes. This plot shows delay in full HTTP header deliv
 ### 📉 Socket Exhaustion Forecast
 Predicts future server exhaustion probability due to idle, open sockets.
 
-![Socket Exhaustion Forecast]![image](https://github.com/user-attachments/assets/7dea7915-3353-459e-8371-015d56d3fcb8)
+[Socket Exhaustion Forecast]![image](https://github.com/user-attachments/assets/7dea7915-3353-459e-8371-015d56d3fcb8)
 
 
 ---
