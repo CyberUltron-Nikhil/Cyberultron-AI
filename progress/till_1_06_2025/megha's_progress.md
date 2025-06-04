@@ -58,28 +58,32 @@ Using **Isolation Forest + LSTM Autoencoders**, ZAPISEC models:
 ### 📈 Anomaly Score Timeline
 Shows sudden spikes in anomaly scores when bot-like behavior appears.
 
-![Anomaly Score Timeline](plot1_anomaly_score_timeline.png)
+![Anomaly Score Timeline] ![image](https://github.com/user-attachments/assets/1ade7f07-66b7-4e30-a384-ec066c5ec9ba)
+
 
 ---
 
 ### 🔥 Connection Age Heatmap
 Visualizes long-lived connections (a Slowloris signature) across IPs.
 
-![Connection Age Heatmap](plot2_connection_age_heatmap.png)
+![Connection Age Heatmap]![image](https://github.com/user-attachments/assets/426436ee-cb3e-4a5c-b4ff-7b63f45dacc7)
+
 
 ---
 
 ### ⏱️ Header Completion Delta Plot
 Bots often trickle header bytes. This plot shows delay in full HTTP header delivery.
 
-![Header Completion Delta Plot](plot3_header_completion_delta.png)
+![Header Completion Delta Plot] ![image](https://github.com/user-attachments/assets/38c30014-5411-4f45-aefc-1cd1c97b5d50)
+
 
 ---
 
 ### 📉 Socket Exhaustion Forecast
 Predicts future server exhaustion probability due to idle, open sockets.
 
-![Socket Exhaustion Forecast](plot4_socket_exhaustion_forecast.png)
+![Socket Exhaustion Forecast]![image](https://github.com/user-attachments/assets/7dea7915-3353-459e-8371-015d56d3fcb8)
+
 
 ---
 
@@ -134,10 +138,3 @@ In a world where bots evolve daily, ZAPISEC ensures your apps stay:
 
 > **ZAPISEC: Defend Smarter. Detect Sooner. Disrupt Threats.**
 
----
-
-### 📞 Contact
-
-To integrate ZAPISEC into your CI/CD or Kubernetes infrastructure, reach out to Cyberultron Consulting.
-
----
