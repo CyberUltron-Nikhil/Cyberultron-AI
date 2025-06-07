@@ -70,7 +70,8 @@ Each incident teaches the AI. Every false positive, delay, or success is logged 
 ---
 
 ## 🧩 Architecture: Built for Real-Time, Built for Scale
- ![image](https://github.com/user-attachments/assets/a830f020-92e9-446c-9a27-135b640f84d8)
+ ![image](https://github.com/user-attachments/assets/a65b83a0-7c87-4396-ba14-f1e6fb2c09e4)
+
 
 ```mermaid
 
