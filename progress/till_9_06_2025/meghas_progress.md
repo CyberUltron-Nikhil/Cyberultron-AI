@@ -75,15 +75,16 @@ Each incident teaches the AI. Every false positive, delay, or success is logged 
 
 ```mermaid
 
-🔐 Why ZAPISEC’s Pipeline Works When Others Fail
+## 🔐 Why ZAPISEC’s Pipeline Works When Others Fail
 
-| Feature                  | Traditional IR Tools      | ZAPISEC AI Pipeline                  |
-| ------------------------ | ------------------------- | ------------------------------------ |
-| Detection                | Signature or Manual Rule  | LLM-Driven Behavioral Anomalies      |
-| Response Time            | Minutes to Hours          | Sub-Minute                           |
-| Learning/Adaptation      | Manual Updates            | Continuous Self-Tuning               |
-| Integration with Tools   | Static APIs               | Dynamic Multi-Platform Orchestration |
-| Contextual Understanding | Keyword-Based Correlation | Graph + Language Model Enrichment    |
+| Feature                          | Traditional IR Tools          | ZAPISEC AI Pipeline                |
+|----------------------------------|-------------------------------|------------------------------------|
+| Detection                        | Signature or Manual Rule      | LLM-Driven Behavioral Anomalies   |
+| Response Time                    | Minutes to Hours              | Sub-Minute                        |
+| Learning/Adaptation              | Manual Updates                | Continuous Self-Tuning            |
+| Integration with Tools           | Static APIs                   | Dynamic Multi-Platform Orchestration |
+| Contextual Understanding         | Keyword-Based Correlation     | Graph + Language Model Enrichment |
+
 
 
 ZAPISEC redefines incident response. It doesn’t just chase alerts — it understands context, adapts strategy, and takes surgical action. With AI at the core, ZAPISEC delivers a future-proof cybersecurity pipeline that detects, disrupts, and defends before humans even log in.
