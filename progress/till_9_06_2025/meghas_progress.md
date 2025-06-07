@@ -94,6 +94,23 @@ ZAPISEC redefines incident response. It doesn’t just chase alerts — it under
 | False Positives                  | High             | Reduced by 78%      |
 | Analyst Workload Reduction       | —                | ↓ 65%               |
 
+ZAPISEC’s superior performance stems from a convergence of advanced AI disciplines and system architecture principles:
+
+Behavioral-First Detection Philosophy
+Traditional IR relies heavily on known indicators or signatures — a reactive approach. ZAPISEC flips the model using unsupervised anomaly detection guided by LLM context interpretation, allowing it to detect zero-day or polymorphic threats within seconds.
+
+Event Stream Processing & Low-Latency Graph Computation
+Instead of processing logs in batch cycles (which creates detection delay), ZAPISEC operates on streaming event pipelines. It constructs in-memory knowledge graphs in real time, linking IOCs (Indicators of Compromise) with user, device, and network behavior using graph traversal algorithms like BFS/DFS combined with entity embeddings.
+
+Reinforcement Learning for Playbook Tuning
+Response logic is governed by a Markov Decision Process (MDP) where actions (block, isolate, observe) are reinforced over time using analyst feedback and ground truth resolution. This turns the IR engine into a self-tuning autonomous agent.
+
+Contextualized Natural Language Understanding
+ZAPISEC’s enrichment engine uses transformer-based models (e.g., fine-tuned BERT or GPT variants) to extract meaning from unstructured threat reports, CVEs, and analyst notes — enabling semantic-level enrichment far beyond keyword matching.
+
+System-Level Concurrency & Edge Decomposition
+Unlike monolithic IR engines, ZAPISEC follows a distributed microservices model with event-driven concurrency, which helps it scale to high-ingest environments (e.g., 10M+ events/hour) without bottlenecks.
+
 ---
 
 ## 🧩 Architecture: Built for Real-Time, Built for Scale
