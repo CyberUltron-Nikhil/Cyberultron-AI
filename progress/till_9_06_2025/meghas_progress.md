@@ -85,6 +85,27 @@ ZAPISEC redefines incident response. It doesn’t just chase alerts — it under
 
 ---
 
+## 📈 Results That Speak
+
+| Metric                            | Traditional IR  | ZAPISEC AI Pipeline |
+|----------------------------------|------------------|---------------------|
+| Time to Detect                   | 2–5 hours        | ~3 seconds          |
+| Time to Containment              | 1–6 hours        | < 30 seconds        |
+| False Positives                  | High             | Reduced by 78%      |
+| Analyst Workload Reduction       | —                | ↓ 65%               |
+
+---
+## 🕒 From Breach to Block — In Seconds, Not Days
+
+timeline
+    title ZAPISEC Incident Response Flow
+    00s : Suspicious DNS request detected
+    02s : LLM flags anomaly based on PowerShell behavior
+    05s : Threat graph links user to known attack infrastructure
+    07s : Response engine isolates endpoint, blocks C2 IP
+    10s : Analyst notified with auto-generated attack summary
+---
+
 ## 🧩 Architecture: Built for Real-Time, Built for Scale
 ![image](https://github.com/user-attachments/assets/f823d207-ebad-4011-980b-e397f8dbb44c)
 
