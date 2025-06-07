@@ -6,14 +6,16 @@ In an era of relentless cyber threats, the battle isn't won by those who simply 
 
 Today’s threat landscape is **fast**, **automated**, and **multi-vector**. Attackers use polymorphic malware, AI-generated phishing, and stealthy lateral movement techniques. Meanwhile, most organizations are still relying on:
 
-- Delayed alert triage by human analysts
-- Manually written detection rules
-- Static playbooks that don’t adapt
-- Siloed tools with poor interoperability
+- Delayed alert triage by human analysts  
+- Manually written detection rules  
+- Static playbooks that don’t adapt  
+- Siloed tools with poor interoperability  
 
 This mismatch leads to **detection delays**, **alert fatigue**, and **breach dwell time measured in weeks or months**.
 
 > 🔥 The average time to detect a breach is **207 days** (IBM Cost of Data Breach Report, 2024)
+
+---
 
 ## 🧠 The ZAPISEC Revolution: AI at Every Layer
 
@@ -25,9 +27,9 @@ ZAPISEC’s pipeline transforms the classic incident response (IR) lifecycle int
 
 Traditional rule-based detection is brittle. ZAPISEC uses **AI anomaly detection** powered by LLM-enhanced telemetry analysis to baseline “normal” user and network behavior and flag subtle deviations.
 
-- 🔎 Behavioral baselining of user sessions, file access patterns, and process tree evolution
-- 🧬 Self-updating anomaly models trained on millions of benign + malicious traces
-- 🌐 Real-time DNS, URL, and HTTP request analysis using NLP
+- 🔎 Behavioral baselining of user sessions, file access patterns, and process tree evolution  
+- 🧬 Self-updating anomaly models trained on millions of benign + malicious traces  
+- 🌐 Real-time DNS, URL, and HTTP request analysis using NLP  
 
 > Example: A fake Microsoft Teams domain accessed via PowerShell gets flagged within 2 seconds — without any rule.
 
@@ -37,9 +39,9 @@ Traditional rule-based detection is brittle. ZAPISEC uses **AI anomaly detection
 
 No more relying on external feeds alone. ZAPISEC auto-correlates anomalies with internal context and live threat intel using:
 
-- ✅ Graph-based linkage of indicators (IP ↔ domain ↔ hash ↔ user ↔ process)
-- 🧠 LLMs extract IOCs, tactics, and intent from malware reports and CVEs in real-time
-- 🔗 MITRE ATT&CK mapping to prioritize threats based on behavior, not just severity
+- ✅ Graph-based linkage of indicators (IP ↔ domain ↔ hash ↔ user ↔ process)  
+- 🧠 LLMs extract IOCs, tactics, and intent from malware reports and CVEs in real-time  
+- 🔗 MITRE ATT&CK mapping to prioritize threats based on behavior, not just severity  
 
 > The system **enriches indicators** using its own multi-source AI model, not just copying threat feeds.
 
@@ -49,9 +51,9 @@ No more relying on external feeds alone. ZAPISEC auto-correlates anomalies with 
 
 Once verified, the AI doesn't wait.
 
-- 🧱 Pushes rules to EDR, NGFW, and Cloud APIs to **block or quarantine**
-- 🕵️‍♀️ Launches deception artifacts (e.g., honey tokens, fake credentials)
-- 🗂 Auto-isolates suspicious endpoints in SDN environments using microsegmentation
+- 🧱 Pushes rules to EDR, NGFW, and Cloud APIs to **block or quarantine**  
+- 🕵️‍♀️ Launches deception artifacts (e.g., honey tokens, fake credentials)  
+- 🗂 Auto-isolates suspicious endpoints in SDN environments using microsegmentation  
 
 > LLM-assisted logic trees decide if the action is "observe," "quarantine," or "kill," ensuring **precision over panic.**
 
@@ -61,32 +63,30 @@ Once verified, the AI doesn't wait.
 
 Each incident teaches the AI. Every false positive, delay, or success is logged and modeled to improve future decisions.
 
-- 🧠 LLM agents tune detection thresholds and triage logic
-- 💬 Analyst feedback is parsed using natural language to fine-tune the IR engine
-- 📈 Continual reinforcement learning keeps response logic current
+- 🧠 LLM agents tune detection thresholds and triage logic  
+- 💬 Analyst feedback is parsed using natural language to fine-tune the IR engine  
+- 📈 Continual reinforcement learning keeps response logic current  
 
 > The pipeline **self-heals** its weak points with every breach attempt.
 
 ---
 
-## 🧩 Architecture: Built for Real-Time, Built for Scale
- ![image](https://github.com/user-attachments/assets/a65b83a0-7c87-4396-ba14-f1e6fb2c09e4)
-
-
-```mermaid
-
 ## 🔐 Why ZAPISEC’s Pipeline Works When Others Fail
 
-| Feature                          | Traditional IR Tools          | ZAPISEC AI Pipeline                |
-|----------------------------------|-------------------------------|------------------------------------|
-| Detection                        | Signature or Manual Rule      | LLM-Driven Behavioral Anomalies   |
-| Response Time                    | Minutes to Hours              | Sub-Minute                        |
-| Learning/Adaptation              | Manual Updates                | Continuous Self-Tuning            |
-| Integration with Tools           | Static APIs                   | Dynamic Multi-Platform Orchestration |
-| Contextual Understanding         | Keyword-Based Correlation     | Graph + Language Model Enrichment |
-
-
+| Feature                     | Traditional IR Tools         | ZAPISEC AI Pipeline                    |
+|----------------------------|------------------------------|----------------------------------------|
+| Detection                  | Signature or Manual Rule     | LLM-Driven Behavioral Anomalies        |
+| Response Time              | Minutes to Hours             | Sub-Minute                             |
+| Learning/Adaptation        | Manual Updates               | Continuous Self-Tuning                 |
+| Integration with Tools     | Static APIs                  | Dynamic Multi-Platform Orchestration   |
+| Contextual Understanding   | Keyword-Based Correlation    | Graph + Language Model Enrichment      |
 
 ZAPISEC redefines incident response. It doesn’t just chase alerts — it understands context, adapts strategy, and takes surgical action. With AI at the core, ZAPISEC delivers a future-proof cybersecurity pipeline that detects, disrupts, and defends before humans even log in.
 
+---
+
+## 🧩 Architecture: Built for Real-Time, Built for Scale
+
+```mermaid
+![image](https://github.com/user-attachments/assets/f823d207-ebad-4011-980b-e397f8dbb44c)
 
