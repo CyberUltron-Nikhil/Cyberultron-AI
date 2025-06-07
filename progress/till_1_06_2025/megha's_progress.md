@@ -69,20 +69,6 @@ Visualizes the exact moment ZAPISEC's Generative AI detects a deviation from bas
 
 ---
 
-### 🔥 Connection Age Heatmap
-Visualizes long-lived connections (a Slowloris signature) across IPs.
-
-[Connection Age Heatmap]![image](https://github.com/user-attachments/assets/426436ee-cb3e-4a5c-b4ff-7b63f45dacc7)
-A heatmap where each cell represents an IP address and the intensity represents the average "open socket time".
-Slowloris bots appear as deep red clusters (long-lived idle connections), while regular users are cool blue.
-Time on X-axis; IPs on Y-axis.
-You’ll notice persistent red zones indicating a botnet using distributed slow attacks.
-Purpose:
-Highlights the classic Layer 7 DoS pattern: bots holding sockets open to exhaust server threads. This heatmap shows the visibility ZAPISEC gives at a network level.
-
-
----
-
 ### ⏱️ Header Completion Delta Plot
 Bots often trickle header bytes. This plot shows delay in full HTTP header delivery.
 
@@ -163,10 +149,6 @@ In a world where bots evolve daily, ZAPISEC ensures your apps stay:
 - Intelligent 🧠
 
 > **ZAPISEC: Defend Smarter. Detect Sooner. Disrupt Threats.**
-
----
-
-### 🔎 Additional Insights on Bot Detection with Generative AI
 
 - **Why Traditional Methods Fall Short:**  
   Signature and IP-based blacklists quickly become outdated as bots evolve. Generative AI, by modeling behavior and learning from synthetic examples, anticipates new attack patterns before they go mainstream.
