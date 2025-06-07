@@ -97,6 +97,7 @@ ZAPISEC redefines incident response. It doesn’t just chase alerts — it under
 ---
 ## 🕒 From Breach to Block — In Seconds, Not Days
 
+```mermaid
 timeline
     title ZAPISEC Incident Response Flow
     00s : Suspicious DNS request detected
@@ -104,6 +105,7 @@ timeline
     05s : Threat graph links user to known attack infrastructure
     07s : Response engine isolates endpoint, blocks C2 IP
     10s : Analyst notified with auto-generated attack summary
+
 ---
 
 ## 🧩 Architecture: Built for Real-Time, Built for Scale
