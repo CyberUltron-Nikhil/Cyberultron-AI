@@ -114,7 +114,8 @@ Unlike monolithic IR engines, ZAPISEC follows a distributed microservices model 
 ---
 
 ## 🧩 Architecture: Built for Real-Time, Built for Scale
-![image](https://github.com/user-attachments/assets/f823d207-ebad-4011-980b-e397f8dbb44c)
+![image](https://github.com/user-attachments/assets/b9f8be98-733f-42b1-873a-c827024fb355)
+
 
 ```mermaid
 
