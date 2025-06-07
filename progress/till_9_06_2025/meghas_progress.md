@@ -86,7 +86,8 @@ ZAPISEC redefines incident response. It doesn’t just chase alerts — it under
 ---
 
 ## 🧩 Architecture: Built for Real-Time, Built for Scale
+![image](https://github.com/user-attachments/assets/f823d207-ebad-4011-980b-e397f8dbb44c)
 
 ```mermaid
-![image](https://github.com/user-attachments/assets/f823d207-ebad-4011-980b-e397f8dbb44c)
+
 
