@@ -59,15 +59,13 @@ Using **Isolation Forest + LSTM Autoencoders**, ZAPISEC models:
 Shows sudden spikes in anomaly scores when bot-like behavior appears.
 
 [Anomaly Score Timeline] ![image](https://github.com/user-attachments/assets/1ade7f07-66b7-4e30-a384-ec066c5ec9ba)
-
-
----
-
-### 🔥 Connection Age Heatmap
-Visualizes long-lived connections (a Slowloris signature) across IPs.
-
-[Connection Age Heatmap]![image](https://github.com/user-attachments/assets/426436ee-cb3e-4a5c-b4ff-7b63f45dacc7)
-
+A dynamic time-series graph showing real-time anomaly scores spiking whenever bot-like behaviors are detected.
+The X-axis represents request timestamps; the Y-axis shows anomaly confidence (0 to 1).
+Legitimate traffic stays around ~0.1–0.2.
+Sudden spikes up to 0.9+ highlight suspicious patterns like slow header delivery or high entropy in requests.
+Marked events show GAN-generated synthetic bot traces matching real traffic anomalies.
+Purpose:
+Visualizes the exact moment ZAPISEC's Generative AI detects a deviation from baseline behavior — proving proactive detection.
 
 ---
 
@@ -75,6 +73,12 @@ Visualizes long-lived connections (a Slowloris signature) across IPs.
 Bots often trickle header bytes. This plot shows delay in full HTTP header delivery.
 
 [Header Completion Delta Plot] ![image](https://github.com/user-attachments/assets/38c30014-5411-4f45-aefc-1cd1c97b5d50)
+A scatter plot showing the delta (delay) between the TCP connection opening (SYN-ACK) and full header completion.
+Legitimate browsers complete headers in <300ms.
+Bots using trickle tactics stretch this to 2–5 seconds.
+Plot shows clear outliers flagged by ZAPISEC, correlating with injected synthetic header sequences for detection benchmarking.
+Purpose:
+Proves how even advanced trickling bots (Slowloris-style) can't hide from ZAPISEC’s behavioral timing analysis.
 
 
 ---
@@ -83,6 +87,14 @@ Bots often trickle header bytes. This plot shows delay in full HTTP header deliv
 Predicts future server exhaustion probability due to idle, open sockets.
 
 [Socket Exhaustion Forecast]![image](https://github.com/user-attachments/assets/7dea7915-3353-459e-8371-015d56d3fcb8)
+A predictive line chart forecasting server resource usage over time based on current active connections, their age, and completion rate.
+Projected exhaustion threshold is shown as a red line.
+As bot activity increases, the forecast sharply approaches the threshold.
+Annotations show exactly when ZAPISEC begins dropping, sandboxing, or redirecting traffic to synthetic backends.
+Purpose:
+Illustrates ZAPISEC's foresight — not only detecting bots but predicting impact and acting before service degradation occurs.
+
+
 
 
 ---
@@ -137,4 +149,27 @@ In a world where bots evolve daily, ZAPISEC ensures your apps stay:
 - Intelligent 🧠
 
 > **ZAPISEC: Defend Smarter. Detect Sooner. Disrupt Threats.**
+
+- **Why Traditional Methods Fall Short:**  
+  Signature and IP-based blacklists quickly become outdated as bots evolve. Generative AI, by modeling behavior and learning from synthetic examples, anticipates new attack patterns before they go mainstream.
+
+- **The Importance of Explainability:**  
+  Using LLMs to generate human-readable explanations for anomaly detections helps security teams validate alerts faster and reduces false positives.
+
+- **Combining Multiple Data Layers:**  
+  Effective detection leverages network metadata (like TCP/IP fingerprints), application-level signals (header timing, user agents), and behavioral sequences over time, creating a multi-dimensional defense surface.
+
+- **Adaptive Rate Limiting vs. Hard Blocking:**  
+  Rather than outright blocking suspicious bots, adaptive throttling maintains service availability and user experience, especially for legitimate crawlers like GoogleBot, while gradually choking off malicious ones.
+
+- **Synthetic Data Generation:**  
+  Generative Adversarial Networks (GANs) create realistic but fake bot traffic that helps train models on rare or emerging attack types that lack sufficient real-world examples.
+
+- **Real-Time Edge Processing:**  
+  Performing fingerprinting and anomaly scoring at the edge (close to the user) reduces latency, enabling sub-10ms decision-making, which is critical for high-throughput systems.
+
+- **Future Directions:**  
+  Integrating cross-application threat intelligence and federated learning across organizations can further enhance bot detection and mitigation.
+
+---
 
