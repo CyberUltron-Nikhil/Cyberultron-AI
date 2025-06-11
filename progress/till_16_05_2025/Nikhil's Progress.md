@@ -78,7 +78,7 @@ In an API-driven world with AI-armed adversaries, intelligent, LLM-based securit
 
 The future of API security is intelligent and adaptive. It's time to move beyond outdated defenses.
 
-Discover the future of API security. Visit [Zapisec Website/Contact Link] to learn more or schedule a personalized demonstration.
+Discover the future of API security. Visit our github page to learn more or schedule a personalized demonstration.
 
 ---
 
