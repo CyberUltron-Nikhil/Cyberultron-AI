@@ -94,7 +94,7 @@ Recon bots show low entropy in API access patterns — spotted by ZAPISEC’s an
 
 
 
-### 1️⃣ Intent Extraction Heatmap  
+###  Intent Extraction Heatmap  
 _Visualizes which API calls were flagged as recon-like based on LLM interpretation._
 
 ```plaintext
@@ -107,14 +107,14 @@ _Visualizes which API calls were flagged as recon-like based on LLM interpretati
 | /v1/config-preview     | 0.79         |
 +------------------------+--------------+
 
-### 2️⃣ Behavior Flow Graph
+1 Behavior Flow Graph
 Mermaid diagram showing a suspicious access trail.
 graph TD
   A[GET /login] --> B[POST /v1/config-preview]
   B --> C[GET /internal/debug]
   C --> D[GET /admin/logs/archive]
 
-### 3️⃣ Entropy Score Timeline
+2 Entropy Score Timeline
 Shows an entropy spike as recon bot accessed high-variance paths.
 | Time       | Avg Entropy |
 |------------|-------------|
@@ -122,7 +122,7 @@ Shows an entropy spike as recon bot accessed high-variance paths.
 | 12:01:24   | 3.3         |
 | 12:01:26   | 9.4 🚨      |
 | 12:01:29   | 8.8 🚨      |
-### 4️⃣ Regex WAF vs ZAPISEC Accuracy Table
+3 Regex WAF vs ZAPISEC Accuracy Table
 | Feature                         | Regex WAF | ZAPISEC |
 | ------------------------------- | --------- | ------- |
 | Detects slow probe bots         | ❌         | ✅       |
