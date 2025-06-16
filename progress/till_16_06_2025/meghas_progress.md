@@ -107,3 +107,27 @@ _Visualizes which API calls were flagged as recon-like based on LLM interpretati
 | /v1/config-preview     | 0.79         |
 +------------------------+--------------+
 
+### 2️⃣ Behavior Flow Graph
+Mermaid diagram showing a suspicious access trail.
+graph TD
+  A[GET /login] --> B[POST /v1/config-preview]
+  B --> C[GET /internal/debug]
+  C --> D[GET /admin/logs/archive]
+
+### 3️⃣ Entropy Score Timeline
+Shows an entropy spike as recon bot accessed high-variance paths.
+| Time       | Avg Entropy |
+|------------|-------------|
+| 12:01:22   | 3.1         |
+| 12:01:24   | 3.3         |
+| 12:01:26   | 9.4 🚨      |
+| 12:01:29   | 8.8 🚨      |
+### 4️⃣ Regex WAF vs ZAPISEC Accuracy Table
+| Feature                         | Regex WAF | ZAPISEC |
+| ------------------------------- | --------- | ------- |
+| Detects slow probe bots         | ❌         | ✅       |
+| Understands intent in sequences | ❌         | ✅       |
+| Learns over time                | ❌         | ✅       |
+| Uses behavioral graphs          | ❌         | ✅       |
+| Handles LLM-crafted payloads    | ❌         | ✅       |
+
