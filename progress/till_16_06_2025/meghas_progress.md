@@ -83,7 +83,7 @@ A recon bot, created using ChatGPT plugins, was used to crawl a fintech API.
 
 ---
 
-## 📈 Visuals to Include
+## 📈 Visuals :
 ![WhatsApp Image 2025-06-14 at 12 33 28_1bbedf43](https://github.com/user-attachments/assets/6de310f1-3d0c-404e-914e-f621d56986b4)
 Stealth API Recon Bot mimics real traffic, slowly mapping endpoints without triggering alerts.
 
