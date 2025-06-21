@@ -8,6 +8,8 @@
 - Actionable dashboard with highlighted vulnerable code and AI-generated fix suggestions.
 ### Open-Source Software:
 - Engine: Semgrep
+- https://github.com/semgrep/semgrep
+- https://semgrep.dev/docs/getting-started/quickstart
 ## SCA (Software Composition Analysis)
 ### Features:
 - Scanning of open-source dependencies for vulnerabilities.
