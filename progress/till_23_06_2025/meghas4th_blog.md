@@ -101,13 +101,8 @@ A bot tried fuzzing a fintech app’s `/payment` API:
 Traditional security = react.  
 ZAPISEC deception = **trap first, analyze later**.
 
-| Capability                    | Regex WAF      | ZAPISEC Deception AI |
-|------------------------------|----------------|-----------------------|
-| Stops after payload          | ✅             | ✅                    |
-| Detects pre-attack intent    | ❌             | ✅                    |
-| Injects fake attack surface  | ❌             | ✅                    |
-| Auto-profiles intruders      | ❌             | ✅                    |
-| Learns from attacker behavior| ❌             | ✅                    |
+![image](https://github.com/user-attachments/assets/69fab33c-c700-4082-80fb-36676da42e8b)
+
 
 ---
 
