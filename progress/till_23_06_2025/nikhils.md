@@ -16,7 +16,11 @@
 - AI-powered Reachability Analysis to prioritize active risks.
 - Generation of dependency lists with version, license, and vulnerability status.
 ### Open-Source Software:
--Engines: Trivy, OWASP Dependency-Check
+- https://github.com/semgrep/semgrep
+- https://semgrep.dev/docs/getting-started/quickstart
+- https://trivy.dev/latest/docs/target/container_image/
+- https://owasp.org/www-project-dependency-check/
+- Engines: Trivy, OWASP Dependency-Check
 - Data Sources: NVD (National Vulnerability Database), OSV.dev
 ## DAST (Dynamic Application Security Testing)
 ### Features:
@@ -26,6 +30,7 @@
 - AI-enhanced Intelligent Crawling to prioritize critical user paths.
 - AI-driven Adaptive Testing that adjusts attack patterns based on application responses.
 ### Open-Source Software:
+- https://www.zaproxy.org/
 - Engine: OWASP ZAP (Zed Attack Proxy)
 
 ## LLM Red Teaming
