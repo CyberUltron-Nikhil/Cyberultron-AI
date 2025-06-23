@@ -71,13 +71,8 @@ Each deception trigger activates a full profiling pipeline:
 
 ## 🏆 Why Deception Traps Are Superior
 
-| Defense Layer               | Traditional WAF  | ZAPISEC Deception AI |
-|----------------------------|------------------|-----------------------|
-| Blocks After Exploit       | ✅               | ✅                    |
-| Pre-Exploitation Detection | ❌               | ✅                    |
-| Deception-Driven Triggers  | ❌               | ✅                    |
-| Behavioral Profiling       | ❌               | ✅                    |
-| Attack Surface Exposure    | ✅               | ❌ (injected surface) |
+![image](https://github.com/user-attachments/assets/89e041ff-74fe-47a6-9ceb-870c06e59fe2)
+
 
 > With ZAPISEC, **attackers expose themselves** during recon — not you.
 
