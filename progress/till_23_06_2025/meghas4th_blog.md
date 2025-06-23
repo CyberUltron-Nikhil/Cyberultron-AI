@@ -8,12 +8,7 @@ In the world of modern cybersecurity, waiting for the attack to happen is no lon
 
 ## 🧨 Problem: Detection Alone Isn’t Enough
 
-| Challenge                        | Consequence                                  |
-|----------------------------------|----------------------------------------------|
-| Bots scan silently               | Recon goes unnoticed                         |
-| Credential stuffing undetected  | Brute-force at scale, low/no logs triggered  |
-| API fuzzing tools mimic browsers| WAFs can't tell them apart                   |
-| Real traffic ≈ bot traffic       | High false positives                         |
+![image](https://github.com/user-attachments/assets/c68f58fd-1a51-4ffb-89e7-90cf63aa3bcb)
 
 Most tools **detect too late** or **block too early**, causing either data breaches or broken user experiences.
 
