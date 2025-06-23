@@ -38,11 +38,7 @@ When a threat is suspected, ZAPISEC **injects decoy endpoints** that don’t exi
 
 > 🧪 **Legit users never see these. Bots always do.**
 
-| Request Path            | Flagged as Recon? | Response Given         |
-|-------------------------|-------------------|-------------------------|
-| `/api/profile/view`     | ❌                | Normal                  |
-| `/api/token-rotate`     | ✅                | Fake success response   |
-| `/internal/logs/7`      | ✅                | Canary file served      |
+![image](https://github.com/user-attachments/assets/bb62784c-1069-444e-9524-a8170270e5de)
 
 ---
 
