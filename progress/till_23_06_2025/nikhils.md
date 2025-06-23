@@ -1,4 +1,4 @@
-# List of features for SaaS
+# Threat Modelling features
 
 ## SAST (Static Application Security Testing)
 ### Features:
@@ -44,3 +44,11 @@ A library of pre-built attack prompt templates.
 ### Open-Source Software/Frameworks:
 
 The document describes an architecture rather than a single, specific open-source engine like in the other categories. You would build this feature by integrating various open-source libraries (e.g., from Hugging Face) to create the "Attacker" and "Judge" LLM system and manage the library of prompt templates.
+
+
+## Github/GitLab integration 
+| Feature | Requires Git Integration? | Primary Reason                                               |
+| :------ | :------------------------ | :----------------------------------------------------------- |
+| **SAST** | **Yes (Essential)** | Needs to access and read the application's source code.      |
+| **SCA** | **Yes (Essential)** | Needs to access and read the project's dependency files.   |
+| **DAST** | **No, but ca be done** | Core function only needs a URL, but integration enables CI/CD automation and better context. |
