@@ -41,7 +41,7 @@ Understanding what needs protection helps narrow down where attackers are most l
 
 ### 3️⃣ Identify Threats (Use STRIDE)
 
-With the system mapped and assets listed, we begin identifying threats — things that could go wrong. STRIDE is a popular framework (explained below) that helps structure this process.
+With the system mapped and assets listed, we begin identifying threats , things that could go wrong. STRIDE is a popular framework explained below that helps structure this process.
 
 Ask STRIDE-based questions for each component:
 
