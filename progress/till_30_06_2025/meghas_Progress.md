@@ -11,7 +11,7 @@ Threat modeling is not limited to traditional web applications. It applies to AP
 
 ---
 
-## 🧩 Key Components of Threat Modeling (Explained in Detail)
+## 🧩 Key Components of Threat Modeling 
 
 ### 1️⃣ Understand the System
 
