@@ -66,14 +66,8 @@ Detects malformed requests, overflows, reserved key probes, and prototype pollut
 
 ## 📊 Table: ZAPISEC vs Traditional API Security
 
-| Feature                         | Traditional WAF        | ZAPISEC Defense AI         |
-|---------------------------------|-------------------------|-----------------------------|
-| Regex/Keyword Filtering         | ✅                      | ✅                           |
-| Behavioral Intent Detection     | ❌                      | ✅                           |
-| Decoy Endpoint Insertion        | ❌                      | ✅                           |
-| Multi-Session Threat Correlation| ❌                      | ✅                           |
-| GAN-Style Payload Fingerprinting| ❌                      | ✅                           |
-| Predictive Mitigation Triggers  | ❌                      | ✅                           |
+![image](https://github.com/user-attachments/assets/e8825ec4-082a-453c-974a-d063aea6a437)
+
 
 ---
 
