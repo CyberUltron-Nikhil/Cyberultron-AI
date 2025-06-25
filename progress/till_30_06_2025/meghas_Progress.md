@@ -1,4 +1,4 @@
-# 📄 Document Title: Understanding the Components of Threat Modeling
+# 📄 Understanding the Components of Threat Modeling
 ---
 
 ## 🔐 Introduction
@@ -163,6 +163,50 @@ Let’s assume we are threat modeling a banking web application with a login fea
 - Add rate limiting and CAPTCHA
 - Enable MFA (Multi-Factor Authentication)
 - Log and monitor failed attempts
+
+## 🧮 DREAD Risk Scoring
+
+To calculate the DREAD score, each threat is evaluated across five categories:
+
+| **DREAD Category**   | **What It Measures**                                          |
+|----------------------|---------------------------------------------------------------|
+| Damage Potential     | How severe the impact would be if the threat were exploited   |
+| Reproducibility      | How easily the attack can be repeated                         |
+| Exploitability       | How simple it is to carry out the attack                      |
+| Affected Users       | How many users or systems could be affected                   |
+| Discoverability      | How easy it is for an attacker to discover the vulnerability  |
+
+Each category is scored on a scale of **1 to 10**, where **1** means very low risk and **10** means very high risk.  
+Once all five scores are assigned, they are added together and averaged. This gives a final DREAD score between 1 and 10.
+
+### 🔢 Formula:
+
+DREAD Score = (Damage + Reproducibility + Exploitability + Affected Users + Discoverability) ÷ 5
+
+
+
+The resulting score helps the team decide which threats to address first:
+
+- A score between **8 and 10** is considered **High Risk** (should be fixed immediately)
+- A score between **5 and 7** is **Medium Risk** (should be tracked and addressed soon)
+- A score below **5** is **Low Risk** (can be reviewed periodically)
+
+---
+
+### 📌 Example:
+
+Suppose there’s a threat where an attacker can **brute-force a login page**:
+
+- Damage = 9 (They can hijack accounts)  
+- Reproducibility = 8 (It can be automated)  
+- Exploitability = 7 (Easy for an attacker to try)  
+- Affected Users = 8 (Affects any user who logs in)  
+- Discoverability = 6 (Login form is publicly visible)  
+
+**DREAD Score** = (9 + 8 + 7 + 8 + 6) / 5 = 38 ÷ 5 = **7.6**
+
+This would be treated as a **high-risk threat** and prioritized for mitigation.
+
 
 ---
 
