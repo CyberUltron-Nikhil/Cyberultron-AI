@@ -29,12 +29,7 @@ They want to map your entire digital supply chain before they attack.**
 
 ## ❌ Why Signature-Based WAFs Fail
 
-| Weakness                     | Description                                                                 |
-|------------------------------|-----------------------------------------------------------------------------|
-| Rigid syntax rules           | Can’t detect semantic misuse or novel payload combinations                  |
-| Rate-limiting assumptions    | Slower probes are invisible to WAF rules                                   |
-| Lack of context              | Can’t correlate across users, sessions, or time windows                     |
-| No predictive modeling       | Doesn’t learn from failed attempts                                          |
+![image](https://github.com/user-attachments/assets/0fd215b2-3bf9-4553-9ac0-d4e9cfd6128a)
 
 A WAF reacts. ZAPISEC **pre-empts**.
 
