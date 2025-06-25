@@ -91,12 +91,7 @@ Detects malformed requests, overflows, reserved key probes, and prototype pollut
 
 ## 📈 Deception-as-Defense: Strategic Advantages
 
-| Defense Mechanism         | ZAPISEC Strategy                     |
-|---------------------------|--------------------------------------|
-| Detection of intent       | NLP + Graph AI correlation           |
-| Response customization    | Risk-based adaptive policy engine    |
-| Analyst assist            | Auto-generated threat reports (LLM)  |
-| Continuous learning       | Reinforcement + GAN-simulated replay |
+![image](https://github.com/user-attachments/assets/f5d74bc3-1ae2-4c74-bbf9-50eff310ed67)
 
 ---
 
