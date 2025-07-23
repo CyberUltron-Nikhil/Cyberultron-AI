@@ -16,11 +16,7 @@ Large Language Models (LLMs) and other generative AI tools are now being deploye
 
 Instead of relying only on hash databases or watermarks, AI-powered detectors now analyze context, tone, and visual cues in real-time:
 
-| Signal Type     | What AI Looks For                         |
-| --------------- | ----------------------------------------- |
-| Audio           | Pauses, filler words, odd stress patterns |
-| Video           | Lip sync mismatch, blink rate, lighting   |
-| Text (captions) | Phrase structure, unnatural word usage    |
+<img width="660" height="232" alt="image" src="https://github.com/user-attachments/assets/570beaaa-4781-4645-968a-39dd7e57fc8d" />
 
 Deep learning models process frames, audio segments, and even emojis to create a risk score for each piece of content.
 
