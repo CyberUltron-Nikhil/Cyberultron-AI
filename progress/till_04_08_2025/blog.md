@@ -2,12 +2,16 @@
 
 ## 🚨 The Modern Bot Problem
 
-Bots are no longer simple scrapers running scripts. Today’s **autonomous synthetic agents**, often built using LLMs, can mimic human behavior, bypass detection systems, and adapt in real time.
+Bots are no longer simple scrapers running scripts. Today’s **autonomous synthetic agents**, often built using LLMs and trained with reinforcement learning, can mimic human behavior, bypass detection systems, and adapt in real time.
 
 These bots:
 - Auto-navigate websites using reinforcement learning.
 - Generate human-like inputs via prompt-tuned LLMs.
 - Exploit web APIs using learned traffic patterns.
+- Use audio/image tools to bypass CAPTCHA in seconds.
+- Maintain persistent sessions with memory and context.
+
+---
 
 ## 👾 Common Malicious Bots
 
@@ -28,10 +32,12 @@ These bots:
 - **JS Behavior Hooks**: Observes how scripts are executed and interacted with.
 - **Invisible Field Traps**: Hidden inputs that humans don’t see, bots do.
 - **Entropy + Grammar Scoring**: Detects AI-written inputs via structure/predictability.
+- **Navigation Path Mapping**: Tracks click paths to detect unnatural flows.
 
 🧪 **Emerging Tactics**:
 - **Prompt Watermarking**: Marking known GenAI outputs to recognize them in transit.
-- **Dynamic CAPTCHA Injection**: AI-driven puzzles adapting in real time.
+- **Dynamic CAPTCHA Injection**: AI-driven puzzles adapting per user session.
+- **Time-Sliced Challenge Injection**: Micro-challenges triggered mid-flow to disrupt automation.
 
 ---
 
@@ -44,6 +50,8 @@ These bots:
 | Automated Decoy Fields | GenAI generates dynamic, realistic honeypots on every page load     |
 | Prompt Analysis        | NLP models analyze form inputs to flag GPT-generated text           |
 | Chat-Aware Firewalls   | Understands if chatbots interacting with site APIs are real or fake |
+| Semantic Click Trails  | LLMs analyze sequence of clicks and infer human intent              |
+| Alert Summarization    | Converts bot behavior into readable reports for analysts            |
 
 > 💡 *Example*: A GPT-4 agent tries to bypass a product configurator. GenAI-enhanced detection scores the interaction's entropy, identifies LLM traits, and blocks it before submission.
 
@@ -60,3 +68,6 @@ GenAI_Classifier --> WAF
 WAF --> AppBackend
 BotShield --> HoneyTrap
 HoneyTrap --> AlertSystem
+BotShield --> BehaviorDB
+BehaviorDB --> AnomalyEngine
+AnomalyEngine --> SOC
