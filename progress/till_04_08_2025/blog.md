@@ -36,15 +36,8 @@ These bots:
 
 ## 🤖 GenAI Applications in Defense
 
-| GenAI Application      | Description                                                         |
-|------------------------|---------------------------------------------------------------------|
-| Bot Simulation         | Train your detection systems with synthetic traffic from LLM bots   |
-| Behavioral Clustering  | Classify session types (human, headless, LLM-driven) in real time   |
-| Automated Decoy Fields | GenAI generates dynamic, realistic honeypots on every page load     |
-| Prompt Analysis        | NLP models analyze form inputs to flag GPT-generated text           |
-| Chat-Aware Firewalls   | Understands if chatbots interacting with site APIs are real or fake |
-| Semantic Click Trails  | LLMs analyze sequence of clicks and infer human intent              |
-| Alert Summarization    | Converts bot behavior into readable reports for analysts            |
+<img width="1045" height="456" alt="image" src="https://github.com/user-attachments/assets/2b411bcc-fb7a-436a-9ef5-9b4d42f26248" />
+
 
 > 💡 *Example*: A GPT-4 agent tries to bypass a product configurator. GenAI-enhanced detection scores the interaction's entropy, identifies LLM traits, and blocks it before submission.
 
