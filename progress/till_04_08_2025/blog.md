@@ -15,14 +15,7 @@ These bots:
 
 ## 👾 Common Malicious Bots
 
-| Bot Type             | Intent                           | Example Use Case                          |
-|----------------------|----------------------------------|-------------------------------------------|
-| Scrapers             | Steal content/pricing            | Competitor scraping hotel prices          |
-| Credential Stuffers  | Brute-force logins               | Using breached passwords on login pages   |
-| Inventory Hoarders   | Fake purchases                   | Holding limited-edition sneakers          |
-| LLM-Powered Agents   | Simulate full user sessions      | Auto-filling loan forms to exploit offers |
-| SEO Spam Bots        | Inject links into comment forms  | Manipulate page rankings                  |
-| Headless Browsers    | Mimic human browsers using JS    | Abuse ad views or product trials          |
+<img width="1157" height="416" alt="image" src="https://github.com/user-attachments/assets/46665873-9256-457a-9f59-0c0e8a0cab09" />
 
 ---
 
