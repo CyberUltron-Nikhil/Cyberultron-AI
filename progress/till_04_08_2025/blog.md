@@ -45,15 +45,5 @@ These bots:
 
 ## 🧱 Real-World Defense Architecture
 
-```mermaid
-graph TD;
-Client --> CDN
-CDN --> BotShield
-BotShield --> GenAI_Classifier
-GenAI_Classifier --> WAF
-WAF --> AppBackend
-BotShield --> HoneyTrap
-HoneyTrap --> AlertSystem
-BotShield --> BehaviorDB
-BehaviorDB --> AnomalyEngine
-AnomalyEngine --> SOC
+<img width="851" height="748" alt="image" src="https://github.com/user-attachments/assets/3f07d7c0-8ae0-4b7a-8b9e-9ce0dcd349f5" />
+
