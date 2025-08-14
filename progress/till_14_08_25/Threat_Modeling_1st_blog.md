@@ -26,7 +26,7 @@ Proactive security reduces not just the likelihood of a breach, but also the pot
 Before you can start identifying threats, you need to understand the system you're protecting.  
 This involves breaking down the system into its **core components**:
 
-<img width="1542" height="456" alt="image" src="https://github.com/user-attachments/assets/8bd827e8-fc78-4eec-b546-691efcb6b8b6" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/b474c859-0669-4871-a6e0-b4079680d4bf" />
 
 
 ---
