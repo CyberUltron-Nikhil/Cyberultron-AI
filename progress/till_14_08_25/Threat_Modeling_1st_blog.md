@@ -26,7 +26,8 @@ Proactive security reduces not just the likelihood of a breach, but also the pot
 Before you can start identifying threats, you need to understand the system you're protecting.  
 This involves breaking down the system into its **core components**:
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/b474c859-0669-4871-a6e0-b4079680d4bf" />
+<img width="1542" height="456" alt="Screenshot 2025-08-14 091241" src="https://github.com/user-attachments/assets/0deb96d9-202b-46b4-ae74-ce7af8a182c1" />
+
 
 
 ---
@@ -83,13 +84,8 @@ An AI system could analyze your API specifications and auto-generate potential a
 ## Visual Overview
 
 Below is a conceptual representation of the threat modeling workflow:
-
-<img width="346" height="683" alt="image" src="https://github.com/user-attachments/assets/5b897af9-ad03-45f5-9bdd-b2458e2146dc" />
-
-
+<img width="454" height="836" alt="image" src="https://github.com/user-attachments/assets/c2922aea-eb9a-42c2-8448-0c0cdf1770fe" />
 ---
-
-
 
 Threat modeling is not a one-time security checkbox — it's a **continuous discipline**.  
 By adopting it early in the design phase, you build **security by design** instead of adding it as an afterthought.
