@@ -45,13 +45,5 @@ If an attacker tries to send packets from an unauthorized IP address or uses an 
 
 ## 📌 Visual Representation
 
-```plaintext
-       INTERNET
-          |
-    [ Network Firewall ]
-          |
-   ---------------
-   |             |
-[WAF]        Other Services
-   |
-Web Application
+<img width="395" height="298" alt="image" src="https://github.com/user-attachments/assets/76904f2f-91fb-4058-b3a0-cde87434a937" />
+
