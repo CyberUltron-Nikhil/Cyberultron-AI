@@ -89,3 +89,25 @@ An AI system could analyze your API specifications and auto-generate potential a
 Below is a conceptual representation of the threat modeling workflow:
 
 
+---
+
+
+
+Threat modeling is not a one-time security checkbox — it's a **continuous discipline**.  
+By adopting it early in the design phase, you build **security by design** instead of adding it as an afterthought.
+
+In the coming weeks, we'll dive deeper into:
+- Identifying **Assets**
+- Mapping **Attack Surfaces**
+- Understanding **Trust Boundaries**
+- Applying **STRIDE** & **DREAD** with real-world case studies
+
+---
+
+**Pro Tip:**  
+Start small. Even a simple threat model for a single feature can uncover critical vulnerabilities before they make it to production.
+
+---
+
+
+
