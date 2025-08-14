@@ -26,12 +26,8 @@ Proactive security reduces not just the likelihood of a breach, but also the pot
 Before you can start identifying threats, you need to understand the system you're protecting.  
 This involves breaking down the system into its **core components**:
 
-| Component | Definition | Purpose |
-| :--- | :--- | :--- |
-| **Assets** | Anything of value that needs protection — data, infrastructure, credentials, business processes. | To understand what an attacker might target. |
-| **Threat Actors** | Entities that could potentially attack the system (e.g., hackers, insiders, competitors, nation-states). | To understand *who* might attack and *why*. |
-| **Entry Points (Attack Surfaces)** | Interfaces where attackers can interact with the system (APIs, login forms, exposed ports). | To map exposed areas that require security controls. |
-| **Trust Boundaries** | Lines where the level of trust changes between components or networks. | To enforce validation and security checks where untrusted data enters trusted zones. |
+<img width="1542" height="456" alt="image" src="https://github.com/user-attachments/assets/8bd827e8-fc78-4eec-b546-691efcb6b8b6" />
+
 
 ---
 
