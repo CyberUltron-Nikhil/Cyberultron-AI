@@ -40,17 +40,8 @@ If an attacker tries to send packets from an unauthorized IP address or uses an 
 
 ## 📊 WAF vs. Network Firewall – Key Differences
 
-| Feature | WAF | Network Firewall |
-|---------|-----|------------------|
-| **OSI Layer** | Layer 7 (Application) | Layers 3 & 4 (Network & Transport) |
-| **Traffic Inspected** | HTTP/HTTPS content | IP, TCP, UDP packets |
-| **Primary Threats** | SQLi, XSS, CSRF, RFI, Zero-Day exploits | Unauthorized access, port scanning, DoS attacks |
-| **Granularity** | Deep inspection of web requests/responses | Broad filtering based on IP and port rules |
-| **Protection Scope** | Web applications and APIs | Entire network perimeter |
-| **Encryption Handling** | Can decrypt and inspect HTTPS traffic | Usually does not inspect encrypted payloads |
-| **Adaptability** | Often uses machine learning for new threats | Mostly rule-based packet filtering |
+<img width="1339" height="466" alt="image" src="https://github.com/user-attachments/assets/515c29d0-5639-439a-bc67-787ee16028c1" />
 
----
 
 ## 📌 Visual Representation
 
