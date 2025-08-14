@@ -1,4 +1,4 @@
-# 🛡️ Week 1: WAFs vs. Network Firewalls – Understanding the Difference
+# 🛡️  WAFs vs. Network Firewalls – Understanding the Difference
 
 In modern cybersecurity, **firewalls** are often seen as the first line of defense.  
 However, not all firewalls are created equal — especially when we compare **Web Application Firewalls (WAFs)** with **Network Firewalls**.  
