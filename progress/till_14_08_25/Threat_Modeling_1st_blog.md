@@ -84,6 +84,8 @@ An AI system could analyze your API specifications and auto-generate potential a
 
 Below is a conceptual representation of the threat modeling workflow:
 
+<img width="346" height="683" alt="image" src="https://github.com/user-attachments/assets/5b897af9-ad03-45f5-9bdd-b2458e2146dc" />
+
 
 ---
 
