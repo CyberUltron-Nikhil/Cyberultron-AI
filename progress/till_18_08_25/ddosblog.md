@@ -45,14 +45,6 @@ This makes the targeted service **slow** or completely **unavailable** to legiti
 
 ## 🔍 Visual Representation
 
-```plaintext
-        BOTNET (Infected Devices)
-        📱 📡 💻 📡 📱
-             \   |   /
-              \  |  /
-               \ | /
-           🌐 Internet
-               |
-          [Target Server] ❌
-      Overwhelmed with Traffic
+<img width="344" height="292" alt="image" src="https://github.com/user-attachments/assets/53bba0e4-b614-4886-a185-fc8f87d2e7dc" />
+
 
