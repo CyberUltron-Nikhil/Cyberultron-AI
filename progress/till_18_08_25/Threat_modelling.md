@@ -74,7 +74,9 @@ In this case, securing the **attack surface** (form input & API) and enforcing s
 ## Visual Overview
 
 ![ABCs of Threat Modeling]
-<img width="477" height="398" alt="image" src="https://github.com/user-attachments/assets/4741bb52-7047-40e3-b8c2-a5d175183e09" />
+
+---
+<img width="300" height="208" alt="image" src="https://github.com/user-attachments/assets/4741bb52-7047-40e3-b8c2-a5d175183e09" />
 
 ---
 
