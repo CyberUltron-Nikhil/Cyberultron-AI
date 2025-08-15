@@ -19,13 +19,8 @@ This makes the targeted service **slow** or completely **unavailable** to legiti
 
 ## 🛠️ Types of DDoS Attacks
 
-| Attack Category     | Description | Example Attacks |
-|---------------------|-------------|-----------------|
-| **Volumetric**      | Floods the network with massive amounts of traffic, saturating the bandwidth. | UDP Flood, ICMP Flood |
-| **Protocol**        | Exploits weaknesses in the **TCP/IP protocol stack**, consuming server or network resources. | SYN Flood, Ping of Death |
-| **Application Layer** | Targets vulnerabilities in the application layer (Layer 7), making it hard to detect and mitigate. | HTTP Flood, Slowloris |
+<img width="1514" height="288" alt="image" src="https://github.com/user-attachments/assets/8b1ca19d-d637-476a-8fbd-55089349edd7" />
 
----
 
 ### 1️⃣ Volumetric Attacks
 - **Goal:** Saturate available bandwidth.
