@@ -49,16 +49,5 @@ A scraper bot might continuously extract product pricing from your e-commerce si
 
 ## 📌 Visual Representation
 
-```plaintext
-          ┌─────────────────────┐
-          │        BOTS         │
-          └─────────┬───────────┘
-                    │
-   ┌────────────────┴───────────────┐
-   │                                │
-GOOD BOTS ✅                   BAD BOTS ❌
-   │                                │
-- Search Crawlers                  - Scrapers
-- Monitoring Tools                 - Spammers
-- Chatbots                         - DDoS Bots
-                                   - Vulnerability Scanners
+<img width="699" height="378" alt="image" src="https://github.com/user-attachments/assets/00a67d22-463d-4f6e-a822-3272b0bf9271" />
+
