@@ -43,13 +43,7 @@ A scraper bot might continuously extract product pricing from your e-commerce si
 
 ## ⚔️ Good vs. Bad Bots – Side by Side
 
-| Feature              | Good Bots 🟢             | Bad Bots 🔴                |
-|----------------------|--------------------------|----------------------------|
-| **Purpose**          | Support functionality    | Disrupt or exploit systems |
-| **Examples**         | Googlebot, UptimeRobot   | Scrapers, Spam Bots        |
-| **Impact**           | Improves visibility, uptime | Financial loss, downtime  |
-| **Detection**        | Identifiable user agents | Often disguised as humans  |
-| **Allowed?**         | Yes (with robots.txt)    | No, must be blocked        |
+<img width="811" height="363" alt="image" src="https://github.com/user-attachments/assets/216972a2-b465-4b48-aa48-1eff0b230959" />
 
 ---
 
