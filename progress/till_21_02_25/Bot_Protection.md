@@ -49,5 +49,5 @@ A scraper bot might continuously extract product pricing from your e-commerce si
 
 ## 📌 Visual Representation
 
-<img width="699" height="378" alt="image" src="https://github.com/user-attachments/assets/00a67d22-463d-4f6e-a822-3272b0bf9271" />
+<img width="500" height="378" alt="image" src="https://github.com/user-attachments/assets/00a67d22-463d-4f6e-a822-3272b0bf9271" />
 
