@@ -34,12 +34,7 @@ When Googlebot crawls your site, it helps your content appear in search results,
 Bad bots are designed for **malicious or unauthorized activities**.  
 They often mimic **human behavior** (e.g., random mouse movement, fake headers) to bypass security measures.
 
-| Bot Type               | Purpose                                      | Common Activities |
-|-------------------------|----------------------------------------------|------------------|
-| **Spam Bots**           | Spread unwanted content across platforms.   | Posting spam comments, fake sign-ups |
-| **Web Scrapers**        | Steal structured/unstructured data.          | Copying pricing data, content theft |
-| **Vulnerability Scanners** | Probe websites for weak points.           | Exploit open ports, outdated software |
-| **DDoS Bots**           | Flood servers with traffic as part of a botnet. | Overwhelm and shut down services |
+<img width="1255" height="302" alt="image" src="https://github.com/user-attachments/assets/049569a8-8df6-4a85-b340-57c5a924660f" />
 
 **Example:**  
 A scraper bot might continuously extract product pricing from your e-commerce site, allowing competitors to undercut your business.
