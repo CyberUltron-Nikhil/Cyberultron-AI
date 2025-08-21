@@ -22,11 +22,7 @@ They can:
 
 Good bots **add value** to the internet ecosystem. They are typically **authorized** and beneficial for website owners.
 
-| Bot Type              | Purpose                                             | Examples                |
-|------------------------|-----------------------------------------------------|-------------------------|
-| **Search Engine Bots** | Indexing and crawling web pages for search engines. | Googlebot, Bingbot      |
-| **Monitoring Bots**    | Tracking uptime, response time, and performance.   | UptimeRobot, Pingdom    |
-| **Chatbots**           | Providing automated customer support and FAQs.     | Intercom, Drift, Zendesk|
+<img width="1148" height="239" alt="image" src="https://github.com/user-attachments/assets/3df0a8f8-6558-4172-be7b-afcdd36ae130" />
 
 **Example:**  
 When Googlebot crawls your site, it helps your content appear in search results, driving organic traffic.  
