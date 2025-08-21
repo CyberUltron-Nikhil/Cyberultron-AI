@@ -29,7 +29,7 @@ The power of STRIDE lies in its **simplicity** and **coverage**. By systematical
 
 Here’s a visual summary of STRIDE’s categories:  
 
-<img width="769" height="514" alt="image" src="https://github.com/user-attachments/assets/f420e157-6c24-4535-89ea-c2a8457b2f14" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/f420e157-6c24-4535-89ea-c2a8457b2f14" />
 
 ---
 
