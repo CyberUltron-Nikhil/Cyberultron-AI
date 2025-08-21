@@ -11,14 +11,7 @@ When you're threat modeling, you can apply each of these categories to the vario
 
 Here’s a breakdown of each:
 
-| **Category** | **Definition** | **Example** |
-|--------------|----------------|-------------|
-| **S – Spoofing Identity** | Attacker impersonates someone/something else to gain access. | Stealing a session cookie to bypass authentication. |
-| **T – Tampering with Data** | Unauthorized modification of data. | Changing product prices in a URL to pay less. |
-| **R – Repudiation** | Denying an action without sufficient proof. | Fraudulent transaction without proper logging. |
-| **I – Information Disclosure** | Unauthorized access to sensitive information. | Error messages exposing database connection strings. |
-| **D – Denial of Service (DoS)** | Overwhelming a system to make it unavailable. | Flooding a server with requests until it crashes. |
-| **E – Elevation of Privilege** | Gaining higher access than intended. | Exploiting a bug to gain admin rights. |
+<img width="1536" height="515" alt="image" src="https://github.com/user-attachments/assets/d16305b4-aead-4b65-9dc0-e954bbfc7ae5" />
 
 ---
 
@@ -36,7 +29,7 @@ The power of STRIDE lies in its **simplicity** and **coverage**. By systematical
 
 Here’s a visual summary of STRIDE’s categories:  
 
-![STRIDE Framework Diagram](STRIDE-framework-diagram.png)
+<img width="769" height="514" alt="image" src="https://github.com/user-attachments/assets/f420e157-6c24-4535-89ea-c2a8457b2f14" />
 
 ---
 
