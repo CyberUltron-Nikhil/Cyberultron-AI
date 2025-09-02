@@ -1,4 +1,4 @@
-# 🕵️ Week 16: Anomaly Detection Explained
+# 🕵️ Anomaly Detection Explained
 
 Cybersecurity is evolving rapidly, and one of the most powerful techniques gaining traction is **Anomaly Detection**. Unlike traditional security tools that rely on known threat signatures, anomaly detection focuses on identifying **abnormal behavior**—the kind that doesn’t fit the usual pattern. This approach is especially valuable in detecting **zero-day attacks** and sophisticated intrusions that evade conventional defenses.
 
