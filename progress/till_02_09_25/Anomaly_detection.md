@@ -21,11 +21,7 @@ Anomaly detection flips the script. It doesn’t need prior knowledge of a threa
 
 ### 📊 Feature Comparison
 
-| Feature               | Signature-Based Detection                      | Anomaly Detection                                      |
-|----------------------|--------------------------------------------------|--------------------------------------------------------|
-| **Detection Logic**  | Matches predefined threat patterns               | Identifies statistical outliers or deviations from a baseline |
-| **Primary Strength** | Highly accurate for known threats               | Catches novel and zero-day attacks                     |
-| **Primary Weakness** | Ineffective against new or unknown threats      | May generate false positives if baseline isn't well-tuned |
+<img width="1396" height="247" alt="image" src="https://github.com/user-attachments/assets/60bb0aa3-f14c-417c-8290-5e443f5f3756" />
 
 ---
 
