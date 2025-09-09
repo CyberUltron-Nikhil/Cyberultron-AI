@@ -20,13 +20,8 @@ The DREAD model is a risk scoring system used to prioritize threats. Each threat
 
 ### Here's what each letter in DREAD stands for:
 
-| **Criterion**     | **Description**                                                                 | **Example Score (1-10)**                    |
-|-------------------|---------------------------------------------------------------------------------|---------------------------------------------|
-| **Damage**        | How bad would the attack be? The total impact or damage if the threat is exploited. | 10: Total data loss; 1: Minor inconvenience. |
-| **Reproducibility** | How easy is it for an attacker to reproduce the attack?                        | 10: Extremely easy, one-click script; 1: Very difficult, requires special tools. |
-| **Exploitability** | How easy is it to exploit the vulnerability?                                   | 10: Trivial, no technical skill; 1: Requires a deep understanding of the system. |
-| **Affected Users** | How many users would be impacted by the attack?                                | 10: All users; 1: A single, non-critical user. |
-| **Discoverability**| How likely is it that an attacker will find the vulnerability?                 | 10: Publicly known; 1: Very difficult to find. |
+<img width="1535" height="468" alt="image" src="https://github.com/user-attachments/assets/c9b65a5c-1af2-469e-913c-12f2073cf375" />
+
 
 ---
 
