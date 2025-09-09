@@ -1,11 +1,3 @@
----
-title: "What to Fix First? Mastering Risk Assessment with the DREAD Model 📊"
-description: "Learn how to use the DREAD model for risk assessment in threat modeling. Prioritize vulnerabilities with a structured scoring system and fix what matters most first."
-author: "Megha SD"
-date: 2025-09-09
-tags: ["Threat Modeling", "Risk Assessment", "DREAD", "Cybersecurity", "STRIDE"]
----
-
 # What to Fix First? Mastering Risk Assessment with the DREAD Model 📊
 
 By now, we've identified our system's assets, mapped its attack surfaces, and used frameworks like STRIDE to uncover threats and vulnerabilities. But not all risks are created equal. The final, critical step in threat modeling is risk assessment: deciding which issues are the most urgent and dangerous. This week, we'll introduce the DREAD model, a simple yet powerful way to prioritize your security efforts.
