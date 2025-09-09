@@ -13,12 +13,7 @@ Modern DDoS attacks are **more sophisticated and difficult to mitigate than ever
 
 Here are some of the most **prevalent evolving threats**:
 
-| **Threat Vector**     | **Description**                                                                 | **Primary Goal** |
-|------------------------|---------------------------------------------------------------------------------|------------------|
-| **IoT Botnets**        | A network of compromised Internet of Things (IoT) devices like smart cameras or home routers. | Generating massive volumetric attacks by leveraging a huge number of devices. |
-| **Multi-Vector Attacks** | Combines different attack types simultaneously to overwhelm multiple layers of defense. | Overwhelming network, protocol, and application layers at the same time. |
-| **DNS Amplification**  | Exploits open DNS resolvers to amplify attack traffic, turning a small request into a massive response. | Maximizing attack volume with minimal resources. |
-| **ACK/SYN Floods**     | Exploits weaknesses in the TCP handshake protocol to exhaust server resources. | Disrupting communication and preventing new connections from being established. |
+<img width="1537" height="450" alt="image" src="https://github.com/user-attachments/assets/d10c61dc-86eb-43e0-a5e2-33088e207588" />
 
 ---
 
