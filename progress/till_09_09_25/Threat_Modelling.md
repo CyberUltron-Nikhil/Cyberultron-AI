@@ -41,13 +41,8 @@ A higher average score indicates a more critical risk that should be addressed w
 
 Let's apply the DREAD model to a common threat we've discussed: **SQL Injection in a login form.**
 
-| **DREAD Criterion** | **Our Assessment**                                                                                   | **Score** |
-|----------------------|-----------------------------------------------------------------------------------------------------|-----------|
-| **Damage**           | An attacker could steal all user credentials, including hashed passwords and other personal information. This is a severe breach. | 9 |
-| **Reproducibility**  | A simple SQL injection payload can be found online and is easy to use.                              | 10 |
-| **Exploitability**   | This requires some basic technical knowledge, but is not difficult for a skilled attacker.          | 8 |
-| **Affected Users**   | Every user account is at risk if the attacker gains full access to the database.                    | 10 |
-| **Discoverability**  | This vulnerability is easy to find by entering simple test strings into the login form.             | 9 |
+<img width="1568" height="440" alt="image" src="https://github.com/user-attachments/assets/10683f3c-fd15-48f4-adcc-416a859b2f51" />
+
 
 ---
 
