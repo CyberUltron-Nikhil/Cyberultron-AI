@@ -45,12 +45,7 @@ Here are some of the most common and effective mitigations you can implement, di
 
 The true value of this step is linking the specific threats you've found to the mitigations you plan to implement. This ensures your security efforts are purposeful and effective.
 
-| Threat Identified       | Vulnerability              | Recommended Mitigation                    |
-|--------------------------|----------------------------|-------------------------------------------|
-| Spoofing Identity        | Weak password policy       | Multi-Factor Authentication (MFA)         |
-| Tampering                | Unvalidated user input     | Robust input validation and sanitization  |
-| Information Disclosure   | Verbose error messages     | Generic error messages; proper logging    |
-| Denial of Service (DoS)  | Missing rate limiting      | Implement rate limiting on all APIs       |
+<img width="1049" height="304" alt="image" src="https://github.com/user-attachments/assets/2ebe921d-6798-4e19-a849-a9f2110701e6" />
 
 ---
 
