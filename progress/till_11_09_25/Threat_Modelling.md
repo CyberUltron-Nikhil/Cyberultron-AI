@@ -45,7 +45,7 @@ Here are some of the most common and effective mitigations you can implement, di
 
 The true value of this step is linking the specific threats you've found to the mitigations you plan to implement. This ensures your security efforts are purposeful and effective.
 
-<img width="600" height="154" alt="image" src="https://github.com/user-attachments/assets/2ebe921d-6798-4e19-a849-a9f2110701e6" />
+<img width="750" height="184" alt="image" src="https://github.com/user-attachments/assets/2ebe921d-6798-4e19-a849-a9f2110701e6" />
 
 ---
 
