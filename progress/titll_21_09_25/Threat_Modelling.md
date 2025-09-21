@@ -34,11 +34,7 @@ It also serves as the **single source of truth** for your system’s security po
 
 A table that lists identified threats, their enabling vulnerabilities, risk scores, and proposed mitigations.
 
-| Threat ID | Threat Description   | Vulnerability       | Risk Score | Mitigation              |
-|-----------|----------------------|---------------------|------------|-------------------------|
-| T-01      | SQL Injection        | Unsanitized inputs  | High       | Parameterized queries   |
-| T-02      | Data Exposure        | Weak TLS config     | Medium     | Enforce TLS 1.3         |
-| T-03      | Privilege Escalation | Misconfigured IAM   | High       | Least privilege policies |
+<img width="1066" height="251" alt="image" src="https://github.com/user-attachments/assets/bb844776-d4eb-472e-b48a-19bbc776bc9c" />
 
 ---
 
