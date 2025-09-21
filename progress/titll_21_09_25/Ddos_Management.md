@@ -12,12 +12,7 @@ This blog explores the **four pillars of DDoS management** and how organizations
 
 Effective DDoS management is a continuous cycle of **preparation, detection, mitigation, and analysis**. Each stage is vital to ensuring business continuity and minimizing the impact of an attack.
 
-| **Pillar**     | **Description**                                                                 | **Best Practices** |
-|----------------|---------------------------------------------------------------------------------|---------------------|
-| **Preparation** | Proactively strengthening your infrastructure and creating a clear response plan before an attack occurs. | 1. **Know Your Traffic**: Establish a baseline of normal traffic to easily spot anomalies.<br>2. **Conduct Drills**: Simulate DDoS attacks to test your response plan and identify weaknesses.<br>3. **Increase Capacity**: Ensure your network and servers have enough bandwidth and resources to handle a surge in traffic. |
-| **Detection**   | The ability to quickly and accurately identify a DDoS attack in its early stages. | 1. **Real-time Monitoring**: Use tools to monitor network traffic for sudden spikes or unusual patterns.<br>2. **Behavior Analysis**: Look for traffic that deviates from your established baseline of normal behavior. |
-| **Mitigation**  | The process of filtering out malicious traffic while allowing legitimate users to access your services. | 1. **Implement Layers**: Use a combination of tools like a WAF, rate limiting, and challenge mechanisms (e.g., CAPTCHA).<br>2. **Use a Scrubbing Center**: Divert attack traffic to a specialized service that cleans it before it reaches your servers. |
-| **Analysis**    | Reviewing an attack after it has been mitigated to learn from the event and improve future defenses. | 1. **Post-Attack Review**: Analyze log data to understand the attack vector, source, and size.<br>2. **Update Defenses**: Use insights gained from the analysis to refine your security rules and bolster weak points. |
+<img width="1370" height="714" alt="image" src="https://github.com/user-attachments/assets/f3237143-dd05-49c4-b3e1-2bca92bf8e04" />
 
 ---
 
