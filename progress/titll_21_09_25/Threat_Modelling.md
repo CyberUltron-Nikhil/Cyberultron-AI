@@ -34,7 +34,7 @@ It also serves as the **single source of truth** for your system’s security po
 
 A table that lists identified threats, their enabling vulnerabilities, risk scores, and proposed mitigations.
 
-<img width="1066" height="251" alt="image" src="https://github.com/user-attachments/assets/bb844776-d4eb-472e-b48a-19bbc776bc9c" />
+<img width="750" height="251" alt="image" src="https://github.com/user-attachments/assets/bb844776-d4eb-472e-b48a-19bbc776bc9c" />
 
 ---
 
@@ -45,12 +45,7 @@ Document **accepted risks** and **deferred risks** with justification.
 
 ### Example Mitigation Report
 
-| Risk ID | Threat Description   | Mitigation Status | Notes                                |
-|---------|----------------------|------------------|--------------------------------------|
-| R-01    | SQL Injection        | Mitigated        | Implemented parameterized queries    |
-| R-02    | Data Exposure        | Mitigated        | Upgraded TLS to 1.3                  |
-| R-03    | Legacy System Access | Deferred         | Will deprecate legacy system in Q4   |
-| R-04    | Misconfigured IAM    | Accepted         | Low business impact, monitored risk  |
+<img width="1066" height="328" alt="image" src="https://github.com/user-attachments/assets/e1152828-543f-4ad2-8a02-21ffb34b4ae6" />
 
 ---
 
