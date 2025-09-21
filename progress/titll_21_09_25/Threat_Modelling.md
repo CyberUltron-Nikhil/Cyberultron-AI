@@ -45,7 +45,7 @@ Document **accepted risks** and **deferred risks** with justification.
 
 ### Example Mitigation Report
 
-<img width="1066" height="328" alt="image" src="https://github.com/user-attachments/assets/e1152828-543f-4ad2-8a02-21ffb34b4ae6" />
+<img width="800" height="328" alt="image" src="https://github.com/user-attachments/assets/e1152828-543f-4ad2-8a02-21ffb34b4ae6" />
 
 ---
 
@@ -93,13 +93,7 @@ This aligns with **DevSecOps principles**, ensuring security is not an afterthou
 
 ## 📊 Quick Recap Table
 
-| Aspect                | Purpose                                  | Frequency          |
-|------------------------|------------------------------------------|--------------------|
-| Architecture Diagram   | Visual map of system + trust boundaries | Update on change   |
-| Threat Table           | Centralized list of threats & fixes     | Update continuously|
-| Mitigation Report      | Record of security decisions            | With every release |
-| Periodic Review        | Reassess whole system                   | Quarterly/Annual   |
-| Event-Driven Update    | Respond to new risks                    | As needed          |
+<img width="800" height="352" alt="image" src="https://github.com/user-attachments/assets/375df977-40f5-43b2-b9c4-d8e81ebf80a1" />
 
 ---
 
