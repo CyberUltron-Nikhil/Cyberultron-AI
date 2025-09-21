@@ -22,13 +22,7 @@ It also serves as the **single source of truth** for your system’s security po
 
    Example DFD (simplified):
 
-   ```mermaid
-   flowchart LR
-       User -->|Request| WebApp
-       WebApp -->|Query| Database
-       WebApp -->|Auth| IdentityProvider
-       Database -->|Data| WebApp
-       IdentityProvider -->|Token| WebApp
+  <img width="900" height="428" alt="image" src="https://github.com/user-attachments/assets/70baeeea-b263-4cfb-9e41-b76238ad0609" />
 
 ## Threat Table
 
