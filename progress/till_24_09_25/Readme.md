@@ -1,7 +1,7 @@
 # ZeroShield
 
 <div align="center">
-   <img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
+   <img width="200" height="50" alt="image" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
 
   
   <br />
