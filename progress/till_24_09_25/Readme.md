@@ -39,7 +39,6 @@
   </div>
 </div>
 
-
 ---
 
 ## Table of Contents
@@ -62,7 +61,7 @@
 
 ## About
 
-**ZeroShield** is an AI-powered platform for holistic threat modeling and vulnerability management. It empowers organizations to identify, visualize, and manage risks across classic applications, GenAI/LLM integrations, and codebases managed through MCP servers. ZeroShield brings together system diagram analysis, LLM security probing, and automated codebase scanning, providing actionable risk scores, compliance insights, and AI-driven remediation guidance, all within a unified dashboard and API.
+**ZeroShield** is an AI-powered platform for holistic threat modeling and vulnerability management. It empowers organizations to identify, visualize, and manage risks across classic applications, GenAI/LLM integrations, and codebases managed through MCP servers. ZeroShield brings together system diagram analysis, LLM security probing, and automated codebase scanning, providing actionable risk scores, compliance insights, and AI-driven remediation guidance—all within a unified dashboard and workflow.
 
 ---
 
@@ -103,163 +102,120 @@ To make enterprise security risk analysis simple, automated, and actionable—no
 
 ### 1. Threat Modeling of Normal Systems
 
-#### What It Does
+#### In-Depth Explanation
 
-- Accepts Data Flow Diagrams (DFDs) and detailed system architecture inputs (technology stack, authentication, sensitive data, etc.).
-- Runs automated threat modeling using STRIDE, DREAD, and OWASP Top 10 methodologies.
-- Identifies and scores threats, maps them to the affected components, and highlights both resolved and unresolved vulnerabilities.
-- Visualizes attack surfaces, produces risk heatmaps, and aligns findings with compliance frameworks.
+ZeroShield enables fully automated threat modeling for traditional and cloud-native systems using user-provided Data Flow Diagrams (DFDs) and architecture details. Leveraging industry methodologies such as STRIDE, DREAD, and OWASP Top 10, the platform analyzes every component and data flow to identify potential threats, assign risk scores, and map vulnerabilities to specific areas of your application or infrastructure.
 
-#### End-User Value
+**How it works for different users:**
 
 - **Security Engineers:**  
-  - Save time by automating comprehensive threat models for each release and infrastructure change.
-  - Focus reviews on the highest-risk threats thanks to risk scoring and prioritization.
-  - Maintain consistent documentation for audit and compliance processes.
+  - Receive comprehensive, up-to-date threat models for each architecture version or deployment.
+  - Focus reviews on prioritized, risk-scored threats, facilitating more effective security operations and audits.
+  - Maintain an auditable, versioned record of threat analysis and remediation progress.
 
 - **Developers & DevOps:**  
-  - Integrate threat modeling into CI/CD pipelines and PR reviews.
-  - Detect issues before code reaches production or cloud environments.
-  - Receive actionable, context-specific remediation suggestions.
+  - Get visibility into security gaps as early as the design phase, minimizing costly fixes later.
+  - Integrate threat modeling into CI/CD and code review processes—enabling shift-left security.
+  - Access actionable, context-aware remediation guidance that’s mapped to your stack and workflows.
 
 - **Cloud & Solution Architects:**  
-  - Experiment with architectural changes and instantly see security implications.
-  - Ensure new designs meet both security and compliance requirements.
-  - Gain visual feedback (attack trees, heatmaps) for technical and non-technical audiences.
+  - Instantly see the security implications of architectural choices and design patterns.
+  - Use visualizations like attack trees and heatmaps to communicate risk to technical and business stakeholders.
+  - Experiment with different system designs and receive immediate, evidence-based feedback.
 
-#### Typical User Workflow
-
-1. **Upload DFD** and enter system details via dashboard or API.
-2. **Automatic threat model generation:** STRIDE/DREAD/OWASP analysis, risk scoring.
-3. **Review results:** Threat cards, risk scores, compliance mapping, and detailed vulnerability list.
-4. **Take action:** Assign, track, and resolve issues; download compliance-ready reports.
-
-#### Example API Usage
-
-```bash
-curl -X POST http://localhost:8000/create/normal_system/pre_upload \
-  -F "image_file=@/path/to/your_dfd.png"
-curl -X POST http://localhost:8000/create/normal_system \
-  -H "Content-Type: application/json" \
-  -d '{ ... system details ... }'
-curl http://localhost:8000/fetch/normal_system/2
-```
+**Dashboard View:**  
+Interactive cards, risk scores, unresolved/resolved threat lists, OWASP/STRIDE mapping, heatmaps, and compliance overlays make it easy for all stakeholders to understand and act on their risk posture.
 
 ---
 
 ### 2. LLM Vulnerability Testing
 
-#### What It Does
+#### In-Depth Explanation
 
-- Enables security analysis of LLM (Large Language Model) and GenAI integrations.
-- Performs automated probing for LLM-specific risks: prompt injection, output manipulation, data leakage, supply chain vulnerabilities, and model abuse.
-- Assigns risk scores to each finding and generates actionable remediation advice.
-- Visualizes LLM attack vectors and context-specific compliance risks (e.g., data privacy, misuse).
+ZeroShield delivers specialized security analysis for LLM (Large Language Model) and GenAI integrations, which are increasingly a target for novel attacks. The platform performs automated, context-aware probing for AI-specific risks—such as prompt injection, data leakage, model abuse, and supply chain vulnerabilities.
 
-#### End-User Value
+**How it works for different users:**
 
 - **AI/ML & Product Teams:**  
-  - Test LLMs for prompt injection, output hijacks, data exposure, and more before and after deployment.
-  - Validate that GenAI-powered features meet security/privacy standards.
-  - Continuously monitor for new, emerging threats in the LLM threat landscape.
+  - Test deployed LLMs and GenAI features for prompt attacks, output manipulation, and sensitive data exposure—both pre- and post-release.
+  - Get tailored recommendations for securing prompt-handling logic, input validation, and model integration.
+  - Demonstrate to leadership and partners that AI risks are actively managed.
 
 - **Security Engineers:**  
-  - Integrate LLM scanning into broader threat modeling and security dashboards.
-  - Automate GenAI security validation for every release.
-  - Correlate LLM risks with other system and codebase vulnerabilities.
+  - Integrate LLM scans into overall risk dashboards and ongoing threat models.
+  - Automate GenAI risk validation with every build, ensuring no new risks are introduced as models or prompts change.
+  - Correlate LLM-specific vulnerabilities with broader application and infrastructure risk.
 
 - **Compliance & Audit:**  
-  - Demonstrate ongoing due diligence for AI-related compliance and governance.
-  - Export LLM vulnerability and remediation reports for stakeholders.
+  - Map AI/LLM vulnerabilities and controls to regulatory requirements and organizational standards.
+  - Maintain evidence of active monitoring and mitigation of emerging AI threats.
 
-#### Typical User Workflow
-
-1. **Submit LLM provider/model and probes** for risk scanning.
-2. **Automated vulnerability testing** is performed (e.g., prompt injection, prompt leaks).
-3. **Review dashboard:** Severity-ranked vulnerabilities, attack trees, and remediation guidance.
-4. **Mitigate:** Apply suggested fixes and re-test as needed.
-
-#### Example API Usage
-
-```bash
-curl -X POST http://localhost:8000/create/llm_scan \
-  -H "Content-Type: application/json" \
-  -d '{ "provider": "OpenAI", "model": "gpt-4", "probes": ["ansiescape"] }'
-curl http://localhost:8000/fetch/llm_scan/3
-```
+**Dashboard View:**  
+Severity-ranked vulnerability lists, attack trees for GenAI, compliance mapping for AI use, and ongoing risk trend analytics provide all stakeholders with clear insight into AI risk posture.
 
 ---
 
 ### 3. MCP Server Vulnerability Scanning
 
-#### What It Does
+#### In-Depth Explanation
 
-- Integrates with MCP (Managed Code Pipeline) servers to automatically scan source code repositories for vulnerabilities, hardcoded secrets, misconfigurations, and compliance violations.
-- Supports multi-repo, multi-language environments, providing centralized dashboards and unified reporting.
-- Maps findings directly to compliance frameworks and allows for real-time tracking of remediation progress.
+ZeroShield’s MCP Server Vulnerability Scanning provides an advanced, automated approach to codebase security and compliance analysis. 
 
-#### End-User Value
+**How it works:**
+
+- The platform **clones your MCP server repository temporarily** and scans it for vulnerability patterns using advanced static analysis tools such as semgrep.
+- All detected issues are **flagged and then analyzed by an LLM** to generate clear explanations and actionable fixes. 
+- **Phase 2:** Each finding is further processed to generate OWASP vulnerability mappings and identify which compliance controls (across standards like ISO 27001, PCI DSS, NIST, SOC2, and GDPR) are impacted by each finding.
+- The entire workflow is seamless and hands-off: once triggered, ZeroShield orchestrates scanning, analysis, mapping, and compliance reporting.
+
+**How it works for different users:**
 
 - **Developers & DevOps:**  
-  - Get immediate, actionable feedback on code risks, secrets, and compliance issues before merge or deployment.
-  - Automate codebase scanning as part of CI/CD to catch issues early.
-  - Reduce manual review effort and improve code quality.
+  - Instantly receive feedback on code risks, secrets, and compliance violations before merging or deployment.
+  - Improve code quality and reduce manual review effort by integrating continuous scanning into CI/CD.
+  - Get LLM-generated explanations and remediation suggestions for each issue, making fixes straightforward.
 
 - **Security Engineers:**  
-  - Orchestrate organization-wide code scanning across all MCP-managed repositories.
-  - Focus on critical findings with risk-based prioritization.
-  - Maintain an auditable record of codebase security posture and remediation history.
+  - Achieve organization-wide code scanning across all MCP-managed repositories from a central dashboard.
+  - Prioritize remediation using risk and compliance impact, and track progress over time.
+  - Maintain an auditable history of findings, fixes, and compliance status for every repo and branch.
 
 - **Compliance & Audit:**  
-  - Monitor codebase compliance in real time, across all projects and teams.
-  - Generate audit-ready reports and track regulatory adherence.
-  - Ensure all code meets both security and compliance standards.
+  - Monitor live compliance status by mapping vulnerabilities to exact controls and standards.
+  - Generate audit-ready reports demonstrating proactive codebase governance and remediation.
+  - Rapidly identify and address gaps before they impact regulatory posture.
 
-#### Typical User Workflow
-
-1. **Trigger MCP scan** for one or more repositories and branches via dashboard or API.
-2. **Automated scanning:** MCP analyzes code for vulnerabilities and compliance issues.
-3. **Review findings:** Vulnerability list by repo/branch, secret exposures, misconfigurations, compliance status.
-4. **Remediate:** Assign, track, and resolve issues; export compliance/audit reports.
-
-#### Example API Usage
-
-```bash
-curl -X POST http://localhost:8000/create/mcp_scan \
-  -H "Content-Type: application/json" \
-  -d '{ "repo_url": "https://github.com/org/repo", "branch": "main" }'
-curl http://localhost:8000/fetch/mcp_scan/42
-```
+**Dashboard View:**  
+Comprehensive findings by repo/branch, LLM explanations, remediation tracking, OWASP and compliance mapping—enabling both security and compliance teams to work from a single source of truth.
 
 ---
 
 ## Example Workflows
 
-**Workflow 1: Threat Model a New Application**  
-1. Upload DFD and system details.
-2. Review the generated threat model (risks, OWASP mapping, compliance links).
-3. Act on remediation and compliance guidance.
-4. Track threat and compliance resolution over time.
+**Workflow 1: Threat Modeling a New Application**  
+- Upload your system DFD and architecture details.
+- Instantly receive a threat model with prioritized risks, OWASP mapping, and compliance insights.
+- Take remediation or assign tasks; monitor and update statuses as issues are resolved.
 
 **Workflow 2: LLM Security Scan**  
-1. Submit LLM provider/model for scanning.
-2. Monitor scan and review vulnerabilities.
-3. Apply recommendations to mitigate GenAI/LLM risks.
+- Select or register your LLM/GenAI integration for security probing.
+- Review vulnerabilities and AI-specific risk guidance.
+- Iterate on prompt design or integration, then re-test for secure deployment.
 
 **Workflow 3: MCP Server Codebase Scan**  
-1. Trigger MCP scan for one or more repositories and branches.
-2. Review vulnerability and compliance findings in the dashboard.
-3. Track remediation progress and export compliance reports as needed.
+- Start the scan for one or more repositories/branches.
+- Review LLM explanations, compliance mappings, and remediation advice in the dashboard.
+- Track fixes and export compliance or audit reports as needed.
 
 ---
 
 ## Use Cases
 
-- **Security Architecture Reviews:** Automated and updatable threat models for new or evolving systems.
-- **Continuous Compliance:** Track and demonstrate compliance with ISO, PCI, NIST, SOC2, GDPR.
-- **DevSecOps Integration:** Automated risk and compliance analysis in CI/CD.
-- **GenAI/LLM Security:** Proactive testing and monitoring for AI-powered features.
-- **Codebase Security:** Unified scanning and compliance reporting for all managed code.
+- **Security Architecture Reviews:** Automated, updatable threat models for any system or update.
+- **Continuous Compliance:** Demonstrate adherence to ISO, PCI, NIST, SOC2, GDPR, and more.
+- **DevSecOps Integration:** Embed risk and compliance checks deep into CI/CD pipelines.
+- **GenAI/LLM Security:** Continuously validate and secure AI-powered features.
+- **Enterprise Codebase Security:** Unified scanning and compliance reporting for all managed code.
 
 ---
 
