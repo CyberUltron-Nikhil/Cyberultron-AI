@@ -26,7 +26,7 @@ Frameworks: FastAPI, Next.js, Tailwind CSS, Lucide React
 
 ## About
 
-**RiskPilot** is an AI-powered platform for holistic threat modeling and vulnerability management. It empowers organizations to identify, visualize, and manage risks across classic applications, GenAI/LLM integrations, and codebases managed through MCP servers. RiskPilot brings together system diagram analysis, LLM security probing, and automated codebase scanning, providing actionable risk scores, compliance insights, and AI-driven remediation guidance, all within a unified dashboard and API.
+**RiskPilot** is an AI-powered platform for holistic threat modeling and vulnerability management. It empowers organizations to identify, visualize, and manage risks across classic applications, GenAI/LLM integrations, and codebases managed through MCP servers. RiskPilot brings together system diagram analysis, LLM security probing, and advanced vulnerability scanning, providing actionable risk scores, compliance insights, and AI-driven remediation guidance, all within a unified dashboard.
 
 ---
 
@@ -40,10 +40,9 @@ To make enterprise security risk analysis simple, automated, and actionable—no
 
 - **Automated Threat Modeling for Normal Systems**
 - **LLM (Large Language Model) Vulnerability Testing**
-- **MCP Server-Based Codebase Vulnerability Scanning**
+- **MCP Server-Based Vulnerability Scanning**
 - **Compliance Tracking & Mapping**
 - **Unified Risk Dashboards & Visualizations**
-- **REST APIs for Integration & Automation**
 
 ---
 
@@ -67,163 +66,67 @@ To make enterprise security risk analysis simple, automated, and actionable—no
 
 ### 1. Threat Modeling of Normal Systems
 
-#### What It Does
+#### In-Depth Explanation
 
-- Accepts Data Flow Diagrams (DFDs) and detailed system architecture inputs (technology stack, authentication, sensitive data, etc.).
-- Runs automated threat modeling using STRIDE, DREAD, and OWASP Top 10 methodologies.
-- Identifies and scores threats, maps them to the affected components, and highlights both resolved and unresolved vulnerabilities.
-- Visualizes attack surfaces, produces risk heatmaps, and aligns findings with compliance frameworks.
+RiskPilot enables comprehensive threat modeling for traditional and modern application architectures. By analyzing uploaded data flow diagrams (DFDs) and detailed system architecture, it applies security frameworks such as STRIDE, DREAD, and OWASP Top 10 to automatically identify, categorize, and prioritize threats. The platform provides contextual risk scoring, highlights potential attack surfaces, and maps vulnerabilities to compliance requirements.
 
-#### End-User Value
-
-- **Security Engineers:**  
-  - Save time by automating comprehensive threat models for each release and infrastructure change.
-  - Focus reviews on the highest-risk threats thanks to risk scoring and prioritization.
-  - Maintain consistent documentation for audit and compliance processes.
-
-- **Developers & DevOps:**  
-  - Integrate threat modeling into CI/CD pipelines and PR reviews.
-  - Detect issues before code reaches production or cloud environments.
-  - Receive actionable, context-specific remediation suggestions.
-
-- **Cloud & Solution Architects:**  
-  - Experiment with architectural changes and instantly see security implications.
-  - Ensure new designs meet both security and compliance requirements.
-  - Gain visual feedback (attack trees, heatmaps) for technical and non-technical audiences.
-
-#### Typical User Workflow
-
-1. **Upload DFD** and enter system details via dashboard or API.
-2. **Automatic threat model generation:** STRIDE/DREAD/OWASP analysis, risk scoring.
-3. **Review results:** Threat cards, risk scores, compliance mapping, and detailed vulnerability list.
-4. **Take action:** Assign, track, and resolve issues; download compliance-ready reports.
-
-#### Example API Usage
-
-```bash
-curl -X POST http://localhost:8000/create/normal_system/pre_upload \
-  -F "image_file=@/path/to/your_dfd.png"
-curl -X POST http://localhost:8000/create/normal_system \
-  -H "Content-Type: application/json" \
-  -d '{ ... system details ... }'
-curl http://localhost:8000/fetch/normal_system/2
-```
+**Value to End Users:**
+- **Security Engineers:** Automate and scale the creation and maintenance of threat models, reducing manual effort and human error.
+- **Developers & DevOps:** Gain early visibility into security risks, enabling proactive remediation before deployment and smoother security reviews.
+- **Architects:** Validate new designs and proposed changes to system architecture with instant feedback on potential security implications.
+- **Compliance Teams:** Ensure that every threat is mapped to corresponding compliance controls, streamlining audit preparation.
 
 ---
 
 ### 2. LLM Vulnerability Testing
 
-#### What It Does
+#### In-Depth Explanation
 
-- Enables security analysis of LLM (Large Language Model) and GenAI integrations.
-- Performs automated probing for LLM-specific risks: prompt injection, output manipulation, data leakage, supply chain vulnerabilities, and model abuse.
-- Assigns risk scores to each finding and generates actionable remediation advice.
-- Visualizes LLM attack vectors and context-specific compliance risks (e.g., data privacy, misuse).
+RiskPilot provides a specialized security assessment module for applications leveraging Large Language Models (LLMs) and GenAI. It evaluates integrations for risks such as prompt injection, data leakage, unintended behaviors, and supply chain exposures unique to AI-driven features. The system uses advanced probes and heuristic analysis to surface vulnerabilities and provides prioritized remediation recommendations. All findings are contextualized within broader application risk and compliance posture.
 
-#### End-User Value
-
-- **AI/ML & Product Teams:**  
-  - Test LLMs for prompt injection, output hijacks, data exposure, and more before and after deployment.
-  - Validate that GenAI-powered features meet security/privacy standards.
-  - Continuously monitor for new, emerging threats in the LLM threat landscape.
-
-- **Security Engineers:**  
-  - Integrate LLM scanning into broader threat modeling and security dashboards.
-  - Automate GenAI security validation for every release.
-  - Correlate LLM risks with other system and codebase vulnerabilities.
-
-- **Compliance & Audit:**  
-  - Demonstrate ongoing due diligence for AI-related compliance and governance.
-  - Export LLM vulnerability and remediation reports for stakeholders.
-
-#### Typical User Workflow
-
-1. **Submit LLM provider/model and probes** for risk scanning.
-2. **Automated vulnerability testing** is performed (e.g., prompt injection, prompt leaks).
-3. **Review dashboard:** Severity-ranked vulnerabilities, attack trees, and remediation guidance.
-4. **Mitigate:** Apply suggested fixes and re-test as needed.
-
-#### Example API Usage
-
-```bash
-curl -X POST http://localhost:8000/create/llm_scan \
-  -H "Content-Type: application/json" \
-  -d '{ "provider": "OpenAI", "model": "gpt-4", "probes": ["ansiescape"] }'
-curl http://localhost:8000/fetch/llm_scan/3
-```
+**Value to End Users:**
+- **AI/ML & Product Teams:** Validate the security of LLM-powered features against both known and emerging threat vectors, reducing time-to-market for secure AI.
+- **Security Engineers:** Integrate LLM risk analysis into enterprise security dashboards, ensuring that GenAI risks are not siloed or overlooked.
+- **Compliance Teams:** Monitor privacy and AI governance requirements, and ensure that LLM features comply with data protection and regulatory standards.
+- **Leadership:** Gain confidence in responsible AI adoption and risk management at scale.
 
 ---
 
 ### 3. MCP Server Vulnerability Scanning
 
-#### What It Does
+#### In-Depth Explanation
 
-- Integrates with MCP (Managed Code Pipeline) servers to automatically scan source code repositories for vulnerabilities, hardcoded secrets, misconfigurations, and compliance violations.
-- Supports multi-repo, multi-language environments, providing centralized dashboards and unified reporting.
-- Maps findings directly to compliance frameworks and allows for real-time tracking of remediation progress.
+RiskPilot’s MCP Server Vulnerability Scanning feature is designed for environments that use Managed Compute Platform (MCP) servers and source code repositories. When triggered, RiskPilot temporarily clones the selected MCP server repository and scans it for vulnerability patterns using [Semgrep](https://semgrep.dev), a leading open-source static analysis tool. The platform identifies weaknesses, secrets, and insecure patterns within the code.
 
-#### End-User Value
+Once the initial scan is complete (Phase 1), each finding is analyzed by a Large Language Model (LLM), which generates clear explanations and actionable fixes tailored to your code and context. In Phase 2, RiskPilot further processes each finding to provide detailed mappings:  
+- Each vulnerability is mapped to the relevant OWASP category.
+- Associated compliance controls are flagged, showing which compliance requirements (e.g., ISO 27001, PCI DSS, NIST, SOC2, GDPR) are affected for every issue.
 
-- **Developers & DevOps:**  
-  - Get immediate, actionable feedback on code risks, secrets, and compliance issues before merge or deployment.
-  - Automate codebase scanning as part of CI/CD to catch issues early.
-  - Reduce manual review effort and improve code quality.
+All results are visualized in the unified dashboard, enabling teams to triage, assign, and resolve findings efficiently.
 
-- **Security Engineers:**  
-  - Orchestrate organization-wide code scanning across all MCP-managed repositories.
-  - Focus on critical findings with risk-based prioritization.
-  - Maintain an auditable record of codebase security posture and remediation history.
-
-- **Compliance & Audit:**  
-  - Monitor codebase compliance in real time, across all projects and teams.
-  - Generate audit-ready reports and track regulatory adherence.
-  - Ensure all code meets both security and compliance standards.
-
-#### Typical User Workflow
-
-1. **Trigger MCP scan** for one or more repositories and branches via dashboard or API.
-2. **Automated scanning:** MCP analyzes code for vulnerabilities and compliance issues.
-3. **Review findings:** Vulnerability list by repo/branch, secret exposures, misconfigurations, compliance status.
-4. **Remediate:** Assign, track, and resolve issues; export compliance/audit reports.
-
-#### Example API Usage
-
-```bash
-curl -X POST http://localhost:8000/create/mcp_scan \
-  -H "Content-Type: application/json" \
-  -d '{ "repo_url": "https://github.com/org/repo", "branch": "main" }'
-curl http://localhost:8000/fetch/mcp_scan/42
-```
+**Value to End Users:**
+- **DevOps & Infrastructure Teams:** Receive comprehensive reports on workload risks, insecure configurations, and exposed secrets directly mapped to MCP environments and codebases, with actionable guidance.
+- **Security Engineers:** Orchestrate vulnerability management across all MCP-managed repositories, focusing on the most critical findings and leveraging LLM explanations for rapid triage.
+- **Compliance & Audit:** Monitor for regulatory and policy violations at a granular, per-finding level and produce detailed, compliance-ready evidence for audits.
+- **Cloud & Solution Architects:** Make informed decisions on workload placement and architecture, guided by real-time risk and compliance visibility.
 
 ---
 
 ## Example Workflows
 
-**Workflow 1: Threat Model a New Application**  
-1. Upload DFD and system details.
-2. Review the generated threat model (risks, OWASP mapping, compliance links).
-3. Act on remediation and compliance guidance.
-4. Track threat and compliance resolution over time.
-
-**Workflow 2: LLM Security Scan**  
-1. Submit LLM provider/model for scanning.
-2. Monitor scan and review vulnerabilities.
-3. Apply recommendations to mitigate GenAI/LLM risks.
-
-**Workflow 3: MCP Server Codebase Scan**  
-1. Trigger MCP scan for one or more repositories and branches.
-2. Review vulnerability and compliance findings in the dashboard.
-3. Track remediation progress and export compliance reports as needed.
+- **Threat Modeling Workflow:** Upload system diagrams and architecture details, review the generated threat model, prioritize and assign remediation, and track resolution and compliance mapping over time.
+- **LLM Security Workflow:** Register LLM/GenAI features for security assessment, receive prioritized vulnerability reports and remediation actions, and monitor ongoing risk as models and integrations evolve.
+- **MCP Vulnerability Workflow:** Trigger a scan for MCP-hosted repositories, review findings and LLM explanations, analyze OWASP/compliance mapping for each issue, assign remediations, and produce compliance-ready reports.
 
 ---
 
 ## Use Cases
 
-- **Security Architecture Reviews:** Automated and updatable threat models for new or evolving systems.
+- **Security Architecture Reviews:** Automated, updatable threat models for new or evolving systems.
 - **Continuous Compliance:** Track and demonstrate compliance with ISO, PCI, NIST, SOC2, GDPR.
 - **DevSecOps Integration:** Automated risk and compliance analysis in CI/CD.
 - **GenAI/LLM Security:** Proactive testing and monitoring for AI-powered features.
-- **Codebase Security:** Unified scanning and compliance reporting for all managed code.
+- **MCP Workload Security:** Centralized vulnerability and compliance management for MCP environments.
 
 ---
 
@@ -233,7 +136,7 @@ curl http://localhost:8000/fetch/mcp_scan/42
 - **Frontend:** Next.js (TypeScript), Tailwind CSS, Lucide React
 - **Database:** Configurable (e.g., SQLite/Postgres)
 - **AI Analysis:** Integrations for LLM/AI-powered analysis
-- **MCP Integration:** For scalable codebase scanning and orchestration
+- **MCP Integration:** Semgrep-based scanning for MCP code repositories
 
 ---
 
