@@ -1,7 +1,8 @@
 # ZeroShield
 
 <div align="center">
-  <img src="logo.jpg" alt="ZeroShield Logo" width="200" height="auto" />
+  <img src="<img width="266" height="178" alt="image" src="https://github.com/user-attachments/assets/169a73ba-8a41-49d1-8cd3-c7f9aad69d92" />
+" alt="ZeroShield Logo" width="200" height="auto" />
   
   <br />
   
