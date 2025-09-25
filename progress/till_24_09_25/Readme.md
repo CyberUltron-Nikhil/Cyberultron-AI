@@ -25,7 +25,7 @@
       <img src="https://img.shields.io/badge/OpenAI-GPT--4-purple.svg" alt="OpenAI" />
     </a>
     <a href="https://fastapi.tiangolo.com/">
-      <img src="https://img.shields.io/badge/FastAPI-0.110+-teal.svg" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/FastAPI-0.110+-green.svg" alt="FastAPI" />
     </a>
     <a href="https://tailwindcss.com/">
       <img src="https://img.shields.io/badge/TailwindCSS-3.3+-blue.svg" alt="TailwindCSS" />
@@ -33,8 +33,12 @@
     <a href="https://lucide.dev/">
       <img src="https://img.shields.io/badge/Lucide-React-orange.svg" alt="Lucide React" />
     </a>
+    <a href="https://react.dev/">
+      <img src="https://img.shields.io/badge/React-18+-blue.svg" alt="React" />
+    </a>
   </div>
 </div>
+
 
 ---
 
