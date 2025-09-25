@@ -1,7 +1,8 @@
 # ZeroShield
 
 <div align="center">
-  <img src="logo.jpg" alt="ZAPISEC Logo" width="200" height="auto" />
+   <img width="845" height="575" alt="image" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
+
   
   <br />
   
