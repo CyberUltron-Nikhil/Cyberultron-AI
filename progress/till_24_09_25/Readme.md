@@ -1,10 +1,11 @@
 # ZeroShield
 
 <div align="center">
-  <img src="
-" alt="ZeroShield Logo" width="200" height="auto" />
+  <img src="logo.jpg" alt="ZAPISEC Logo" width="200" height="auto" />
   
   <br />
+  
+  <div align="center">
   
   <div align="center">
     <a href="https://opensource.org/licenses/MIT">
