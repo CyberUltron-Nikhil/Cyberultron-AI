@@ -1,7 +1,7 @@
-# ZeroShield
+# Threat Shield
 
 <div align="center">
-   <img width="200" height="200" alt="ZeroShield (ZAPESIC) Logo" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
+   <img width="200" height="200" alt="Threat Shield (ZAPESIC) Logo" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
    <br />
    <em>Threat Shield is a part of ZeroShield</em>
 
@@ -61,9 +61,9 @@
 ---
 
 ## About Threat Shield
+**Threat Shield** is an advanced security automation module within the **ZeroShield** platform, designed to give organizations deep, actionable insight into risks across classic applications, codebases, and cutting-edge GenAI/LLM integrations.Threat Shield unifies real-time threat modeling, LLM security probing via Garak, and MCP codebase vulnerability scanning for a complete, compliance-ready view of your security posture.
 
-**Threat Shield** is an advanced security automation module within the **ZeroShield** platform, designed to give organizations deep, actionable insight into risks across classic applications, codebases, and cutting-edge GenAI/LLM integrations.  
-Threat Shield unifies real-time threat modeling, LLM security probing via Garak, and MCP codebase vulnerability scanning for a complete, compliance-ready view of your security posture.
+
 ---
 
 ## Core Mission
@@ -306,8 +306,8 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 | Compliance Control Failure (General)       | All          | ✓         | ✓       | ✓    | ✓    | ✓    |
 
 *Each finding in the dashboard is automatically mapped to these standards using probe/static analysis metadata and logic. Compliance impact is shown per issue and in summary cards.*
----
 
+---
 ## Example Workflows & User Benefits
 
 **Threat Modeling Workflow:**  
@@ -355,12 +355,12 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 ---
 
-**ZeroShield** — Unified, automated threat modeling and vulnerability management for the next generation of enterprise security.  
-*Threat Shield, a part of ZeroShield, brings in-depth, practical security to every step of your development and deployment lifecycle.*
+**Threat Shield** — Unified, automated threat modeling and vulnerability management for the next generation of enterprise security.  
+*Threat Shield, a part of Threat Shield, brings in-depth, practical security to every step of your development and deployment lifecycle.*
 
 All rights reserved. This software and its documentation are the intellectual property of CyberUltron Consulting Private Limited.
 
 ---
 
 > **Value Proposition:**  
-> "ZeroShield turns complex, manual security and compliance challenges into automated, actionable insights—empowering teams to move faster, safer, and with confidence."
+> "Thraet Shield turns complex, manual security and compliance challenges into automated, actionable insights—empowering teams to move faster, safer, and with confidence."
