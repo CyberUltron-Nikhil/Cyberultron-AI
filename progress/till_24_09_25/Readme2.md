@@ -355,8 +355,8 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 ---
 
-**Threat Shield** — Unified, automated threat modeling and vulnerability management for the next generation of enterprise security.  
-*Threat Shield, a part of Threat Shield, brings in-depth, practical security to every step of your development and deployment lifecycle.*
+**Zero Shield** — Unified, automated threat modeling and vulnerability management for the next generation of enterprise security.  
+*Threat Shield, a part of Zero Shield, brings in-depth, practical security to every step of your development and deployment lifecycle.*
 
 All rights reserved. This software and its documentation are the intellectual property of CyberUltron Consulting Private Limited.
 
