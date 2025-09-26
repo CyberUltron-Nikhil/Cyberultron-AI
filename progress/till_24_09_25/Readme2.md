@@ -4,8 +4,41 @@
    <img width="200" height="200" alt="ZeroShield (ZAPESIC) Logo" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
    <br />
    <em>Threat Shield is a part of ZeroShield</em>
-</div>
 
+   
+</div>
+  <div align="center">
+    <a href="https://opensource.org/licenses/MIT">
+      <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+    </a>
+    <a href="https://www.python.org/downloads/">
+      <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python" />
+    </a>
+    <a href="https://nodejs.org/">
+      <img src="https://img.shields.io/badge/node.js-18+-green.svg" alt="Node.js" />
+    </a>
+    <a href="https://nextjs.org/">
+      <img src="https://img.shields.io/badge/Next.js-14-black.svg" alt="Next.js" />
+    </a>
+    <a href="https://www.typescriptlang.org/">
+      <img src="https://img.shields.io/badge/TypeScript-5.0-blue.svg" alt="TypeScript" />
+    </a>
+    <a href="https://openai.com/">
+      <img src="https://img.shields.io/badge/OpenAI-GPT--4-purple.svg" alt="OpenAI" />
+    </a>
+    <a href="https://fastapi.tiangolo.com/">
+      <img src="https://img.shields.io/badge/FastAPI-0.110+-green.svg" alt="FastAPI" />
+    </a>
+    <a href="https://tailwindcss.com/">
+      <img src="https://img.shields.io/badge/TailwindCSS-3.3+-blue.svg" alt="TailwindCSS" />
+    </a>
+    <a href="https://lucide.dev/">
+      <img src="https://img.shields.io/badge/Lucide-React-orange.svg" alt="Lucide React" />
+    </a>
+    <a href="https://react.dev/">
+      <img src="https://img.shields.io/badge/React-18+-blue.svg" alt="React" />
+    </a>
+  </div>
 ---
 
 ## Table of Contents
