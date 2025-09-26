@@ -1,4 +1,4 @@
-# ZeroShield
+# Threat-Shield
 
 <div align="center">
    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
@@ -62,13 +62,13 @@
 
 ## About
 
-**ZeroShield** is an AI-powered platform for holistic threat modeling and vulnerability management, enabling organizations to identify, visualize, and manage risks across classic applications, GenAI/LLM integrations, and codebases managed through MCP servers. ZeroShield unifies system diagram analysis, LLM security probing, and advanced vulnerability scanning, providing actionable risk scores, compliance insights, and AI-driven remediation guidance, all within a seamless dashboard.
+**Threat-Shield** is an AI-powered platform for holistic threat modeling and vulnerability management, enabling organizations to identify, visualize, and manage risks across classic applications, GenAI/LLM integrations, and codebases managed through MCP servers. Threat-Shield unifies system diagram analysis, LLM security probing, and advanced vulnerability scanning, providing actionable risk scores, compliance insights, and AI-driven remediation guidance, all within a seamless dashboard.
 
 ---
 
 ## Core Mission
 
-To make enterprise security risk analysis simple, automated, and actionable—no matter the technology stack. ZeroShield bridges the gap between identifying, understanding, and remediating risks, integrating with your SDLC to deliver automated threat modeling, vulnerability analytics, compliance mapping, and guided remediation. The platform enables teams to accelerate secure innovation with confidence.
+To make enterprise security risk analysis simple, automated, and actionable—no matter the technology stack. Threat-Shield bridges the gap between identifying, understanding, and remediating risks, integrating with your SDLC to deliver automated threat modeling, vulnerability analytics, compliance mapping, and guided remediation. The platform enables teams to accelerate secure innovation with confidence.
 
 ---
 
@@ -94,7 +94,7 @@ To make enterprise security risk analysis simple, automated, and actionable—no
 
 ## Demo Video
 
-🎥 *Coming soon!* — ZeroShield walkthrough.
+🎥 *Coming soon!* — Threat-Shield walkthrough.
 
 ---
 
@@ -104,12 +104,12 @@ To make enterprise security risk analysis simple, automated, and actionable—no
 
 #### In-Depth Explanation
 
-ZeroShield's Threat Modeling feature empowers organizations to proactively identify and mitigate risks throughout the software development lifecycle. Users can upload Data Flow Diagrams (DFDs) and detailed architecture information, which ZeroShield analyzes using industry-standard frameworks such as STRIDE, DREAD, and OWASP Top 10.
+Threat-Shield's Threat Modeling feature empowers organizations to proactively identify and mitigate risks throughout the software development lifecycle. Users can upload Data Flow Diagrams (DFDs) and detailed architecture information, which Threat-Shield analyzes using industry-standard frameworks such as STRIDE, DREAD, and OWASP Top 10.
 
 - **Automated Analysis:** The platform automatically detects and categorizes threats, maps them to affected components, and calculates risk scores based on likelihood and impact.
 - **Vulnerability Mapping:** Each identified threat is mapped to security controls and compliance requirements, enabling teams to see which standards (e.g., ISO 27001, PCI DSS, NIST, SOC2, GDPR) are impacted.
-- **Attack Surface Visualization:** ZeroShield visualizes attack surfaces, threat propagation, and high-risk zones, making it easy to prioritize remediation.
-- **Continuous Updates:** As system diagrams or architecture evolve, ZeroShield can update the threat model, ensuring it always reflects the most current posture.
+- **Attack Surface Visualization:** Threat-Shield visualizes attack surfaces, threat propagation, and high-risk zones, making it easy to prioritize remediation.
+- **Continuous Updates:** As system diagrams or architecture evolve, Threat-Shield can update the threat model, ensuring it always reflects the most current posture.
 
 **Value to End Users:**
 - **Security Engineers:** Rapidly generate comprehensive, up-to-date threat models and maintain a clear audit trail.
@@ -123,12 +123,12 @@ ZeroShield's Threat Modeling feature empowers organizations to proactively ident
 
 #### In-Depth Explanation
 
-ZeroShield's LLM Vulnerability Testing module provides specialized security analysis for applications and services integrating Large Language Models (LLMs) and GenAI.
+Threat-Shield's LLM Vulnerability Testing module provides specialized security analysis for applications and services integrating Large Language Models (LLMs) and GenAI.
 
 - **Automated Probing:** The platform performs automated and customizable probing for LLM-specific threats, including prompt injection, prompt leakage, data exfiltration, output manipulation, and model supply chain risks.
 - **LLM-Aware Analysis:** Each detected vulnerability is analyzed by an LLM, which provides human-readable explanations of the risk, root cause, and practical remediation steps.
 - **Vulnerability & Compliance Mapping:** All findings are mapped to relevant OWASP categories and compliance standards (e.g., data privacy, misuse, governance).
-- **Continuous Monitoring:** ZeroShield supports both one-time and continuous assessment as LLM integrations or prompt templates evolve.
+- **Continuous Monitoring:** Threat-Shield supports both one-time and continuous assessment as LLM integrations or prompt templates evolve.
 
 **Value to End Users:**
 - **AI/ML & Product Teams:** Validate GenAI and LLM features before and after deployment, ensuring resilience against evolving threat vectors.
@@ -142,9 +142,9 @@ ZeroShield's LLM Vulnerability Testing module provides specialized security anal
 
 #### In-Depth Explanation
 
-ZeroShield's MCP Server Vulnerability Scanning feature is designed for environments that use Managed Compute Platform (MCP) servers and source code repositories. When triggered, ZeroShield temporarily clones the selected MCP server repository and scans it for vulnerability patterns using [Semgrep](https://semgrep.dev), a leading open-source static analysis tool. The platform identifies weaknesses, secrets, and insecure patterns within the code.
+Threat-Shield's MCP Server Vulnerability Scanning feature is designed for environments that use Managed Compute Platform (MCP) servers and source code repositories. When triggered, Threat-Shield temporarily clones the selected MCP server repository and scans it for vulnerability patterns using [Semgrep](https://semgrep.dev), a leading open-source static analysis tool. The platform identifies weaknesses, secrets, and insecure patterns within the code.
 
-Once the initial scan is complete (Phase 1), each finding is analyzed by a Large Language Model (LLM), which generates clear explanations and actionable fixes tailored to your code and context. In Phase 2, ZeroShield further processes each finding to provide detailed mappings:
+Once the initial scan is complete (Phase 1), each finding is analyzed by a Large Language Model (LLM), which generates clear explanations and actionable fixes tailored to your code and context. In Phase 2, Threat-Shield further processes each finding to provide detailed mappings:
 - Each vulnerability is mapped to the relevant OWASP category.
 - Associated compliance controls are flagged, showing which compliance requirements (e.g., ISO 27001, PCI DSS, NIST, SOC2, GDPR) are affected for every issue.
 
@@ -192,6 +192,6 @@ All results are visualized in the unified dashboard, enabling teams to triage, a
 
 ---
 
-**ZeroShield** — Unified, automated threat modeling and vulnerability management for the next generation of enterprise security.
+**Threat-Shield** — Unified, automated threat modeling and vulnerability management for the next generation of enterprise security.
 
 All rights reserved. This software and its documentation are the intellectual property of CyberUltron Consulting Private Limited.
