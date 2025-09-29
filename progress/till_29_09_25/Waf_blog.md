@@ -8,12 +8,7 @@ We’ve established that a Web Application Firewall (WAF) is vital for Layer 7 d
 
 The integration of Machine Learning (ML) and Artificial Intelligence (AI) fundamentally changes how a WAF operates. Instead of reacting to threats that match a list of known bad patterns, the AI-Powered WAF predicts and adapts to threats based on behavioral analysis.
 
-| Aspect                  | Traditional WAF (Signature-Based)                                             | AI-Powered WAF (Behavioral/Anomaly-Based)                                        |
-| ----------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| **Detection Method**    | Matches traffic against fixed rules and known attack signatures.              | Learns a "normal" baseline and identifies subtle deviations (anomalies).         |
-| **Zero-Day Protection** | Limited; requires manual or vendor updates for new exploits.                  | Excellent; detects unusual behavior that signals a new, unknown threat.          |
-| **False Positives**     | Often higher; rule conflicts or over-aggressive rules block legitimate users. | Significantly lower; ML learns what "normal" traffic looks like, reducing noise. |
-| **Management Effort**   | High; requires constant manual rule-tuning and patch management.              | Low; systems automatically update and self-tune as attack patterns change.       |
+<img width="1207" height="420" alt="image" src="https://github.com/user-attachments/assets/498ec43c-37d2-4728-a196-3f740ea6f512" />
 
 ---
 
