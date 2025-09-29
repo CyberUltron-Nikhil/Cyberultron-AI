@@ -98,77 +98,7 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 
 ---
 
-## Demo Video & Screenshots
-
-### Screenshot 1: MCP Finding Details
-
-<img width="800" height="600" alt="Screenshot 2025-09-29 173534" src="https://github.com/user-attachments/assets/9e787855-371a-45c5-8daa-855e9798819c" />
-
-
-**Description:** A detailed view of a security finding from the MCP Server scan, specifically the **detect-command-execution** rule. The panel highlights the affected code snippet, relevant compliance controls (**NIST SP 800-53** and **PCI DSS**), the associated **OWASP Injection** vulnerability (A03:2021), and the **LLM-generated recommended fix** to prevent unauthorized command execution.
-
----
-### Screenshot 2: Threat Modeling Project Dashboard
-
-<img width="800" height="600" alt="Screenshot 2025-09-29 173615" src="https://github.com/user-attachments/assets/a1e67280-139d-4392-a8db-52b77ae312ae" />
-
-
-**Description:** The main dashboard for a **Threat Modeling** project, showcasing the system's overall risk score (6.5), key metrics like **Total STRIDE Threats** (6 identified, 6 unresolved), and the high-level **DREAD Heat Map** for rapid risk prioritization.
-
----
-### Screenshot 3: MCP Scan Project Dashboard
-
-<img width="800" height="600" alt="Screenshot 2025-09-29 173159" src="https://github.com/user-attachments/assets/3d041883-97bb-48b0-bbab-c5029d929e57" />
-
-
-**Description:** The dashboard for an **MCP Server Vulnerability Scan**, providing an executive summary with **Total Findings** (5), **High Risk** items (5), and the primary development language (Python). It also displays a list of detected **OWASP Vulnerabilities** (A03, A06, A04, A01) and a visualization of **Failed Compliance Controls** over time.
-
----
-### Screenshot 4: Code-Level Finding Explanation
-
-<img width="800" height="600" alt="Screenshot 2025-09-29 173512" src="https://github.com/user-attachments/assets/445c5c0b-95bd-4cb7-9167-b0466bb3a638" />
-
-
-**Description:** A close-up view of the code analysis within the MCP Scan, showing the exact file (**mcp_server.py**) and code snippet where the vulnerability was detected. The finding is given a **Medium** risk severity, accompanied by an LLM-generated **Explanation** of the command execution risk found in the code.
-
----
-### Screenshot 5: Threat Modeling Attack Tree and OWASP Tracker
-
-<img width="800" height="600" alt="Screenshot 2025-09-29 173641" src="https://github.com/user-attachments/assets/8c002fc9-6bcb-44cd-b4f9-d83b1006568f" />
-
-
-**Description:** An in-depth view of the **Threat Modeling** dashboard, displaying the **PASTA Attack Tree** visualization to map out potential attack paths and lateral movement. It also highlights the **OWASP Top 10 Tracker**, showing 3 of 10 categories triggered, including **Identification and Authentication Failures** (A07) and **Security Misconfiguration** (A05).
-
----
-### Screenshot 6: LLM Probe Finding Details
-
-<img width="800" height="600" alt="Screenshot 2025-09-29 173750" src="https://github.com/user-attachments/assets/cd7f2baf-b9ee-48fa-8492-1d30119877ca" />
-
-
-**Description:** A deep-dive into an LLM security finding, showing the results of a **malwaregen.Evasion** Garak probe. The panel displays the **Medium Risk Level**, a **20.8% hit rate**, failed compliance controls like **Malware Detection and Prevention**, and the specific **LLM-generated remediation fix** to update detection rules.
-
----
-
-### Screenshot 7: Threat Modeling Finding Details
-
-<img width="800" height="600" alt="Screenshot 2025-09-29 173717" src="https://github.com/user-attachments/assets/5676290d-9dcd-4cb3-835f-d0aced641e6f" />
-
-
-**Description:** An expanded view of a Threat Modeling finding, detailing an **API Key Exposure** threat. It shows the impact across five major compliance frameworks (**ISO, NIST, PCI DSS, GDPR, SOC 2**), the associated **OWASP Broken Access Control** (A01:2021) vulnerability, and a comprehensive, actionable **Suggested Fix** for secure key management.
-
----
-
-### Screenshot 8: Threat Modeling Finding Scoring and Compliance
-
-<img width="800" height="600" alt="Screenshot 2025-09-29 173703" src="https://github.com/user-attachments/assets/a84bcd7b-2472-4962-9474-1b548e0ff671" />
-
-
-**Description:** The top portion of the Threat Modeling finding details, clearly showing the threat's **High Severity**, the associated **STRIDE Categories** (S-Spoofing, I-Information Disclosure), **DREAD Scores** for risk calculation, and a comprehensive list of affected **Compliance Controls** across ISO, NIST, PCI DSS, GDPR, and SOC 2.failed compliance controls like **Malware Detection and Prevention**, and the specific **LLM-generated remediation fix** to update detection rules.
-
-
----
-
-### Demo Vedio of Threat-Shield
+## Demo Video of Threat-Shield
 
 
 
@@ -205,6 +135,15 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
       - Search & filter options
   - **Generate Report Button:** Exportable audit-ready report.
 
+### Screenshot 1: Threat Modeling Project Dashboard
+
+<img width="800" height="600" alt="Screenshot 2025-09-29 173615" src="https://github.com/user-attachments/assets/a1e67280-139d-4392-a8db-52b77ae312ae" />
+
+
+**Description:** The main dashboard for a **Threat Modeling** project, showcasing the system's overall risk score (6.5), key metrics like **Total STRIDE Threats** (6 identified, 6 unresolved), and the high-level **DREAD Heat Map** for rapid risk prioritization.
+
+
+
 #### What/Why of Each Visualization
 - **Summary Cards:** Instantly see the scale and urgency of risk in the system.
 - **DREAD Heatmap:** Pinpoints highest-impact threats for prioritization.
@@ -212,6 +151,36 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 - **OWASP Tracker:** Maps findings to industry standards for external reporting.
 - **Attack Trees:** Helps visualize possible attack paths and lateral movement.
 - **Threat Table:** Enables fast triage, assignment, and remediation tracking.
+
+
+### Screenshot 2: Threat Modeling Attack Tree and OWASP Tracker
+
+<img width="800" height="600" alt="Screenshot 2025-09-29 173641" src="https://github.com/user-attachments/assets/8c002fc9-6bcb-44cd-b4f9-d83b1006568f" />
+
+
+**Description:** An in-depth view of the **Threat Modeling** dashboard, displaying the **PASTA Attack Tree** visualization to map out potential attack paths and lateral movement. It also highlights the **OWASP Top 10 Tracker**, showing 3 of 10 categories triggered, including **Identification and Authentication Failures** (A07) and **Security Misconfiguration** (A05).
+
+
+
+
+### Screenshot 3: Threat Modeling Finding Details
+
+<img width="800" height="600" alt="Screenshot 2025-09-29 173717" src="https://github.com/user-attachments/assets/5676290d-9dcd-4cb3-835f-d0aced641e6f" />
+
+
+**Description:** An expanded view of a Threat Modeling finding, detailing an **API Key Exposure** threat. It shows the impact across five major compliance frameworks (**ISO, NIST, PCI DSS, GDPR, SOC 2**), the associated **OWASP Broken Access Control** (A01:2021) vulnerability, and a comprehensive, actionable **Suggested Fix** for secure key management.
+
+
+
+### Screenshot 4: Threat Modeling Finding Scoring and Compliance
+
+<img width="800" height="600" alt="Screenshot 2025-09-29 173703" src="https://github.com/user-attachments/assets/a84bcd7b-2472-4962-9474-1b548e0ff671" />
+
+
+**Description:** The top portion of the Threat Modeling finding details, clearly showing the threat's **High Severity**, the associated **STRIDE Categories** (S-Spoofing, I-Information Disclosure), **DREAD Scores** for risk calculation, and a comprehensive list of affected **Compliance Controls** across ISO, NIST, PCI DSS, GDPR, and SOC 2.failed compliance controls like **Malware Detection and Prevention**, and the specific **LLM-generated remediation fix** to update detection rules.
+
+
+
 
 #### Deep-Dive: How It Works
 - Upload system diagrams, code, and metadata.
@@ -251,12 +220,22 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 - **OWASP Card:** Shows if LLM flaws could impact web/app security standards.
 - **Probe Table:** Full transparency—see exactly which prompts/probes succeeded, failed, and why.
 
+
 #### In-Depth Garak Probe Coverage
 
 - **Garak probes** test models for:  
   - ANSI escapes, attack generation, audio attacks, antivirus/spam bypass, data leakage, prompt injection, roleplay/jailbreaks, SQLi, XSS, hallucinated package names, adversarial suffixes, emotional manipulation, and more.
 - **LLM Exposure Analysis:**  
   - Beyond probe results, Threat Shield analyzes the LLM's exposure and risk posture, surfaces all successful bypasses, and maps to OWASP Top 10 and failed compliance controls.
+
+### Screenshot 5: LLM Probe Finding Details
+
+<img width="800" height="600" alt="Screenshot 2025-09-29 173750" src="https://github.com/user-attachments/assets/cd7f2baf-b9ee-48fa-8492-1d30119877ca" />
+
+
+**Description:** A deep-dive into an LLM security finding, showing the results of a **malwaregen.Evasion** Garak probe. The panel displays the **Medium Risk Level**, a **20.8% hit rate**, failed compliance controls like **Malware Detection and Prevention**, and the specific **LLM-generated remediation fix** to update detection rules.
+
+
 
 #### Deep-Dive: Garak Probe System
 
@@ -299,9 +278,22 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 ---
 
+
+
 ### 3. MCP Server Vulnerability Scanning
 
 #### What Users See & How It Works
+
+
+### Screenshot 6: MCP Scan Project Dashboard
+
+<img width="800" height="600" alt="Screenshot 2025-09-29 173159" src="https://github.com/user-attachments/assets/3d041883-97bb-48b0-bbab-c5029d929e57" />
+
+
+**Description:** The dashboard for an **MCP Server Vulnerability Scan**, providing an executive summary with **Total Findings** (5), **High Risk** items (5), and the primary development language (Python). It also displays a list of detected **OWASP Vulnerabilities** (A03, A06, A04, A01) and a visualization of **Failed Compliance Controls** over time.
+
+
+
 
 - **MCP Scans List:**  
   - Table: [Repository Name, Total Results, Language, Status, Created At]
@@ -316,6 +308,15 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
   - **Threat Graph:** Shows trends/types/frequency across findings.
   - **Result Table:**  
       - Columns: Result Class, Severity, Rule Detected, Status, Suggested Fixes
+
+
+### Screenshot 7: MCP Finding Details
+
+<img width="800" height="600" alt="Screenshot 2025-09-29 173534" src="https://github.com/user-attachments/assets/9e787855-371a-45c5-8daa-855e9798819c" />
+
+
+**Description:** A detailed view of a security finding from the MCP Server scan, specifically the **detect-command-execution** rule. The panel highlights the affected code snippet, relevant compliance controls (**NIST SP 800-53** and **PCI DSS**), the associated **OWASP Injection** vulnerability (A03:2021), and the **LLM-generated recommended fix** to prevent unauthorized command execution.
+
 
 #### What/Why of Each Visualization
 - **Summary Cards:** Snapshot of codebase health and urgency.
@@ -334,6 +335,16 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
   - Each finding is analyzed by an LLM to generate explanations and actionable fixes.
   - Further mapped to **OWASP Top 10** vulnerabilities and failed compliance controls (ISO 27001, PCI DSS, NIST, SOC2, GDPR, etc.).
   - Compliance mapping is visualized per finding and overall scan.
+
+
+### Screenshot 8: Code-Level Finding Explanation
+
+<img width="800" height="600" alt="Screenshot 2025-09-29 173512" src="https://github.com/user-attachments/assets/445c5c0b-95bd-4cb7-9167-b0466bb3a638" />
+
+
+**Description:** A close-up view of the code analysis within the MCP Scan, showing the exact file (**mcp_server.py**) and code snippet where the vulnerability was detected. The finding is given a **Medium** risk severity, accompanied by an LLM-generated **Explanation** of the command execution risk found in the code.
+
+
  
 
 #### Deep-Dive: Semgrep & Analysis Pipeline
