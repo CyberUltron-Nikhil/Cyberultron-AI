@@ -285,16 +285,6 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 #### What Users See & How It Works
 
 
-### Screenshot 6: MCP Scan Project Dashboard
-
-<img width="800" height="600" alt="Screenshot 2025-09-29 173159" src="https://github.com/user-attachments/assets/3d041883-97bb-48b0-bbab-c5029d929e57" />
-
-
-**Description:** The dashboard for an **MCP Server Vulnerability Scan**, providing an executive summary with **Total Findings** (5), **High Risk** items (5), and the primary development language (Python). It also displays a list of detected **OWASP Vulnerabilities** (A03, A06, A04, A01) and a visualization of **Failed Compliance Controls** over time.
-
-
-
-
 - **MCP Scans List:**  
   - Table: [Repository Name, Total Results, Language, Status, Created At]
   - “Create Project” for new scan
@@ -308,6 +298,15 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
   - **Threat Graph:** Shows trends/types/frequency across findings.
   - **Result Table:**  
       - Columns: Result Class, Severity, Rule Detected, Status, Suggested Fixes
+
+### Screenshot 6: MCP Scan Project Dashboard
+
+<img width="800" height="600" alt="Screenshot 2025-09-29 173159" src="https://github.com/user-attachments/assets/3d041883-97bb-48b0-bbab-c5029d929e57" />
+
+
+**Description:** The dashboard for an **MCP Server Vulnerability Scan**, providing an executive summary with **Total Findings** (5), **High Risk** items (5), and the primary development language (Python). It also displays a list of detected **OWASP Vulnerabilities** (A03, A06, A04, A01) and a visualization of **Failed Compliance Controls** over time.
+
+
 
 
 ### Screenshot 7: MCP Finding Details
