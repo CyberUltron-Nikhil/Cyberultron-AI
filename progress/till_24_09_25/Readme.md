@@ -3,7 +3,7 @@
 <div align="center">
    <img width="200" height="200" alt="Threat Shield (ZAPESIC) Logo" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
    <br />
-   <em>Threat Shield is a part of ZeroShield</em>
+   <em>Threat Shield, a part of ZeroShield</em>
 
    
 </div>
@@ -355,12 +355,14 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 ---
 
-**Zero Shield** — Unified, automated threat modeling and vulnerability management for the next generation of enterprise security.  
+
+> **Value Proposition:**  
+> Unified, automated threat modeling and vulnerability management for the next generation of enterprise security
+> "Thraet Shield turns complex, manual security and compliance challenges into automated, actionable insights—empowering teams to move faster, safer, and with confidence."
 *Threat Shield, a part of Zero Shield, brings in-depth, practical security to every step of your development and deployment lifecycle.*
+
+---
 
 All rights reserved. This software and its documentation are the intellectual property of CyberUltron Consulting Private Limited.
 
 ---
-
-> **Value Proposition:**  
-> "Thraet Shield turns complex, manual security and compliance challenges into automated, actionable insights—empowering teams to move faster, safer, and with confidence."
