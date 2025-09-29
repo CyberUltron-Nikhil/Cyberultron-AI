@@ -103,6 +103,14 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 > **Screenshots and demo video coming soon!**  
 
 ---
+### Security Finding Details
+
+![Screenshot of Threat Shield Security Finding Details](<img width="1917" height="877" alt="Screenshot 2025-09-29 173534" src="https://github.com/user-attachments/assets/a48f20f3-ec74-4908-a9a5-347c59998d1c" />
+)
+
+**Description:** *A detailed view of a security finding from the MCP Server scan, specifically the **detect-command-execution** rule. The panel highlights the affected code snippet, relevant compliance controls (**NIST SP 800-53** and **PCI DSS**), the associated **OWASP Injection** vulnerability (A03:2021), and the **LLM-generated recommended fix** to prevent unauthorized command execution.*
+
+---
 
 ## Feature Overview
 
