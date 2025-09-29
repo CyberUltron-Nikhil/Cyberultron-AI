@@ -19,12 +19,7 @@ Key functionalities these tools provide include:
 
 Here are some of the most widely used tools in the application security community:
 
-| Tool Name | Key Feature | Best For |
-|-----------|-------------|----------|
-| **OWASP Threat Dragon** | Open-source, web-based, STRIDE-focused. | Teams needing a free, collaborative tool that integrates with the OWASP Top 10. |
-| **Microsoft Threat Modeling Tool** | Guided wizard for DFD creation and threat analysis. | Beginners or teams who want a simple, step-by-step application of the STRIDE model. |
-| **Draw.io (diagrams.net)** | Free, versatile diagramming tool. | Creating custom, clear Data Flow Diagrams (DFDs) quickly before moving to analysis. |
-| **IriusRisk (Commercial)** | Automated threat generation, compliance mapping, and full lifecycle management. | Enterprise teams needing advanced automation, reporting, and regulatory compliance. |
+<img width="1200" height="402" alt="image" src="https://github.com/user-attachments/assets/75c91830-0a74-4a48-a26d-221297a94a63" />
 
 ---
 
