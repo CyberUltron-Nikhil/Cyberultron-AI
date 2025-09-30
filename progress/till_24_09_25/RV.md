@@ -1,47 +1,43 @@
 # Threat Shield
 
 <div align="center">
-   <img width="200" height="200" alt="Threat Shield (ZAPESIC) Logo" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
+   <img width="200" height="200" alt="Threat Shield Logo" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
    <br />
    <em>Threat Shield, a part of <a href="https://zeroshield.ai">ZeroShield</a></em>
 
    
-</div>
   <div align="center">
-    <img src="https://img.shields.io/badge/Launching_Publicly-October_8th-red?style=for-the-badge" alt="Launching October 8th" />
+    <a href="https://opensource.org/licenses/MIT">
+      <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+    </a>
+    <a href="https://www.python.org/downloads/">
+      <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python" />
+    </a>
+    <a href="https://nodejs.org/">
+      <img src="https://img.shields.io/badge/node.js-18+-green.svg" alt="Node.js" />
+    </a>
+    <a href="https://nextjs.org/">
+      <img src="https://img.shields.io/badge/Next.js-14-black.svg" alt="Next.js" />
+    </a>
+    <a href="https://www.typescriptlang.org/">
+      <img src="https://img.shields.io/badge/TypeScript-5.0-blue.svg" alt="TypeScript" />
+    </a>
+    <a href="https://openai.com/">
+      <img src="https://img.shields.io/badge/OpenAI-GPT--4-purple.svg" alt="OpenAI" />
+    </a>
+    <a href="https://fastapi.tiangolo.com/">
+      <img src="https://img.shields.io/badge/FastAPI-0.110+-green.svg" alt="FastAPI" />
+    </a>
+    <a href="https://tailwindcss.com/">
+      <img src="https://img.shields.io/badge/TailwindCSS-3.3+-blue.svg" alt="TailwindCSS" />
+    </a>
+    <a href="https://lucide.dev/">
+      <img src="https://img.shields.io/badge/Lucide-React-orange.svg" alt="Lucide React" />
+    </a>
+    <a href="https://react.dev/">
+      <img src="https://img.shields.io/badge/React-18+-blue.svg" alt="React" />
+    </a>
   </div>
-  <div align="center">
-    <a href="https://opensource.org/licenses/MIT">
-      <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
-    </a>
-    <a href="https://www.python.org/downloads/">
-      <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python" />
-    </a>
-    <a href="https://nodejs.org/">
-      <img src="https://img.shields.io/badge/node.js-18+-green.svg" alt="Node.js" />
-    </a>
-    <a href="https://nextjs.org/">
-      <img src="https://img.shields.io/badge/Next.js-14-black.svg" alt="Next.js" />
-    </a>
-    <a href="https://www.typescriptlang.org/">
-      <img src="https://img.shields.io/badge/TypeScript-5.0-blue.svg" alt="TypeScript" />
-    </a>
-    <a href="https://openai.com/">
-      <img src="https://img.shields.io/badge/OpenAI-GPT--4-purple.svg" alt="OpenAI" />
-    </a>
-    <a href="https://fastapi.tiangolo.com/">
-      <img src="https://img.shields.io/badge/FastAPI-0.110+-green.svg" alt="FastAPI" />
-    </a>
-    <a href="https://tailwindcss.com/">
-      <img src="https://img.shields.io/badge/TailwindCSS-3.3+-blue.svg" alt="TailwindCSS" />
-    </a>
-    <a href="https://lucide.dev/">
-      <img src="https://img.shields.io/badge/Lucide-React-orange.svg" alt="Lucide React" />
-    </a>
-    <a href="https://react.dev/">
-      <img src="https://img.shields.io/badge/React-18+-blue.svg" alt="React" />
-    </a>
-  </div>
 
 
 ## Table of Contents
@@ -58,7 +54,7 @@
 - [Example Workflows & User Benefits](#example-workflows--user-benefits)
 - [Use Cases](#use-cases)
 - [Tech Stack](#tech-stack)
-- [Case Studies](#case-studies)
+- [Case Studies & Research](#case-studies--research)
 - [Support](#support)
 - [Get Involved](#get-involved)
 
@@ -137,7 +133,7 @@ https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 
 ### Threat Modeling Project Dashboard
 
-<img width="800" height="600" alt="Screenshot 2025-09-29 173615" src="https://github.com/user-attachments/assets/a1e67280-139d-4392-a8db-52b77ae312ae" />
+<img width="800" height="600" alt="Threat Modeling Project Dashboard" src="https://github.com/user-attachments/assets/a1e67280-139d-4392-a8db-52b77ae312ae" />
 
 
 **Description:** The main dashboard for a **Threat Modeling** project, showcasing the system's overall risk score (6.5), key metrics like **Total STRIDE Threats** (6 identified, 6 unresolved), and the high-level **DREAD Heat Map** for rapid risk prioritization.
@@ -155,7 +151,7 @@ https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 
 ### Threat Modeling Attack Tree and OWASP Tracker
 
-<img width="800" height="600" alt="Screenshot 2025-09-29 173641" src="https://github.com/user-attachments/assets/8c002fc9-6bcb-44cd-b4f9-d83b1006568f" />
+<img width="800" height="600" alt="Threat Modeling Attack Tree and OWASP Tracker" src="https://github.com/user-attachments/assets/8c002fc9-6bcb-44cd-b4f9-d83b1006568f" />
 
 
 **Description:** An in-depth view of the **Threat Modeling** dashboard, displaying the **PASTA Attack Tree** visualization to map out potential attack paths and lateral movement. It also highlights the **OWASP Top 10 Tracker**, showing 3 of 10 categories triggered, including **Identification and Authentication Failures** (A07) and **Security Misconfiguration** (A05).
@@ -165,7 +161,7 @@ https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 
 ### Threat Modeling Finding Details
 
-<img width="800" height="600" alt="Screenshot 2025-09-29 173717" src="https://github.com/user-attachments/assets/5676290d-9dcd-4cb3-835f-d0aced641e6f" />
+<img width="800" height="600" alt="Threat Modeling Finding Details" src="https://github.com/user-attachments/assets/5676290d-9dcd-4cb3-835f-d0aced641e6f" />
 
 
 **Description:** An expanded view of a Threat Modeling finding, detailing an **API Key Exposure** threat. It shows the impact across five major compliance frameworks (**ISO, NIST, PCI DSS, GDPR, SOC 2**), the associated **OWASP Broken Access Control** (A01:2021) vulnerability, and a comprehensive, actionable **Suggested Fix** for secure key management.
@@ -174,7 +170,7 @@ https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 
 ### Threat Modeling Finding Scoring and Compliance
 
-<img width="800" height="600" alt="Screenshot 2025-09-29 173703" src="https://github.com/user-attachments/assets/a84bcd7b-2472-4962-9474-1b548e0ff671" />
+<img width="800" height="600" alt="Threat Modeling Finding Scoring and Compliance" src="https://github.com/user-attachments/assets/a84bcd7b-2472-4962-9474-1b548e0ff671" />
 
 
 **Description:** The top portion of the Threat Modeling finding details, clearly showing the threat's **High Severity**, the associated **STRIDE Categories** (S-Spoofing, I-Information Disclosure), **DREAD Scores** for risk calculation, and a comprehensive list of affected **Compliance Controls** across ISO, NIST, PCI DSS, GDPR, and SOC 2.
@@ -232,7 +228,7 @@ https://github.com/user-attachments/assets/8dd9b7b6-4781-4b37-8a62-788bc274b79d
 
 ### LLM Probe Finding Details
 
-<img width="800" height="600" alt="Screenshot 2025-09-29 173750" src="https://github.com/user-attachments/assets/cd7f2baf-b9ee-48fa-8492-1d30119877ca" />
+<img width="800" height="600" alt="LLM Probe Finding Details" src="https://github.com/user-attachments/assets/cd7f2baf-b9ee-48fa-8492-1d30119877ca" />
 
 
 **Description:** A deep-dive into an LLM security finding, showing the results of a **malwaregen.Evasion** Garak probe. The panel displays the **Medium Risk Level**, a **20.8% hit rate**, failed compliance controls like **Malware Detection and Prevention**, and the specific **LLM-generated remediation fix** to update detection rules.
@@ -304,12 +300,12 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
   - **Result Table:**  
       - Columns: Result Class, Severity, Rule Detected, Status, Suggested Fixes
 
-- **Scan Limits**: Supports repositories up to **[INSERT SIZE LIMIT HERE]** for GitHub/GitLab integration.
+- **Scan Limits**: Supports repositories up to **[INSERT $500\text{MB}$ / LINES OF CODE LIMIT HERE]** for GitHub/GitLab integration. *(Note: Please replace this placeholder with the actual limit from your team).*
 
 
 ### MCP Scan Project Dashboard
 
-<img width="800" height="600" alt="Screenshot 2025-09-29 173159" src="https://github.com/user-attachments/assets/3d041883-97bb-48b0-bbab-c5029d929e57" />
+<img width="800" height="600" alt="MCP Scan Project Dashboard" src="https://github.com/user-attachments/assets/3d041883-97bb-48b0-bbab-c5029d929e57" />
 
 
 **Description:** The dashboard for an **MCP Server Vulnerability Scan**, providing an executive summary with **Total Findings** (5), **High Risk** items (5), and the primary development language (Python). It also displays a list of detected **OWASP Vulnerabilities** (A03, A06, A04, A01) and a visualization of **Failed Compliance Controls** over time.
@@ -319,7 +315,7 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 
 ### MCP Finding Details
 
-<img width="800" height="600" alt="Screenshot 2025-09-29 173534" src="https://github.com/user-attachments/assets/9e787855-371a-45c5-8daa-855e9798819c" />
+<img width="800" height="600" alt="MCP Finding Details" src="https://github.com/user-attachments/assets/9e787855-371a-45c5-8daa-855e9798819c" />
 
 
 **Description:** A detailed view of a security finding from the MCP Server scan, specifically the **detect-command-execution** rule. The panel highlights the affected code snippet, relevant compliance controls (**NIST SP 800-53** and **PCI DSS**), the associated **OWASP Injection** vulnerability (A03:2021), and the **LLM-generated recommended fix** to prevent unauthorized command execution.
@@ -346,7 +342,7 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 
 ### Code-Level Finding Explanation
 
-<img width="800" height="600" alt="Screenshot 2025-09-29 173512" src="https://github.com/user-attachments/assets/445c5c0b-95bd-4cb7-9167-b0466bb3a638" />
+<img width="800" height="600" alt="Code-Level Finding Explanation" src="https://github.com/user-attachments/assets/445c5c0b-95bd-4cb7-9167-b0466bb3a638" />
 
 
 **Description:** A close-up view of the code analysis within the MCP Scan, showing the exact file (**mcp_server.py**) and code snippet where the vulnerability was detected. The finding is given a **Medium** risk severity, accompanied by an LLM-generated **Explanation** of the command execution risk found in the code.
@@ -441,8 +437,8 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 
 ---
 
-## Case Studies 
-A public repository of case studies, and technical deep-dives will be made available soon (from October 8th onwards).
+## Case Studies & Research
+A public repository of case studies, and technical deep-dives will be made available soon (from **October 8th onwards**).
 
 ---
 
@@ -487,5 +483,3 @@ We welcome contributions from the security community! Here's how you can get inv
 ---
 
 All rights reserved. This software and its documentation are the intellectual property of [ZeroShield](https://zeroshield.ai).
-
----
