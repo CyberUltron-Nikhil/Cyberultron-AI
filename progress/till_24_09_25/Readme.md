@@ -192,9 +192,8 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 
 > **Alice**, a Security Engineer, is onboarding a new payments platform. She uploads the system’s DFDs and architecture, connects the GitHub repo, and sets data sensitivity. Threat Shield instantly generates a threat model showing 23 STRIDE threats, highlighting 7 unresolved high-risk issues and 2 failed PCI compliance controls. Using the heatmap and attack tree, Alice quickly triages which risks to escalate to DevOps for urgent fixes, and exports a report to satisfy the next audit.
 
----
 
-## Demo Video for Threat Modeling of Normal Systems
+### Demo Video for Threat Modeling of Normal Systems
 
 <div align="center">
   <a href="https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8">
@@ -285,6 +284,14 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 #### Hypothetical User Scenario
 
 > **Raj**, an AI/ML Product Lead, is launching a GenAI-powered helpdesk. He runs a Threat Shield LLM scan, which executes 40+ Garak probes. The dashboard reveals a high hit rate for prompt injection and roleplay attacks, and a failed GDPR control. Raj reviews the suggested fixes, patches the prompt template, and re-runs the scan—dropping risk level to “Low” and passing all compliance checks before go-live.
+
+### Demo Video for LLM Vulnerability Testing
+
+<div align="center">
+  <a href="https://github.com/user-attachments/assets/8dd9b7b6-4781-4b37-8a62-788bc274b79d">
+    <img src="https://img.shields.io/badge/🎥_Watch_LLM_Scanning_Demo-blueviolet" alt="Watch LLM Scanning Demo Video" />
+  </a>
+</div>
 
 ---
 
@@ -400,6 +407,16 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 | Compliance Control Failure (General)       | All          | ✓         | ✓       | ✓    | ✓    | ✓    |
 
 *Each finding in the dashboard is automatically mapped to these standards using probe/static analysis metadata and logic. Compliance impact is shown per issue and in summary cards.*
+
+
+### Demo Video for MCP Server Vulnerability Scanning
+
+<div align="center">
+  <a href="https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef">
+    <img src="https://img.shields.io/badge/🎥_Watch_MCP_Scanning_Demo-blueviolet" alt="Watch MCP Scanning Demo Video" />
+  </a>
+</div>
+
 
 ---
 ## Example Workflows & User Benefits
