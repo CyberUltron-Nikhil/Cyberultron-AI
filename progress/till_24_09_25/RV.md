@@ -4,9 +4,11 @@
    <img width="200" height="200" alt="Threat Shield Logo" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
    <br />
    <em>Threat Shield, a part of <a href="https://zeroshield.ai">ZeroShield</a></em>
-
-   
-  <div align="center">
+</div>
+<div align="center">
+    <img src="https://img.shields.io/badge/Launching_Publicly-October_8th-red?style=for-the-badge" alt="Launching October 8th" />
+</div>
+<div align="center">
     <a href="https://opensource.org/licenses/MIT">
       <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
     </a>
@@ -37,8 +39,7 @@
     <a href="https://react.dev/">
       <img src="https://img.shields.io/badge/React-18+-blue.svg" alt="React" />
     </a>
-  </div>
-
+</div>
 
 ## Table of Contents
 
@@ -62,7 +63,6 @@
 
 ## About Threat Shield
 **Threat Shield** is an advanced **threat modelling platform** within the **[ZeroShield](https://zeroshield.ai)** platform, designed to give organizations deep, actionable insight into risks across classic applications, codebases, and cutting-edge GenAI/LLM integrations.Threat Shield unifies real-time threat modeling, LLM security probing via Garak, and MCP codebase vulnerability scanning for a complete, compliance-ready view of your security posture.
-
 
 ---
 
@@ -106,8 +106,6 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 
 https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 
-
-
 #### What Users See & How It Works
 
 - **Project List Screen:**  
@@ -135,10 +133,7 @@ https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 
 <img width="800" height="600" alt="Threat Modeling Project Dashboard" src="https://github.com/user-attachments/assets/a1e67280-139d-4392-a8db-52b77ae312ae" />
 
-
 **Description:** The main dashboard for a **Threat Modeling** project, showcasing the system's overall risk score (6.5), key metrics like **Total STRIDE Threats** (6 identified, 6 unresolved), and the high-level **DREAD Heat Map** for rapid risk prioritization.
-
-
 
 #### What/Why of Each Visualization
 - **Summary Cards:** Instantly see the scale and urgency of risk in the system.
@@ -148,33 +143,23 @@ https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 - **Attack Trees:** Helps visualize possible attack paths and lateral movement.
 - **Threat Table:** Enables fast triage, assignment, and remediation tracking.
 
-
 ### Threat Modeling Attack Tree and OWASP Tracker
 
 <img width="800" height="600" alt="Threat Modeling Attack Tree and OWASP Tracker" src="https://github.com/user-attachments/assets/8c002fc9-6bcb-44cd-b4f9-d83b1006568f" />
 
-
 **Description:** An in-depth view of the **Threat Modeling** dashboard, displaying the **PASTA Attack Tree** visualization to map out potential attack paths and lateral movement. It also highlights the **OWASP Top 10 Tracker**, showing 3 of 10 categories triggered, including **Identification and Authentication Failures** (A07) and **Security Misconfiguration** (A05).
-
-
-
 
 ### Threat Modeling Finding Details
 
 <img width="800" height="600" alt="Threat Modeling Finding Details" src="https://github.com/user-attachments/assets/5676290d-9dcd-4cb3-835f-d0aced641e6f" />
 
-
 **Description:** An expanded view of a Threat Modeling finding, detailing an **API Key Exposure** threat. It shows the impact across five major compliance frameworks (**ISO, NIST, PCI DSS, GDPR, SOC 2**), the associated **OWASP Broken Access Control** (A01:2021) vulnerability, and a comprehensive, actionable **Suggested Fix** for secure key management.
-
-
 
 ### Threat Modeling Finding Scoring and Compliance
 
 <img width="800" height="600" alt="Threat Modeling Finding Scoring and Compliance" src="https://github.com/user-attachments/assets/a84bcd7b-2472-4962-9474-1b548e0ff671" />
 
-
 **Description:** The top portion of the Threat Modeling finding details, clearly showing the threat's **High Severity**, the associated **STRIDE Categories** (S-Spoofing, I-Information Disclosure), **DREAD Scores** for risk calculation, and a comprehensive list of affected **Compliance Controls** across ISO, NIST, PCI DSS, GDPR, and SOC 2.
-
 
 #### Deep-Dive: How It Works
 - Upload system diagrams, code, and metadata.
@@ -185,8 +170,6 @@ https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 #### Hypothetical User Scenario
 
 > **Alice**, a Security Engineer, is onboarding a new payments platform. She uploads the system’s DFDs and architecture, connects the GitHub repo, and sets data sensitivity. Threat Shield instantly generates a threat model showing 23 STRIDE threats, highlighting 7 unresolved high-risk issues and 2 failed PCI compliance controls. Using the heatmap and attack tree, Alice quickly triages which risks to escalate to DevOps for urgent fixes, and exports a report to satisfy the next audit.
-
-
 
 ### 2. LLM Vulnerability Testing (with Garak Probes)
 
@@ -218,7 +201,6 @@ https://github.com/user-attachments/assets/8dd9b7b6-4781-4b37-8a62-788bc274b79d
 - **OWASP Card:** Shows if LLM flaws could impact web/app security standards.
 - **Probe Table:** Full transparency—see exactly which prompts/probes succeeded, failed, and why.
 
-
 #### In-Depth Garak Probe Coverage
 
 - **Garak probes** test models for:  
@@ -230,10 +212,7 @@ https://github.com/user-attachments/assets/8dd9b7b6-4781-4b37-8a62-788bc274b79d
 
 <img width="800" height="600" alt="LLM Probe Finding Details" src="https://github.com/user-attachments/assets/cd7f2baf-b9ee-48fa-8492-1d30119877ca" />
 
-
 **Description:** A deep-dive into an LLM security finding, showing the results of a **malwaregen.Evasion** Garak probe. The panel displays the **Medium Risk Level**, a **20.8% hit rate**, failed compliance controls like **Malware Detection and Prevention**, and the specific **LLM-generated remediation fix** to update detection rules.
-
-
 
 #### Deep-Dive: Garak Probe System
 
@@ -274,9 +253,6 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 > **Raj**, an AI/ML Product Lead, is launching a GenAI-powered helpdesk. He runs a Threat Shield LLM scan, which executes 40+ Garak probes. The dashboard reveals a high hit rate for prompt injection and roleplay attacks, and a failed GDPR control. Raj reviews the suggested fixes, patches the prompt template, and re-runs the scan—dropping risk level to “Low” and passing all compliance checks before go-live.
 
-
-
-
 ### 3. MCP Server Vulnerability Scanning
 
 #### Demo Video
@@ -284,7 +260,6 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 
 #### What Users See & How It Works
-
 
 - **MCP Scans List:**  
   - Table: [Repository Name, Total Results, Language, Status, Created At]
@@ -302,24 +277,17 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 
 - **Scan Limits**: Supports repositories up to **[INSERT $500\text{MB}$ / LINES OF CODE LIMIT HERE]** for GitHub/GitLab integration. *(Note: Please replace this placeholder with the actual limit from your team).*
 
-
 ### MCP Scan Project Dashboard
 
 <img width="800" height="600" alt="MCP Scan Project Dashboard" src="https://github.com/user-attachments/assets/3d041883-97bb-48b0-bbab-c5029d929e57" />
 
-
 **Description:** The dashboard for an **MCP Server Vulnerability Scan**, providing an executive summary with **Total Findings** (5), **High Risk** items (5), and the primary development language (Python). It also displays a list of detected **OWASP Vulnerabilities** (A03, A06, A04, A01) and a visualization of **Failed Compliance Controls** over time.
-
-
-
 
 ### MCP Finding Details
 
 <img width="800" height="600" alt="MCP Finding Details" src="https://github.com/user-attachments/assets/9e787855-371a-45c5-8daa-855e9798819c" />
 
-
 **Description:** A detailed view of a security finding from the MCP Server scan, specifically the **detect-command-execution** rule. The panel highlights the affected code snippet, relevant compliance controls (**NIST SP 800-53** and **PCI DSS**), the associated **OWASP Injection** vulnerability (A03:2021), and the **LLM-generated recommended fix** to prevent unauthorized command execution.
-
 
 #### What/Why of Each Visualization
 - **Summary Cards:** Snapshot of codebase health and urgency.
@@ -328,7 +296,6 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 - **Threat Graph:** Visualizes risk over time or per category.
 - **Result Table:** Drill down to every finding, fix, and compliance mapping.
 
-  
 #### Technical Workflow
 
 - **Phase 1:**  
@@ -339,16 +306,11 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
   - Further mapped to **OWASP Top 10** vulnerabilities and failed compliance controls (ISO 27001, PCI DSS, NIST, SOC2, GDPR, etc.).
   - Compliance mapping is visualized per finding and overall scan.
 
-
 ### Code-Level Finding Explanation
 
 <img width="800" height="600" alt="Code-Level Finding Explanation" src="https://github.com/user-attachments/assets/445c5c0b-95bd-4cb7-9167-b0466bb3a638" />
 
-
 **Description:** A close-up view of the code analysis within the MCP Scan, showing the exact file (**mcp_server.py**) and code snippet where the vulnerability was detected. The finding is given a **Medium** risk severity, accompanied by an LLM-generated **Explanation** of the command execution risk found in the code.
-
-
- 
 
 #### Deep-Dive: Analysis Pipeline
 
@@ -365,7 +327,6 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
     - All results are visualized in the MCP scan dashboard, showing severity, status, compliance impact, and suggested fixes.
     - Reports can be exported for audit/evidence.
 
-
 #### How It Benefits Users
 
 - **Automated, deep static analysis** on every codebase.
@@ -376,7 +337,6 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 #### Hypothetical User Scenario
 
 > **Jane**, DevSecOps Lead, pushes a new release to the MCP repo. Threat Shield automatically kicks off a scan. Within minutes, Jane sees 13 new findings—two critical SQL injection issues, several failed PCI controls, and a high-risk secrets leak. The LLM-generated explanations help her prioritize fixes, and she exports a compliance report for the next audit.
-
 
 ---
 
@@ -394,7 +354,6 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 | Compliance Control Failure (General)       | All          | ✓         | ✓       | ✓    | ✓    | ✓    |
 
 *Each finding in the dashboard is automatically mapped to these standards using probe/static analysis metadata and logic. Compliance impact is shown per issue and in summary cards.*
-
 
 ## Example Workflows & User Benefits
 
