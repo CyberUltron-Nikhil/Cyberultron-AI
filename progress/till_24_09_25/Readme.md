@@ -47,7 +47,6 @@
 - [Core Mission](#core-mission)
 - [Key Capabilities](#key-capabilities)
 - [Target Users](#target-users)
-- [Demo Video & Screenshots](#demo-video--screenshots)
 - [Feature Overview](#feature-overview)
   - [1. Threat Modeling of Normal Systems](#1-threat-modeling-of-normal-systems)
   - [2. LLM Vulnerability Testing (with Garak Probes)](#2-llm-vulnerability-testing-with-garak-probes)
