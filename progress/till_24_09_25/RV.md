@@ -108,11 +108,7 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 
 #### Demo Video
 
-<div align="center">
-  <a href="https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8">
-    <img src="https://img.shields.io/badge/🎥_Watch_Threat_Modeling_Demo-blueviolet" alt="Watch Threat Modeling Demo Video" />
-  </a>
-</div>
+https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 
 #### What Users See & How It Works
 
@@ -198,11 +194,7 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 
 #### Demo Video
 
-<div align="center">
-  <a href="https://github.com/user-attachments/assets/8dd9b7b6-4781-4b37-8a62-788bc274b79d">
-    <img src="https://img.shields.io/badge/🎥_Watch_LLM_Scanning_Demo-blueviolet" alt="Watch LLM Scanning Demo Video" />
-  </a>
-</div>
+https://github.com/user-attachments/assets/8dd9b7b6-4781-4b37-8a62-788bc274b79d
 
 #### What Users See & How It Works
 
@@ -291,11 +283,7 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 #### Demo Video
 
-<div align="center">
-  <a href="https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef">
-    <img src="https://img.shields.io/badge/🎥_Watch_MCP_Scanning_Demo-blueviolet" alt="Watch MCP Scanning Demo Video" />
-  </a>
-</div>
+https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 
 #### What Users See & How It Works
 
