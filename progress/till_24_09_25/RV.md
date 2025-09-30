@@ -58,7 +58,7 @@
 - [Example Workflows & User Benefits](#example-workflows--user-benefits)
 - [Use Cases](#use-cases)
 - [Tech Stack](#tech-stack)
-- [Case Studies & Research](#case-studies--research)
+- [Case Studies](#case-studies)
 - [Support](#support)
 - [Get Involved](#get-involved)
 
@@ -451,8 +451,8 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 ---
 
-## Case Studies & Research
-A public repository of case studies, research papers, and technical deep-dives will be made available soon (from October 8th onwards).
+## Case Studies 
+A public repository of case studies, and technical deep-dives will be made available soon (from October 8th onwards).
 
 ---
 
