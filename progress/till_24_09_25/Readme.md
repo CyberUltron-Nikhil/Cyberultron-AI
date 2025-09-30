@@ -194,6 +194,16 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 
 ---
 
+## Demo Video for Threat Modeling of Normal Systems
+
+<div align="center">
+  <a href="https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8">
+    <img src="https://img.shields.io/badge/🎥_Watch_Threat_Modeling_Demo-blueviolet" alt="Watch Demo Video" />
+  </a>
+</div>
+
+---
+
 ### 2. LLM Vulnerability Testing (with Garak Probes)
 
 #### What Users See & How It Works
