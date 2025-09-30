@@ -3,7 +3,7 @@
 <div align="center">
    <img width="200" height="200" alt="Threat Shield (ZAPESIC) Logo" src="https://github.com/user-attachments/assets/03398106-6184-47b0-b1f4-403d375f2eba" />
    <br />
-   <em>Threat Shield, a part of ZeroShield</em>
+   <em>Threat Shield, a part of <a href="https://zeroshield.ai">ZeroShield</a></em>
 
    
 </div>
@@ -56,11 +56,12 @@
 - [Use Cases](#use-cases)
 - [Tech Stack](#tech-stack)
 - [Support](#support)
+- [Get Involved](#get-involved)
 
 ---
 
 ## About Threat Shield
-**Threat Shield** is an advanced security automation module within the **ZeroShield** platform, designed to give organizations deep, actionable insight into risks across classic applications, codebases, and cutting-edge GenAI/LLM integrations.Threat Shield unifies real-time threat modeling, LLM security probing via Garak, and MCP codebase vulnerability scanning for a complete, compliance-ready view of your security posture.
+**Threat Shield** is an advanced threat modelling platform within the **[ZeroShield](https://zeroshield.ai)** platform, designed to give organizations deep, actionable insight into risks across classic applications, codebases, and cutting-edge GenAI/LLM integrations.Threat Shield unifies real-time threat modeling, LLM security probing via Garak, and MCP codebase vulnerability scanning for a complete, compliance-ready view of your security posture.
 
 
 ---
@@ -81,7 +82,7 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 
 - Automated Threat Modeling for Classic and Cloud-Native Systems
 - Advanced LLM Vulnerability Testing (with deep Garak Probe analysis)
-- MCP Server-Based Vulnerability Scanning & Compliance (Semgrep + LLM analysis)
+- MCP Server-Based Vulnerability Scanning & Compliance (LLM analysis)
 - Real-Time Compliance & OWASP Top 10 Mapping (ISO, PCI, SOC2, NIST, GDPR)
 - Unified Risk Analytics & Visualizations
 
@@ -100,6 +101,10 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 ## Feature Overview
 
 ### 1. Threat Modeling of Normal Systems
+
+#### Demo Video
+
+https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 
 #### What Users See & How It Works
 
@@ -182,17 +187,12 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 > **Alice**, a Security Engineer, is onboarding a new payments platform. She uploads the system’s DFDs and architecture, connects the GitHub repo, and sets data sensitivity. Threat Shield instantly generates a threat model showing 23 STRIDE threats, highlighting 7 unresolved high-risk issues and 2 failed PCI compliance controls. Using the heatmap and attack tree, Alice quickly triages which risks to escalate to DevOps for urgent fixes, and exports a report to satisfy the next audit.
 
 
-### Demo Video for Threat Modeling of Normal Systems
-
-<div align="center">
-  <a href="https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8">
-    <img src="https://img.shields.io/badge/🎥_Watch_Threat_Modeling_Of_Normal_Systems_Demo-blueviolet" alt="Watch Demo Video" />
-  </a>
-</div>
-
----
 
 ### 2. LLM Vulnerability Testing (with Garak Probes)
+
+#### Demo Video
+
+https://github.com/user-attachments/assets/8dd9b7b6-4781-4b37-8a62-788bc274b79d
 
 #### What Users See & How It Works
 
@@ -274,19 +274,14 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 > **Raj**, an AI/ML Product Lead, is launching a GenAI-powered helpdesk. He runs a Threat Shield LLM scan, which executes 40+ Garak probes. The dashboard reveals a high hit rate for prompt injection and roleplay attacks, and a failed GDPR control. Raj reviews the suggested fixes, patches the prompt template, and re-runs the scan—dropping risk level to “Low” and passing all compliance checks before go-live.
 
-### Demo Video for LLM Vulnerability Testing
-
-<div align="center">
-  <a href="https://github.com/user-attachments/assets/8dd9b7b6-4781-4b37-8a62-788bc274b79d">
-    <img src="https://img.shields.io/badge/🎥_Watch_LLM_Vulnerability_Testing_Demo-blueviolet" alt="Watch LLM Scanning Demo Video" />
-  </a>
-</div>
-
----
 
 
 
 ### 3. MCP Server Vulnerability Scanning
+
+#### Demo Video
+
+https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 
 #### What Users See & How It Works
 
@@ -334,8 +329,8 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 #### Technical Workflow
 
 - **Phase 1:**  
-  - Repository is temporarily cloned and scanned with **Semgrep** for static code analysis.
-  - Semgrep flags all code patterns matching vulnerability rules.
+  - Repository is temporarily cloned and scanned for static code analysis.
+  - The system flags all code patterns matching vulnerability rules.
 - **Phase 2:**  
   - Each finding is analyzed by an LLM to generate explanations and actionable fixes.
   - Further mapped to **OWASP Top 10** vulnerabilities and failed compliance controls (ISO 27001, PCI DSS, NIST, SOC2, GDPR, etc.).
@@ -352,12 +347,12 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
  
 
-#### Deep-Dive: Semgrep & Analysis Pipeline
+#### Deep-Dive: Analysis Pipeline
 
-- **Step 1: Static Analysis with Semgrep**
+- **Step 1: Static Analysis**
     - When a scan is triggered, Threat Shield temporarily clones the selected MCP repository.
-    - Semgrep runs a suite of static analysis rules covering OWASP Top 10, common code smells, secrets, and insecure configurations.
-    - Semgrep is chosen for its speed, accuracy, and extensibility (custom rules per project/language).
+    - The system runs a suite of static analysis rules covering OWASP Top 10, common code smells, secrets, and insecure configurations.
+    - The analysis engine is chosen for its speed, accuracy, and extensibility (custom rules per project/language).
 - **Step 2: LLM-Powered Findings**
     - Each finding is passed to an LLM for further analysis, generating:
         - Human-readable explanation of risk
@@ -370,7 +365,7 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 #### How It Benefits Users
 
-- **Automated, deep static analysis** (Semgrep) on every codebase.
+- **Automated, deep static analysis** on every codebase.
 - **LLM-powered explanations** for fast triage and remediation.
 - **Clear compliance gap visibility** for every finding.
 - **Audit-ready reporting** and compliance evidence on demand.
@@ -398,16 +393,6 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 *Each finding in the dashboard is automatically mapped to these standards using probe/static analysis metadata and logic. Compliance impact is shown per issue and in summary cards.*
 
 
-### Demo Video for MCP Server Vulnerability Scanning
-
-<div align="center">
-  <a href="https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef">
-    <img src="https://img.shields.io/badge/🎥_Watch_MCP_Server_Vulnerability_Scanning_Demo-blueviolet" alt="Watch MCP Scanning Demo Video" />
-  </a>
-</div>
-
-
----
 ## Example Workflows & User Benefits
 
 **Threat Modeling Workflow:**  
@@ -420,7 +405,7 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 **MCP Vulnerability Workflow:**  
 - Trigger scan for MCP repositories, review findings and LLM explanations, analyze OWASP/compliance mapping, assign remediations, produce compliance-ready reports.
-- DevSecOps lead triggers a code scan; Semgrep finds vulnerabilities, LLM explains and maps them to OWASP and compliance, all results are reviewed and exported for audit.
+- DevSecOps lead triggers a code scan; the system finds vulnerabilities, LLM explains and maps them to OWASP and compliance, all results are reviewed and exported for audit.
 
 **Benefits:**  
 - Prevent real-world security incidents and compliance failures before they happen.
@@ -444,14 +429,15 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 - **Backend:** Python (FastAPI), REST API, JWT Auth
 - **Frontend:** Next.js (TypeScript), Tailwind CSS, Lucide React, React
 - **AI Analysis:** LLM/AI-powered integrations, Garak
-- **Code Scanning:** Semgrep
+- **Code Scanning:** Static Analysis Engine
 - **Database:** Configurable (e.g., SQLite/Postgres)
 
 ---
 
 ## Support
 
-- 📧 Email: [nikhil@cyberultron.com](mailto:nikhil@cyberultron.com)
+- 📧 Contact: [vartul@zeroshield.ai](mailto:vartul@zeroshield.ai)
+- 📧 Support Queries: [support@zeroshield.ai](mailto:support@zeroshield.ai)
 
 ---
 
@@ -459,10 +445,35 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 > **Value Proposition:**  
 > Unified, automated threat modeling and vulnerability management for the next generation of enterprise security
 > "Thraet Shield turns complex, manual security and compliance challenges into automated, actionable insights—empowering teams to move faster, safer, and with confidence."
-*Threat Shield, a part of Zero Shield, brings in-depth, practical security to every step of your development and deployment lifecycle.*
+*Threat Shield, a part of [ZeroShield](https://zeroshield.ai), brings in-depth, practical security to every step of your development and deployment lifecycle.*
 
 ---
 
-All rights reserved. This software and its documentation are the intellectual property of CyberUltron Consulting Private Limited.
+## Get Involved
+
+We welcome contributions from the security community! Here's how you can get involved with [Threat Shield](https://zeroshield.ai):
+
+### 🤝 Contributing
+
+- **Report Issues**: Found a bug or have a feature request? Open an issue on our repository
+- **Code Contributions**: Submit pull requests to help improve [Threat Shield](https://zeroshield.ai)
+- **Documentation**: Help improve our documentation and examples
+- **Security Research**: Contribute new threat models, attack patterns, or vulnerability tests
+
+### 🔗 Community
+
+- **GitHub Discussions**: Join our community discussions and share ideas
+- **Security Research**: Collaborate on new security analysis techniques
+- **Feedback**: Share your experience using [Threat Shield](https://zeroshield.ai) in your organization
+
+### 📞 Contact
+
+- **General Contact**: [vartul@zeroshield.ai](mailto:vartul@zeroshield.ai)
+- **Support**: [support@zeroshield.ai](mailto:support@zeroshield.ai)
+- **Partnerships**: [partnerships@zeroshield.ai](mailto:partnerships@zeroshield.ai)
+
+---
+
+All rights reserved. This software and its documentation are the intellectual property of [ZeroShield](https://zeroshield.ai).
 
 ---
