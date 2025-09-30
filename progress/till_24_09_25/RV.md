@@ -110,6 +110,8 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 
 https://github.com/user-attachments/assets/10ec45b0-a35f-45a7-a03f-c11f754e11b8
 
+
+
 #### What Users See & How It Works
 
 - **Project List Screen:**  
