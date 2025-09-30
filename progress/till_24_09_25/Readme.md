@@ -135,7 +135,7 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
       - Search & filter options
   - **Generate Report Button:** Exportable audit-ready report.
 
-### Screenshot 1: Threat Modeling Project Dashboard
+### Threat Modeling Project Dashboard
 
 <img width="800" height="600" alt="Screenshot 2025-09-29 173615" src="https://github.com/user-attachments/assets/a1e67280-139d-4392-a8db-52b77ae312ae" />
 
@@ -153,7 +153,7 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 - **Threat Table:** Enables fast triage, assignment, and remediation tracking.
 
 
-### Screenshot 2: Threat Modeling Attack Tree and OWASP Tracker
+### Threat Modeling Attack Tree and OWASP Tracker
 
 <img width="800" height="600" alt="Screenshot 2025-09-29 173641" src="https://github.com/user-attachments/assets/8c002fc9-6bcb-44cd-b4f9-d83b1006568f" />
 
@@ -163,7 +163,7 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 
 
 
-### Screenshot 3: Threat Modeling Finding Details
+### Threat Modeling Finding Details
 
 <img width="800" height="600" alt="Screenshot 2025-09-29 173717" src="https://github.com/user-attachments/assets/5676290d-9dcd-4cb3-835f-d0aced641e6f" />
 
@@ -172,7 +172,7 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 
 
 
-### Screenshot 4: Threat Modeling Finding Scoring and Compliance
+### Threat Modeling Finding Scoring and Compliance
 
 <img width="800" height="600" alt="Screenshot 2025-09-29 173703" src="https://github.com/user-attachments/assets/a84bcd7b-2472-4962-9474-1b548e0ff671" />
 
@@ -228,7 +228,7 @@ Empower teams to rapidly identify, understand, and remediate security risks—ac
 - **LLM Exposure Analysis:**  
   - Beyond probe results, Threat Shield analyzes the LLM's exposure and risk posture, surfaces all successful bypasses, and maps to OWASP Top 10 and failed compliance controls.
 
-### Screenshot 5: LLM Probe Finding Details
+### LLM Probe Finding Details
 
 <img width="800" height="600" alt="Screenshot 2025-09-29 173750" src="https://github.com/user-attachments/assets/cd7f2baf-b9ee-48fa-8492-1d30119877ca" />
 
@@ -299,7 +299,7 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
   - **Result Table:**  
       - Columns: Result Class, Severity, Rule Detected, Status, Suggested Fixes
 
-### Screenshot 6: MCP Scan Project Dashboard
+### MCP Scan Project Dashboard
 
 <img width="800" height="600" alt="Screenshot 2025-09-29 173159" src="https://github.com/user-attachments/assets/3d041883-97bb-48b0-bbab-c5029d929e57" />
 
@@ -309,7 +309,7 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
 
 
 
-### Screenshot 7: MCP Finding Details
+### MCP Finding Details
 
 <img width="800" height="600" alt="Screenshot 2025-09-29 173534" src="https://github.com/user-attachments/assets/9e787855-371a-45c5-8daa-855e9798819c" />
 
@@ -336,7 +336,7 @@ Threat Shield leverages the **Garak** framework for LLM security, running dozens
   - Compliance mapping is visualized per finding and overall scan.
 
 
-### Screenshot 8: Code-Level Finding Explanation
+### Code-Level Finding Explanation
 
 <img width="800" height="600" alt="Screenshot 2025-09-29 173512" src="https://github.com/user-attachments/assets/445c5c0b-95bd-4cb7-9167-b0466bb3a638" />
 
