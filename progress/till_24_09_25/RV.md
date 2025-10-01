@@ -6,7 +6,8 @@
 
 <br />
 
-   <img width="200" height="200" alt="Threat Shield Logo" src="./Static Assets/Blue-Logo.png" />
+   <img width="200" height="200" alt="White-background-logo" src="https://github.com/user-attachments/assets/6c7dbfd4-1bfe-451c-8c26-d630cf37b4f7" />
+
    <br />
    <em>Threat Shield, a part of <a href="https://zeroshield.ai">ZeroShield</a></em>
 
