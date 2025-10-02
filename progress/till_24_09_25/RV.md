@@ -6,7 +6,8 @@
 
 <br />
 
-   <img width="200" height="200" alt="Threat Shield Logo" src="./Static Assets/Blue-Logo.png" />
+  <img width="200" height="200" alt="White-background-logo (1)" src="https://github.com/user-attachments/assets/d41a202a-4fd7-4337-848d-af04f486e5e3" />
+
    <br />
    <em>Threat Shield, a part of <a href="https://zeroshield.ai">ZeroShield</a></em>
 
@@ -444,11 +445,9 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 A public repository of case studies and technical deep-dives are available below, demonstrating Threat Shield's real-world impact across various security domains.
 
 - **Case Study 1: Securing a High-Risk Payments Platform (Threat Modeling)**
-    - [View Source Documentation](./case-study-securing-payments-platform.md)
     - **[View Live Visual Case Study (Canva)](https://www.canva.com/design/DAG0pHcZfCU/p79JOHymn3RtoRVUr-ZYtg/edit?utm_content=DAG0pHcZfCU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 
 - **Case Study 2: Validating a GenAI Chatbot against Prompt Injection (LLM Security Testing)**
-    - [View Source Documentation](./case-study-validating-ai-chatbot.md)
     - **[View Live Visual Case Study (Canva)](https://www.canva.com/design/DAG0pBZZH0M/dugxEJuxFIf_F9R2KntUAg/edit?utm_content=DAG0pBZZH0M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 
 ---
