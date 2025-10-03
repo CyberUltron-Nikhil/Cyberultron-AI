@@ -111,7 +111,7 @@ This diagram illustrates the end-to-end payment processing architecture, showing
 - **Compliance Impact:** 3 failed SOC 2 controls, 2 failed PCI DSS requirements  
 - **Threat Shield Guidance:** Provided OAuth 2.0 + JWT implementation pattern with sample code
 
-  <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ee9132b1-a8a5-4ee2-b95e-22c96ba81a61" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ee9132b1-a8a5-4ee2-b95e-22c96ba81a61" />
 
 
 **Figure 3: Authentication and Secret Management Data Flow**  
