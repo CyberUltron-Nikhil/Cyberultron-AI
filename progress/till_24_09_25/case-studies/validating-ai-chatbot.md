@@ -51,7 +51,7 @@ The chatbot used **Retrieval-Augmented Generation (RAG)** with:
 - Proprietary medical knowledge base (protocols, drug interactions)  
 - Patient data integration for personalized responses  
 - Real-time insurance & scheduling connections  
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/fe6d7c48-164d-466f-990d-433c94ccac4e" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/fe6d7c48-164d-466f-990d-433c94ccac4e" />
 
 **Figure 1: Patient-to-LLM Query Processing Flow**  
 *Illustrates the complete conversational AI pipeline from patient input → response delivery. Red-highlighted data stores indicate PHI vulnerabilities to prompt injection attacks.*  
@@ -102,7 +102,7 @@ The chatbot used **Retrieval-Augmented Generation (RAG)** with:
 ---
 
 ## THE SOLUTION: THREAT SHIELD LLM SECURITY TESTING  
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/73095c36-1e4e-4a49-8132-ad335dd63f00" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/73095c36-1e4e-4a49-8132-ad335dd63f00" />
 
 **Figure 2: Threat Shield LLM Security Testing Methodology**  
 *Threat Shield executed 1,247 adversarial test prompts across 40+ categories, achieving quantified validation.*  
@@ -149,7 +149,7 @@ The chatbot used **Retrieval-Augmented Generation (RAG)** with:
 5. **Hallucinated Medical Info (6.2%)**  
    - False drug interaction warnings
   
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/389d7cdf-83af-47f7-b4b1-c2af5614c8e1" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/389d7cdf-83af-47f7-b4b1-c2af5614c8e1" />
 
 
 **Figure 3: LLM Security Layer & Validation Pipeline**  
