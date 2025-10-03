@@ -51,7 +51,7 @@ The chatbot used **Retrieval-Augmented Generation (RAG)** with:
 - Proprietary medical knowledge base (protocols, drug interactions)  
 - Patient data integration for personalized responses  
 - Real-time insurance & scheduling connections  
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/fe6d7c48-164d-466f-990d-433c94ccac4e" />
+<img width="550" height="400" alt="image" src="https://github.com/user-attachments/assets/fe6d7c48-164d-466f-990d-433c94ccac4e" />
 
 **Figure 1: Patient-to-LLM Query Processing Flow**  
 *Illustrates the complete conversational AI pipeline from patient input → response delivery. Red-highlighted data stores indicate PHI vulnerabilities to prompt injection attacks.*  
