@@ -440,7 +440,6 @@ https://github.com/user-attachments/assets/b41ce23a-b494-49ae-81d4-46ec39a3a7ef
 - **Database:** Configurable (e.g., SQLite/Postgres)
 
 ---
----
 
 ## Case Studies
 
