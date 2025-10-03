@@ -1,4 +1,4 @@
-# Case Study 2: Validating Healthcare AI — Securing a Patient Support Chatbot Against LLM Attacks 🏥🤖  
+# Case Study 2: Validating Healthcare AI — Securing a Patient Support Chatbot Against LLM Attacks 
 
 ---
 
