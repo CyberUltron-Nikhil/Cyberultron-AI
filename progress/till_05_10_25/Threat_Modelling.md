@@ -35,11 +35,7 @@ The DREAD model forces your team to **articulate why one security flaw matters m
 The Threat Heatmap is the **visual culmination** of your entire threat model.  
 It transforms precise DREAD scores into a simple, color-coded priority system that every stakeholder can instantly understand.
 
-| **Likelihood → / Impact ↓** | **Low Likelihood** | **Medium Likelihood** | **High Likelihood** |
-| :--- | :--- | :--- | :--- |
-| **Catastrophic Impact** | Medium (Yellow) | High (Red) | Critical (Dark Red) |
-| **Serious Impact** | Low (Green) | Medium (Yellow) | High (Red) |
-| **Minor Impact** | Low (Green) | Low (Green) | Medium (Yellow) |
+<img width="919" height="214" alt="image" src="https://github.com/user-attachments/assets/cb2fe412-12f1-4db6-a9fe-469b7cf48c17" />
 
 ---
 
