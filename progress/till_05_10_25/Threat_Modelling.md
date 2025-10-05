@@ -35,7 +35,7 @@ The DREAD model forces your team to **articulate why one security flaw matters m
 The Threat Heatmap is the **visual culmination** of your entire threat model.  
 It transforms precise DREAD scores into a simple, color-coded priority system that every stakeholder can instantly understand.
 
-<img width="919" height="214" alt="image" src="https://github.com/user-attachments/assets/cb2fe412-12f1-4db6-a9fe-469b7cf48c17" />
+<img width="700" height="194" alt="image" src="https://github.com/user-attachments/assets/cb2fe412-12f1-4db6-a9fe-469b7cf48c17" />
 
 ---
 
