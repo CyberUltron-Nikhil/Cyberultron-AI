@@ -22,10 +22,7 @@ Instead of focusing on the final formula, let's focus on the **Scoring Mindset**
 
 Imagine two vulnerabilities, both identified via Tampering (STRIDE), but with vastly different risks:
 
-| **Threat** | **Vulnerability** | **Key DREAD Drivers** | **Priority Shift** |
-| :--- | :--- | :--- | :--- |
-| **Threat A** | SQL Injection in a public API login field. | Reproducibility and Exploitability are near 10 (common tools exist). Damage is high (full database compromise). | **HIGH Risk** |
-| **Threat B** | Tampering with a session cookie on a rarely used internal admin page. | Discoverability is low (internal only). Affected Users is low (only 5 admin accounts). | **LOW / MEDIUM Risk** |
+<img width="1374" height="234" alt="image" src="https://github.com/user-attachments/assets/add2efd0-3144-4776-9c26-d463ca97d76a" />
 
 Though both are technically “Tampering” threats, Threat A's DREAD score skyrockets because its **ease of exploitation** and **catastrophic impact** are far greater.  
 
