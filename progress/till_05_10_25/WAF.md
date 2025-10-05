@@ -50,12 +50,7 @@ Advanced behavioral modeling allows WAFs to challenge suspicious users with invi
 
 To achieve continuous protection, AI-WAFs must integrate seamlessly into **DevSecOps** workflows:
 
-| Phase | Integration Point | Example Activity |
-| :--- | :--- | :--- |
-| **Design** | Threat Modeling | Identify WAF coverage for critical APIs and microservices. |
-| **Development** | Automated Testing | Simulate injection attacks using CI/CD pipelines to verify WAF efficacy. |
-| **Deployment** | Adaptive Tuning | AI retrains itself post-deployment using live traffic analytics. |
-| **Monitoring** | Feedback Loop | Integrate WAF insights with SIEM tools like Splunk or Azure Sentinel for centralized visibility. |
+<img width="1316" height="264" alt="image" src="https://github.com/user-attachments/assets/359568db-e68f-40cd-9ff7-18039c341f32" />
 
 By embedding the WAF into your CI/CD pipeline, you ensure that every new feature or endpoint inherits proactive, learning-based security controls.
 
