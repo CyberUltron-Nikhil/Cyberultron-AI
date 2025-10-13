@@ -78,46 +78,48 @@
 
 **Step 7:** Select **Yes** if the application is internet-facing, or **No** if it’s internal only.  
 **Step 8:** Enter the **GitHub Repository URL**.  
+**Step 9:** Enter the **GitHub Personal Access Token**. 
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/52d7fa23-4499-46e9-884b-dbd53b8673f0" />
 
 ---
 
-**Step 9:** Enter the **GitHub Personal Access Token**.  
+**Step 10:** Select the **Authentication Type**. 
+ 
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/f834d530-feac-43bc-abb2-23b4306957f9" />
 
 ---
 
-**Step 10:** Select the **Authentication Type**.  
+ **Step 11:** Select the **Data Sensitivity Classification**.  
+
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/32de2096-309d-4d1e-b772-7f948b831496" />
 
 ---
-
-**Step 11:** Select the **Data Sensitivity Classification**.  
+**Step 12:** Add the **Technical Stack and Dependencies**.  
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/fb13517b-5c3b-42b4-ac26-d1dad5e5cef9" />
 
 ---
-**Step 12:** Add the **Technical Stack and Dependencies**.  
+**Step 13:** Select the **Deployment Type**.  
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/cf109312-b1cf-4768-a84b-29b849b02563" />
 
 ---
 
-**Step 13:** Select the **Deployment Type**.  
+**Step 14:** Select the **Cloud Platform**.  
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/eea86194-8d06-48d4-aa02-113315460cb0" />
 
 ---
 
-**Step 14:** Select the **Cloud Platform**.  
+ **Step 15:** Choose the **Containerization Technology**
 
 <img width="975" height="496" alt="image" src="https://github.com/user-attachments/assets/981f4da7-3aab-4032-9aa3-68f286bd5949" />
 
 ---
 
-**Step 15:** Choose the **Containerization Technology**. 
+. 
 **Step 16:** Choose the **CI/CD Pipeline**.  
 
 
