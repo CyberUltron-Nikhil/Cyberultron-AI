@@ -1,4 +1,4 @@
-# 🛡️  Threat Shield – Product Manual  
+# 🛡️ Threat Shield – Product Manual  
 
 ## Sign Up Process
 
@@ -8,9 +8,18 @@
 **Step 4:** Enter the Last Name  
 **Step 5:** Get the Verification Code to the Email ID  
 **Step 6:** Enter the Verification Code  
-**Step 7:** Then Click on Register
+**Step 7:** Then Click on Register  
 
-   
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7551203b-081a-4493-8f11-9c6f18c9fdf1" />
+<img width="600" height="600" alt="Sign Up Page" src="https://github.com/user-attachments/assets/7551203b-081a-4493-8f11-9c6f18c9fdf1" />
 
 ---
+
+## Login Process
+
+**Step 1:** Enter your Registered Email ID  
+**Step 2:** Enter your Password  
+**Step 3:** Get the Verification Code to your Email ID  
+**Step 4:** Enter the Verification Code sent to the Registered Email ID  
+**Step 5:** Then Click on Login
+
+<img width="711" height="527" alt="image" src="https://github.com/user-attachments/assets/e5ec7f4c-a062-4c05-a1bb-33d0b1544ecc" />
