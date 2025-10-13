@@ -180,6 +180,7 @@
 ---
 
 **Step 3:** Select the Model Name
+
 **Step 4:** Enter the API Key
 
 <img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/2754725f-59ce-4d98-b4e4-e08b309f0726" />
