@@ -133,3 +133,31 @@
 <img width="975" height="516" alt="image" src="https://github.com/user-attachments/assets/f03e1c7f-820c-4b62-a459-bfa187a0045c" />
 
 ---
+
+## Results
+
+**Step 19:** You can generate the **report of results** and **download it in PDF format**.
+<img width="975" height="365" alt="image" src="https://github.com/user-attachments/assets/51eaf97d-5e63-43cc-80d7-9af90385807d" />
+
+<img width="975" height="396" alt="image" src="https://github.com/user-attachments/assets/d961d8b3-2223-4ec3-bd5c-ca972bee0964" />
+
+<img width="1020" height="473" alt="image" src="https://github.com/user-attachments/assets/cffd11dd-79a8-4eb4-bf55-08a98f770cbc" />
+
+
+<img width="975" height="363" alt="image" src="https://github.com/user-attachments/assets/a70fec82-ed01-49fc-9158-9f0b2febcccf" />
+
+
+<img width="923" height="456" alt="image" src="https://github.com/user-attachments/assets/5818bfc3-4922-4237-9fe0-d17a535668d6" />
+
+<img width="975" height="460" alt="image" src="https://github.com/user-attachments/assets/719efca3-86dc-4ba9-acc3-c48f12f8d1d3" />
+
+<img width="975" height="563" alt="image" src="https://github.com/user-attachments/assets/c8f011ee-8960-4047-83b0-d89d7593736d" />
+
+
+<img width="831" height="415" alt="image" src="https://github.com/user-attachments/assets/0821462f-1476-4b3b-bc76-36eabbdf5f0b" />
+
+---
+**Downloadable** **Results** in **PDF** Format
+
+<img width="975" height="441" alt="image" src="https://github.com/user-attachments/assets/188c7bcd-e113-4ff1-b6ae-4097cffbe466" />
+
