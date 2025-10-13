@@ -119,7 +119,7 @@
 
 ---
 
-. 
+
 **Step 16:** Choose the **CI/CD Pipeline**.  
 
 
@@ -207,7 +207,7 @@
 
 <img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/badfcce8-bd07-41c3-a747-66b1ffed6dc8" />
 
---
+
 
 <img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/b7e45080-4a30-4383-840e-3ac246e84c22" />
 
@@ -229,6 +229,53 @@
 ---
 
 ---
+
+## MCP Threat Modelling
+
+**Step 1:** Click on **Create Project** button to start the MCP scan.  
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/bd3a4838-2487-4425-9718-b1b01e1ae031" />
+
+---
+**Step 2:** In MCP tab, Enter the GitHub Repository URL
+
+**Step 3:** Enter GitHub Personal Access Token
+
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/65e1bd7e-cd74-4bbb-a896-cfc1487c33fc" />
+
+---
+
+**Step 4:**After filling all the requirements , Click on Create MCP Scan
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/c78e8166-d09e-45ab-8de0-9a29fb1d6dd6" />
+
+---
+## Results
+
+**Step 5:** You can generate the **report of results** and **download it in PDF format**.
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/406ec629-298b-42b0-9b48-6abd12381463" />
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/1cba8043-7af9-49ef-8da5-eea8d6dd3380" />
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/5a3b171f-b3e8-44c2-8d92-f124a5df8b6e" />
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/ca456118-9d19-4dd2-b649-2e6f09f1b063" />
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/8256d18e-6e80-468c-a3ca-704caedccbbc" />
+
+---
+
+**Downloadable** **Results** in **PDF** Format
+
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/5aa41c2e-4211-4768-89e6-775480491b9e" />
+
+---
+---
+
+
+
 
 
 
