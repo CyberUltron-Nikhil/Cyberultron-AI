@@ -125,6 +125,7 @@
 ---
 
 **Step 17:** Choose the **Secret Management Solution**.  
+
 **Step 18:** After filling in all the required details, click on **Create Project** to proceed.
 <img width="975" height="516" alt="image" src="https://github.com/user-attachments/assets/f03e1c7f-820c-4b62-a459-bfa187a0045c" />
 
