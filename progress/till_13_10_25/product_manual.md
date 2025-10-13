@@ -1,4 +1,4 @@
-# 🛡️ Threat Shield  Sign Up Process
+# 🛡️  Threat Shield – Product Manual  
 
 ## Sign Up Process
 
@@ -11,6 +11,6 @@
 **Step 7:** Then Click on Register
 
    
-<img width="646" height="528" alt="image" src="https://github.com/user-attachments/assets/7551203b-081a-4493-8f11-9c6f18c9fdf1" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7551203b-081a-4493-8f11-9c6f18c9fdf1" />
 
 ---
