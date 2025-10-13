@@ -115,7 +115,7 @@
 
  **Step 15:** Choose the **Containerization Technology**
 
-<img width="975" height="496" alt="image" src="https://github.com/user-attachments/assets/981f4da7-3aab-4032-9aa3-68f286bd5949" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/981f4da7-3aab-4032-9aa3-68f286bd5949" />
 
 ---
 
@@ -123,14 +123,14 @@
 **Step 16:** Choose the **CI/CD Pipeline**.  
 
 
-<img width="975" height="486" alt="image" src="https://github.com/user-attachments/assets/895c1a0e-77b4-4f32-950c-88fdf2d74007" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/895c1a0e-77b4-4f32-950c-88fdf2d74007" />
 
 ---
 
 **Step 17:** Choose the **Secret Management Solution**.  
 
 **Step 18:** After filling in all the required details, click on **Create Project** to proceed.
-<img width="975" height="516" alt="image" src="https://github.com/user-attachments/assets/f03e1c7f-820c-4b62-a459-bfa187a0045c" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/f03e1c7f-820c-4b62-a459-bfa187a0045c" />
 
 ---
 
