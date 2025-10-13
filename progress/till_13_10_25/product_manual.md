@@ -44,7 +44,7 @@
 - The first screen you will see after logging in is the **Overview** page, where you can view all the scans that have been completed.  
 - You can choose any of the scans you want to perform from this screen.
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/73ff370a-5fb3-45ad-b27a-5a488773be76" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/73ff370a-5fb3-45ad-b27a-5a488773be76" />
 
 ---
 
@@ -52,19 +52,19 @@
 
 **Step 1:** Click on **Create Project** button to start the Normal Systems scan.  
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/cfcd31fb-ba50-4354-b993-b3868b3cc0cc" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/cfcd31fb-ba50-4354-b993-b3868b3cc0cc" />
 
 ---
 
 **Step 2:** Browse the files you want to upload for the scan.  
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/0e9e39a5-087b-4c12-8540-28f7dc4bee73" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/0e9e39a5-087b-4c12-8540-28f7dc4bee73" />
 
 ---
 
 **Step 3:** After browsing the files, click on **Upload DFD / UML Diagrams**.  
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/301648e5-4adc-49f6-a27a-2ea1fdf256e6" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/301648e5-4adc-49f6-a27a-2ea1fdf256e6" />
 
 ---
 
@@ -72,7 +72,7 @@
 **Step 5:** Enter the **Architecture Type**.  
 **Step 6:** Enter the **Detailed Description** of the architecture.  
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/50399619-b368-4047-b15e-14e56a6fb512" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/50399619-b368-4047-b15e-14e56a6fb512" />
 
 ---
 
@@ -80,42 +80,42 @@
 **Step 8:** Enter the **GitHub Repository URL**.  
 **Step 9:** Enter the **GitHub Personal Access Token**. 
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/52d7fa23-4499-46e9-884b-dbd53b8673f0" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/52d7fa23-4499-46e9-884b-dbd53b8673f0" />
 
 ---
 
 **Step 10:** Select the **Authentication Type**. 
  
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/f834d530-feac-43bc-abb2-23b4306957f9" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/f834d530-feac-43bc-abb2-23b4306957f9" />
 
 ---
 
  **Step 11:** Select the **Data Sensitivity Classification**.  
 
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/32de2096-309d-4d1e-b772-7f948b831496" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/32de2096-309d-4d1e-b772-7f948b831496" />
 
 ---
 **Step 12:** Add the **Technical Stack and Dependencies**.  
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/fb13517b-5c3b-42b4-ac26-d1dad5e5cef9" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/fb13517b-5c3b-42b4-ac26-d1dad5e5cef9" />
 
 ---
 **Step 13:** Select the **Deployment Type**.  
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/cf109312-b1cf-4768-a84b-29b849b02563" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/cf109312-b1cf-4768-a84b-29b849b02563" />
 
 ---
 
 **Step 14:** Select the **Cloud Platform**.  
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/eea86194-8d06-48d4-aa02-113315460cb0" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/eea86194-8d06-48d4-aa02-113315460cb0" />
 
 ---
 
  **Step 15:** Choose the **Containerization Technology**
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/981f4da7-3aab-4032-9aa3-68f286bd5949" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/981f4da7-3aab-4032-9aa3-68f286bd5949" />
 
 ---
 
@@ -123,14 +123,14 @@
 **Step 16:** Choose the **CI/CD Pipeline**.  
 
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/895c1a0e-77b4-4f32-950c-88fdf2d74007" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/895c1a0e-77b4-4f32-950c-88fdf2d74007" />
 
 ---
 
 **Step 17:** Choose the **Secret Management Solution**.  
 
 **Step 18:** After filling in all the required details, click on **Create Project** to proceed.
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/f03e1c7f-820c-4b62-a459-bfa187a0045c" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/f03e1c7f-820c-4b62-a459-bfa187a0045c" />
 
 ---
 
@@ -160,4 +160,61 @@
 **Downloadable** **Results** in **PDF** Format
 
 <img width="900" height="401" alt="image" src="https://github.com/user-attachments/assets/188c7bcd-e113-4ff1-b6ae-4097cffbe466" />
+
+---
+---
+
+## LLM Threat Modelling
+
+**Step 1:** Click on **Create Project** button to start the LLM scan.  
+
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/b4217166-10b0-4c40-9a5f-ce6fd3b43eb7" />
+
+---
+
+**Step 2:** In LLM tab, Select the Model Type
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/09a55c6b-f7c9-4a7e-beb3-e465239ce222" />
+
+---
+
+**Step 3:** Select the Model Name
+**Step 4:** Enter the API Key
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/2754725f-59ce-4d98-b4e4-e08b309f0726" />
+
+---
+
+**Step 5:** Select the Security Probes , After Understanding the probes functionalities
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/f963fdc4-35d2-468e-a381-338ea4d13bb1" />
+
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/df9c5efa-61ff-49fc-918f-48a344dd1e33" />
+
+---
+**Step 6:** Then Click on Create LLM Scan
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/3f56735c-a33f-49ef-aa1a-929a15b510f0" />
+
+---
+
+## Results
+
+**Step 7:** You can generate the **report of results** and **download it in PDF format**.
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/badfcce8-bd07-41c3-a747-66b1ffed6dc8" />
+
+--
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/b7e45080-4a30-4383-840e-3ac246e84c22" />
+
+
+---
+
+
+
+
+
 
