@@ -52,11 +52,7 @@ This formal agreement prevents engineers from being blamed later and establishes
 
 You don't need fancy DevSecOps tooling to make it continuous — you just need **process alignment.**
 
-| **Existing Process**     | **Threat Modeling Integration Point** | **Cultural Impact** |
-|---------------------------|---------------------------------------|---------------------|
-| **New Feature Design** | Mandatory DFD Sketch: Must be created before the first line of code. | Frames security as a design quality from the start. |
-| **Pull Request (PR) Review** | Checklist Item: “Is a new Trust Boundary or Asset being introduced? If yes, run a micro-STRIDE.” | Makes security a quick, daily habit for developers. |
-| **Post-Incident Review** | Security Retrospective: Review the system’s threat model to see why the attack wasn’t predicted. | Fosters a learning mindset over a blame culture. |
+<img width="1391" height="325" alt="image" src="https://github.com/user-attachments/assets/56f8b7f7-e9ce-43f4-968b-86d89dd89613" />
 
 ---
 
