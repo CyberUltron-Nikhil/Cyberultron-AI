@@ -133,6 +133,3 @@ Organizations that embrace **AI-powered detection**, **hybrid defenses**, and **
 - [MITRE ATT&CK: Impact T1498 - Network Denial of Service](https://attack.mitre.org/techniques/T1498/)  
 
 ---
-
-*Author: Megha S*  
-*AI & Cybersecurity Enthusiast | Researching Intelligent Threat Defense Systems*
