@@ -62,14 +62,8 @@ This checklist is your ready-to-use companion — apply it **every time you star
 ### 6. Apply STRIDE to Components  
 Evaluate each element of your architecture against **STRIDE** categories:
 
-| Category | Description | Example |
-|-----------|--------------|---------|
-| **S** | Spoofing | Impersonating users or services |
-| **T** | Tampering | Altering data or configuration |
-| **R** | Repudiation | Denying actions without proof |
-| **I** | Information Disclosure | Leaking sensitive data |
-| **D** | Denial of Service | Exhausting system resources |
-| **E** | Elevation of Privilege | Gaining unauthorized access |
+<img width="730" height="367" alt="image" src="https://github.com/user-attachments/assets/54ef8253-b04b-4e9c-8fac-f3a8e13e012c" />
+
 
 💡 *Tip:* Use a STRIDE worksheet to systematically record threats per component.
 
