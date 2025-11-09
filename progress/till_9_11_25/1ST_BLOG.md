@@ -16,7 +16,8 @@ A standard RAG system involves four main components:
 4. **Generator (LLM)** – Produces output based on retrieved text.
 
 ```
-Documents → Indexer → Vector Store → Retriever → LLM → Output
+<img width="600" height="358" alt="Screenshot 2025-11-09 124408" src="https://github.com/user-attachments/assets/a4511475-cb3f-4650-a445-bf2a6c5c009f" />
+
 ```
 
 The key assumption in this pipeline is that retrieved context is trustworthy. If this assumption fails, the model will follow the retrieved text even when it contradicts the system prompt or intended behavior.
