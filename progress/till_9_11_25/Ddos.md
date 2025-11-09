@@ -35,13 +35,7 @@ A modern DDoS defense is a **pipeline of automated decisions**:
 
 ### Advanced DDoS Mitigation Flow
 
-| Step | Component | Action | Outcome |
-| :--- | :--- | :--- | :--- |
-| **1. Detection** | Inline AI/ML Engine | Learns baseline traffic → detects anomalies (e.g., sudden 8x spike). | Attack automatically flagged. |
-| **2. Redirection** | BGP / DNS Anycast Routing | Reroutes traffic to nearest global scrubbing node. | Attack traffic filtered at **edge of the internet** (not your data center). |
-| **3. Scrubbing (L3/L4)** | Cloud Scrubbing Center | Removes UDP floods, SYN floods, amplification attacks. | Volumetric noise eliminated. |
-| **4. Deep Inspection (L7)** | WAF + Bot Mitigation | Behavioral analysis, challenge flows, API schema checks. | Malicious HTTP(S) requests dropped. |
-| **5. Clean Forwarding** | GRE/IPsec Clean Tunnel | Secure delivery of validated traffic to your origin. | Service availability restored with minimal latency. |
+<img width="1376" height="467" alt="image" src="https://github.com/user-attachments/assets/bff8ffdd-846f-4394-8bab-f68d3f015f27" />
 
 > **Key Point:**  
 > The goal is **not** to withstand the attack capacity —  
