@@ -31,13 +31,7 @@ Once the system is defined, we use two main frameworks to identify and prioritiz
 
 ### B. Risk Prioritization with DREAD (The "How Bad Is It?")
 
-| DREAD Criterion | Focus | High Score Implication |
-| :--- | :--- | :--- |
-| **D**amage | Impact | **Catastrophic loss** |
-| **R**eproducibility | Repeatability | **Easy to replicate** |
-| **E**xploitability | Skill needed | **No special skill needed** |
-| **A**ffected Users | Scope | **Affects all users** |
-| **D**iscoverability | Likelihood of being found | **Publicly discoverable** |
+<img width="755" height="307" alt="image" src="https://github.com/user-attachments/assets/0fb8135e-58a5-4772-90d1-bf9d37765ac4" />
 
 The **average DREAD score** directly drives prioritization.
 
