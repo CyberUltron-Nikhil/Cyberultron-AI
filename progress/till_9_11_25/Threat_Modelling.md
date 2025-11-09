@@ -41,11 +41,7 @@ The **average DREAD score** directly drives prioritization.
 
 The **Threat Heatmap** visually communicates urgency to product owners and leadership.
 
-| | **High Impact** | **Medium Impact** | **Low Impact** |
-| :--- | :--- | :--- | :--- |
-| **High Likelihood** | 🔴 **CRITICAL** | 🟠 **HIGH** | 🟡 **MEDIUM** |
-| **Medium Likelihood** | 🟠 **HIGH** | 🟡 **MEDIUM** | 🟢 **LOW** |
-| **Low Likelihood** | 🟡 **MEDIUM** | 🟢 **LOW** | 🟢 **LOW** |
+<img width="748" height="212" alt="image" src="https://github.com/user-attachments/assets/3d87a6a8-7c3a-4847-a52c-cb0bc1f613ac" />
 
 - **Red Zone:** Immediate mitigation required.
 - **Yellow Zone:** Backlog with urgency.
