@@ -10,12 +10,7 @@ This final post summarizes the entire **Secure Design Masterplan** and provides 
 
 The entire threat modeling process hinges on correctly defining your system's components and boundaries. This foundational work provides the context for every threat you identify.
 
-| Component | Purpose | Essential Documentation |
-| :--- | :--- | :--- |
-| **Assets** | What needs protecting (e.g., PII, API Keys). | Asset Inventory List |
-| **Threat Actors** | Who might attack the system (e.g., Insider, Botnet). | Actor Profile/Motivation List |
-| **Attack Surfaces** | Where attackers can interact (e.g., Login API, Upload Form). | Mapped on the DFD |
-| **Trust Boundaries** | Lines where trust changes (e.g., Client → Server). | Marked explicitly on the DFD |
+<img width="1121" height="263" alt="image" src="https://github.com/user-attachments/assets/a3fccefe-40c2-4c63-8ee9-811f323fa02b" />
 
 ### The Essential Data Flow Diagram (DFD)
 
