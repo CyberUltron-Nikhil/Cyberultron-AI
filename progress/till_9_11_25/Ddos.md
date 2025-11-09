@@ -87,16 +87,11 @@ Manual response is too slow when packets arrive at **terabit/second speed**.
 
 ---
 
-## 🏁 Closing: Defense Is No Longer About “Stopping the Attack”
+## Closing: Defense Is No Longer About “Stopping the Attack”
 
 It is about:
 
-| Objective | Meaning |
-| :--- | :--- |
-| **Absorb** | Use massive cloud capacity to neutralize scale. |
-| **Analyze** | AI detects behavior anomalies attackers cannot mask. |
-| **Adapt** | Auto-adjust rules as attackers shift vectors. |
-| **Continue** | Preserve business continuity regardless of attack. |
+<img width="695" height="259" alt="image" src="https://github.com/user-attachments/assets/851eb771-4e42-44d7-bd4b-fa5bf65588a7" />
 
 Modern DDoS defense is **not a product** —  
 It is **an orchestration strategy**.
