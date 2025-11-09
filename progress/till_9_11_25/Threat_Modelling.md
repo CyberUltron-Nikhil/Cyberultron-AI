@@ -25,14 +25,7 @@ Once the system is defined, we use two main frameworks to identify and prioritiz
 
 ### A. Threat Identification with STRIDE (The "What Could Go Wrong?")
 
-| STRIDE Category | Threat Goal | Mitigation Strategy |
-| :--- | :--- | :--- |
-| **S**poofing | Impersonating a user/system | Strong Authentication, MFA |
-| **T**ampering | Unauthorized data modification | Input Validation, Data Integrity Checks |
-| **R**epudiation | Denying an action occurred | Logging, Non-repudiation services |
-| **I**nformation Disclosure | Unauthorized data access | Encryption, Access Controls |
-| **D**enial of Service | Making a service unavailable | Rate Limiting, Load Balancing |
-| **E**levation of Privilege | Gaining unauthorized access rights | Authorization Checks, RBAC |
+<img width="1039" height="364" alt="image" src="https://github.com/user-attachments/assets/abb98c9f-f9c7-4579-ab58-4146802ca7f6" />
 
 ---
 
