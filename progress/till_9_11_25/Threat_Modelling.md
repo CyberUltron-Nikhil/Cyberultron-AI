@@ -1,4 +1,4 @@
-# 🏁 Threat Modeling Series Wrap-Up: Your Secure Design Masterplan
+#  Threat Modeling Series Wrap-Up: Your Secure Design Masterplan
 
 We've reached the end of our comprehensive journey into **Threat Modeling**. Over the last 10 weeks, you've learned to transition from a reactive "patch-and-pray" mindset to a proactive, structured approach to security.
 
