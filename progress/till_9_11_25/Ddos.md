@@ -47,12 +47,7 @@ A modern DDoS defense is a **pipeline of automated decisions**:
 
 No single control stops modern DDoS — defense must exist at **each OSI layer**.
 
-| OSI Layer | Attack Type | Primary Defense | Key Techniques |
-| :--- | :--- | :--- | :--- |
-| **L7 (Application)** | HTTP floods, Slowloris, API abuse | WAF + Bot Defense | Behavioral scoring, CAPTCHA/Challenge, API schema enforcement |
-| **L4 (Transport)** | SYN floods, Port exhaustion | Cloud Scrubbing + Stateful Firewall | SYN cookies, flow limiting, state table offloading |
-| **L3 (Network)** | UDP/ICMP floods, Reflection/Amplification | Anycast CDN + BGP Flowspec | Geo-blocking, IP reputation suppression |
-| **L0/L1 (Physical)** | Fiber cuts, physical disruption | Redundant Network + Disaster Recovery | Multi-region failover / diverse carrier routing |
+<img width="1390" height="403" alt="image" src="https://github.com/user-attachments/assets/b39c31d9-c7b3-448e-ab87-c1826e8acacf" />
 
 **Redundancy is a security control.**  
 If the network is single-path, it is a **single point of failure**.
